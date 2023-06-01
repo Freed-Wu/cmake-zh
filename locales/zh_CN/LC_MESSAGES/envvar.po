@@ -1,0 +1,1373 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2023 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.26.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-01 00:02+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/ADSP_ROOT.rst:2
+msgid "ADSP_ROOT"
+msgstr "ADSP_ROOT"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/ENV_VAR.txt:1
+msgid ""
+"This is a CMake :ref:`Environment Variable <CMake Language Environment "
+"Variables>`. Its initial value is taken from the calling process "
+"environment."
+msgstr ""
+"这是一个 CMake :ref:`Environment Variable <CMake Language Environment "
+"Variables>`。它的初始值取自调用进程环境。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/ADSP_ROOT.rst:8
+msgid ""
+"The ``ADSP_ROOT`` environment variable specifies a default value for the "
+":variable:`CMAKE_ADSP_ROOT` variable when there is no explicit "
+"configuration given on the first run while creating a new build tree."
+msgstr ""
+"``ADSP_ROOT`` 环境变量为 :variable:`CMAKE_ADSP_ROOT` "
+"变量指定一个默认值，当在创建新的构建树时第一次运行时没有给出明确的配置。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/ASM_DIALECT.rst:2
+msgid "ASM<DIALECT>"
+msgstr "ASM<方言>"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/ASM_DIALECT.rst:6
+msgid ""
+"Preferred executable for compiling a specific dialect of assembly language"
+" files. ``ASM<DIALECT>`` can be one of:"
+msgstr "编译特定方言的汇编语言文件的首选可执行文件。 ``ASM<DIALECT>`` 可以是以下之一："
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/ASM_DIALECT.rst:9
+msgid "``ASM``"
+msgstr "``ASM``"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/ASM_DIALECT.rst:10
+msgid "``ASM_NASM`` (Netwide Assembler)"
+msgstr "``ASM_NASM``（全网汇编程序）"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/ASM_DIALECT.rst:11
+msgid "``ASM_MASM`` (Microsoft Assembler)"
+msgstr "``ASM_MASM``（微软汇编程序）"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/ASM_DIALECT.rst:12
+msgid "``ASM_MARMASM`` (Microsoft ARM Assembler)"
+msgstr "``ASM_MARMASM``（微软 ARM 汇编程序）"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/ASM_DIALECT.rst:13
+msgid "``ASM-ATT`` (Assembler AT&T)"
+msgstr "``ASM-ATT``（汇编器 AT&T）"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/ASM_DIALECT.rst:15
+msgid ""
+"Will only be used by CMake on the first configuration to determine "
+"``ASM<DIALECT>`` compiler, after which the value for ``ASM<DIALECT>`` is "
+"stored in the cache as :variable:`CMAKE_ASM<DIALECT>_COMPILER "
+"<CMAKE_<LANG>_COMPILER>`. For subsequent configuration runs, the "
+"environment variable will be ignored in favor of "
+":variable:`CMAKE_ASM<DIALECT>_COMPILER <CMAKE_<LANG>_COMPILER>`."
+msgstr ""
+"CMake 只会在第一次配置时使用它来确定 ``ASM<DIALECT>`` 编译器，之后 ``ASM<DIALECT>`` 的值将作为 "
+":variable:`CMAKE_ASM<DIALECT>_COMPILER "
+"存储在缓存中<CMAKE_<LANG>_COMPILER>`。对于后续配置运行，环境变量将被忽略，取而代之的是 :variable:`CMAKE_ASM<DIALECT>_COMPILER"
+" <CMAKE_<LANG>_COMPILER>`。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/ASM_DIALECT.rst:23
+#: ../../cmake-prefix/src/cmake/Help/envvar/CC.rst:14
+#: ../../cmake-prefix/src/cmake/Help/envvar/CUDACXX.rst:16
+#: ../../cmake-prefix/src/cmake/Help/envvar/CXX.rst:14
+#: ../../cmake-prefix/src/cmake/Help/envvar/FC.rst:15
+#: ../../cmake-prefix/src/cmake/Help/envvar/RC.rst:14
+#: ../../cmake-prefix/src/cmake/Help/envvar/SWIFTC.rst:16
+msgid ""
+"Options that are required to make the compiler work correctly can be "
+"included; they can not be changed."
+msgstr "可以包含使编译器正常工作所需的选项；他们不能改变。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/ASM_DIALECTFLAGS.rst:2
+msgid "ASM<DIALECT>FLAGS"
+msgstr "ASM<方言>标志"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/ASM_DIALECTFLAGS.rst:6
+msgid ""
+"Add default compilation flags to be used when compiling a specific dialect"
+" of an assembly language.  ``ASM<DIALECT>FLAGS`` can be one of:"
+msgstr "添加在编译汇编语言的特定方言时要使用的默认编译标志。 ``ASM<DIALECT>FLAGS`` 可以是以下之一："
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/ASM_DIALECTFLAGS.rst:9
+msgid "``ASMFLAGS``"
+msgstr "``ASMFLAGS``"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/ASM_DIALECTFLAGS.rst:10
+msgid "``ASM_NASMFLAGS``"
+msgstr "``ASM_NASMFLAGS``"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/ASM_DIALECTFLAGS.rst:11
+msgid "``ASM_MASMFLAGS``"
+msgstr "``ASM_MASMFLAGS``"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/ASM_DIALECTFLAGS.rst:12
+msgid "``ASM_MARMASMFLAGS``"
+msgstr "``ASM_MARMASMFLAGS``"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/ASM_DIALECTFLAGS.rst:13
+msgid "``ASM-ATTFLAGS``"
+msgstr "``ASM-ATTFLAGS``"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/LANG_FLAGS.txt:1
+msgid ""
+"CMake uses this environment variable value, in combination with its own "
+"builtin default flags for the toolchain, to initialize and store the "
+"|CMAKE_LANG_FLAGS| cache entry. This occurs the first time a build tree is"
+" configured for language |LANG|. For any configuration run (including the "
+"first), the environment variable will be ignored if the |CMAKE_LANG_FLAGS|"
+" variable is already defined."
+msgstr ""
+"CMake 使用这个环境变量值，结合它自己的工具链内置默认标志，来初始化和存储 |CMAKE_LANG_FLAGS|缓存条目。这发生在第一次为语言 "
+"|LANG| 配置构建树时。对于任何配置运行（包括第一次），如果 |CMAKE_LANG_FLAGS| 将忽略环境变量变量已经定义。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/ASM_DIALECTFLAGS.rst:19
+msgid ""
+"See also :variable:`CMAKE_ASM<DIALECT>_FLAGS_INIT "
+"<CMAKE_<LANG>_FLAGS_INIT>`."
+msgstr "另见 :variable:`CMAKE_ASM<DIALECT>_FLAGS_INIT <CMAKE_<LANG>_FLAGS_INIT>`。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CC.rst:2
+msgid "CC"
+msgstr "CC"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CC.rst:6
+msgid ""
+"Preferred executable for compiling ``C`` language files. Will only be used"
+" by CMake on the first configuration to determine ``C`` compiler, after "
+"which the value for ``CC`` is stored in the cache as "
+":variable:`CMAKE_C_COMPILER <CMAKE_<LANG>_COMPILER>`. For any "
+"configuration run (including the first), the environment variable will be "
+"ignored if the :variable:`CMAKE_C_COMPILER <CMAKE_<LANG>_COMPILER>` "
+"variable is defined."
+msgstr ""
+"编译“C”语言文件的首选可执行文件。 CMake 只会在第一次配置时使用它来确定 ``C`` 编译器，之后 ``CC`` 的值将作为 "
+":variable:`CMAKE_C_COMPILER <CMAKE_<LANG>_COMPILER>` "
+"存储在缓存中。对于任何配置运行（包括第一次），如果定义了 :variable:`CMAKE_C_COMPILER "
+"<CMAKE_<LANG>_COMPILER>` 变量，环境变量将被忽略。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CCMAKE_COLORS.rst:2
+msgid "CCMAKE_COLORS"
+msgstr "CCMAKE_COLORS 颜色"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CCMAKE_COLORS.rst:6
+msgid ""
+"Determines what colors are used by the CMake curses interface, when run on"
+" a terminal that supports colors. The syntax follows the same conventions "
+"as ``LS_COLORS``; that is, a list of key/value pairs separated by ``:``."
+msgstr ""
+"确定 CMake curses 界面在支持颜色的终端上运行时使用的颜色。语法遵循与 ``LS_COLORS`` "
+"相同的约定；也就是说，由“ :”分隔的键/值对列表。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CCMAKE_COLORS.rst:11
+msgid ""
+"Keys are a single letter corresponding to a CMake cache variable type:"
+msgstr "键是对应于 CMake 缓存变量类型的单个字母："
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CCMAKE_COLORS.rst:13
+msgid "``s``: A ``STRING``."
+msgstr "``s``：一个``STRING``。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CCMAKE_COLORS.rst:14
+msgid "``p``: A ``FILEPATH``."
+msgstr "``p``：一个``FILEPATH``。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CCMAKE_COLORS.rst:15
+msgid "``c``: A value which has an associated list of choices."
+msgstr "``c``：具有关联选择列表的值。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CCMAKE_COLORS.rst:16
+msgid ""
+"``y``: A ``BOOL`` which has a true-like value (e.g. ``ON``, ``YES``)."
+msgstr "``y``：一个 ``BOOL``，它有一个类似于 true 的值（例如 ``ON``、``YES``）。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CCMAKE_COLORS.rst:17
+msgid ""
+"``n``: A ``BOOL`` which has a false-like value (e.g. ``OFF``, ``NO``)."
+msgstr "``n``：一个``BOOL``，它有一个类似假的值（例如``OFF``，``NO``）。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CCMAKE_COLORS.rst:19
+msgid ""
+"Values are an integer number that specifies what color to use. ``0`` is "
+"black (you probably don't want to use that). Others are determined by your"
+" terminal's color support. Most (color) terminals will support at least 8 "
+"or 16 colors. Some will support up to 256 colors. The colors will likely "
+"match `this chart "
+"<https://upload.wikimedia.org/wikipedia/commons/1/15/Xterm_256color_chart.svg>`_,"
+" although the first 16 colors may match the original `CGA color palette "
+"<https://en.wikipedia.org/wiki/Color_Graphics_Adapter#Color_palette>`_. "
+"(Many modern terminal emulators also allow their color palette, at least "
+"for the first 16 colors, to be configured by the user.)"
+msgstr ""
+"值是一个整数，指定要使用的颜色。 ``0`` 是黑色的（你可能不想使用它）。其他由您的终端的颜色支持决定。大多数（彩色）终端至少支持 8 或 16 "
+"种颜色。有些将支持多达 256 "
+"种颜色。颜色可能会匹配`此图表<https://upload.wikimedia.org/wikipedia/commons/1/15/Xterm_256color_chart.svg>`_，尽管前"
+" 16 种颜色可能会匹配原始的`CGA 调色板<https: "
+"//en.wikipedia.org/wiki/Color_Graphics_Adapter#Color_palette>`_。 "
+"（许多现代终端仿真器还允许用户配置它们的调色板，至少前 16 种颜色是这样。）"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CCMAKE_COLORS.rst:30
+msgid ""
+"Note that fairly minimal checking is done for bad colors (although a value"
+" higher than what curses believes your terminal supports will be silently "
+"ignored) or bad syntax."
+msgstr "请注意，对错误的颜色（尽管比 curses 认为您的终端支持的值更高的值将被默默忽略）或错误的语法进行了相当少的检查。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CCMAKE_COLORS.rst:34
+msgid "For example::"
+msgstr "例如：："
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CFLAGS.rst:2
+msgid "CFLAGS"
+msgstr "CFLAGS"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CFLAGS.rst:6
+msgid "Add default compilation flags to be used when compiling ``C`` files."
+msgstr "添加编译“C”文件时要使用的默认编译标志。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CFLAGS.rst:12
+msgid "See also :variable:`CMAKE_C_FLAGS_INIT <CMAKE_<LANG>_FLAGS_INIT>`."
+msgstr "另见 :variable:`CMAKE_C_FLAGS_INIT <CMAKE_<LANG>_FLAGS_INIT>`。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_APPLE_SILICON_PROCESSOR.rst:2
+msgid "CMAKE_APPLE_SILICON_PROCESSOR"
+msgstr "CMAKE_APPLE_SILICON_PROCESSOR"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_APPLE_SILICON_PROCESSOR.rst:8
+msgid ""
+"On Apple Silicon hosts running macOS, set this environment variable to "
+"tell CMake what architecture to use for "
+":variable:`CMAKE_HOST_SYSTEM_PROCESSOR`. The value must be either "
+"``arm64`` or ``x86_64``."
+msgstr ""
+"在运行 macOS 的 Apple Silicon 主机上，设置此环境变量以告知 CMake 用于 "
+":variable:`CMAKE_HOST_SYSTEM_PROCESSOR` 的架构。该值必须是 ``arm64`` 或 ``x86_64``。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_APPLE_SILICON_PROCESSOR.rst:12
+msgid ""
+"The :variable:`CMAKE_APPLE_SILICON_PROCESSOR` normal variable, if set, "
+"overrides this environment variable."
+msgstr ":variable:`CMAKE_APPLE_SILICON_PROCESSOR` 普通变量（如果设置）会覆盖此环境变量。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_BUILD_PARALLEL_LEVEL.rst:2
+msgid "CMAKE_BUILD_PARALLEL_LEVEL"
+msgstr "CMAKE_BUILD_PARALLEL_LEVEL"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_BUILD_PARALLEL_LEVEL.rst:8
+msgid ""
+"Specifies the maximum number of concurrent processes to use when building "
+"using the ``cmake --build`` command line :ref:`Build Tool Mode <Build Tool"
+" Mode>`."
+msgstr ""
+"指定使用 ``cmake --build`` 命令行构建时要使用的最大并发进程数 :ref:`Build Tool Mode <Build Tool"
+" Mode>`。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_BUILD_PARALLEL_LEVEL.rst:12
+msgid ""
+"If this variable is defined empty the native build tool's default number "
+"is used."
+msgstr "如果此变量定义为空，则使用本机构建工具的默认编号。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_BUILD_TYPE.rst:2
+msgid "CMAKE_BUILD_TYPE"
+msgstr "CMAKE_BUILD_TYPE"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_BUILD_TYPE.rst:8
+msgid ""
+"The ``CMAKE_BUILD_TYPE`` environment variable specifies a default value "
+"for the :variable:`CMAKE_BUILD_TYPE` variable when there is no explicit "
+"configuration given on the first run while creating a new build tree."
+msgstr ""
+"``CMAKE_BUILD_TYPE`` 环境变量为 :variable:`CMAKE_BUILD_TYPE` "
+"变量指定一个默认值，当在创建新的构建树时第一次运行时没有给出明确的配置。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_COLOR_DIAGNOSTICS.rst:2
+msgid "CMAKE_COLOR_DIAGNOSTICS"
+msgstr "CMAKE_COLOR_DIAGNOSTICS"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_COLOR_DIAGNOSTICS.rst:8
+msgid ""
+"Specifies a default value for the :variable:`CMAKE_COLOR_DIAGNOSTICS` "
+"variable when there is no explicit value given on the first run."
+msgstr "当第一次运行时没有给出明确的值时，指定 CMAKE_COLOR_DIAGNOSTICS 变量的默认值。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_CONFIGURATION_TYPES.rst:2
+msgid "CMAKE_CONFIGURATION_TYPES"
+msgstr "CMAKE_CONFIGURATION_TYPES"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_CONFIGURATION_TYPES.rst:8
+msgid ""
+"The ``CMAKE_CONFIGURATION_TYPES`` environment variable specifies a default"
+" value for the :variable:`CMAKE_CONFIGURATION_TYPES` variable when there "
+"is no explicit configuration given on the first run while creating a new "
+"build tree."
+msgstr ""
+"``CMAKE_CONFIGURATION_TYPES`` 环境变量为 :variable:`CMAKE_CONFIGURATION_TYPES` "
+"变量指定一个默认值，当在创建新的构建树时第一次运行时没有给出明确的配置。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_CONFIG_TYPE.rst:2
+msgid "CMAKE_CONFIG_TYPE"
+msgstr "CMAKE_CONFIG_TYPE"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_CONFIG_TYPE.rst:6
+msgid ""
+"The default build configuration for :ref:`Build Tool Mode` and ``ctest`` "
+"build handler when there is no explicit configuration given."
+msgstr ":ref:`Build Tool Mode` 和 ``ctest`` 构建处理程序的默认构建配置，当没有给出显式配置时。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_EXPORT_COMPILE_COMMANDS.rst:2
+msgid "CMAKE_EXPORT_COMPILE_COMMANDS"
+msgstr "CMAKE_EXPORT_COMPILE_COMMANDS"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_EXPORT_COMPILE_COMMANDS.rst:8
+msgid ""
+"The default value for :variable:`CMAKE_EXPORT_COMPILE_COMMANDS` when there"
+" is no explicit configuration given on the first run while creating a new "
+"build tree.  On later runs in an existing build tree the value persists in"
+" the cache as :variable:`CMAKE_EXPORT_COMPILE_COMMANDS`."
+msgstr ""
+":variable:`CMAKE_EXPORT_COMPILE_COMMANDS` "
+"的默认值，当在创建新的构建树时第一次运行时没有给出明确的配置。在稍后在现有构建树中运行时，该值将作为 "
+"CMAKE_EXPORT_COMPILE_COMMANDS 保存在缓存中。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_GENERATOR.rst:2
+msgid "CMAKE_GENERATOR"
+msgstr "CMAKE_GENERATOR"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_GENERATOR.rst:8
+msgid ""
+"Specifies the CMake default generator to use when no generator is supplied"
+" with :option:`-G <cmake -G>`. If the provided value doesn't name a "
+"generator known by CMake, the internal default is used.  Either way the "
+"resulting generator selection is stored in the :variable:`CMAKE_GENERATOR`"
+" variable."
+msgstr ""
+"指定在没有提供生成器时使用的 CMake 默认生成器:option:`-G <cmake -G>`。如果提供的值没有命名 CMake "
+"已知的生成器，则使用内部默认值。无论哪种方式，生成的生成器选择都存储在 CMAKE_GENERATOR 变量中。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_GENERATOR.rst:13
+msgid ""
+"Some generators may be additionally configured using the environment "
+"variables:"
+msgstr "一些生成器可以使用环境变量额外配置："
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_GENERATOR.rst:16
+msgid ":envvar:`CMAKE_GENERATOR_PLATFORM`"
+msgstr ":envvar:`CMAKE_GENERATOR_PLATFORM`"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_GENERATOR.rst:17
+msgid ":envvar:`CMAKE_GENERATOR_TOOLSET`"
+msgstr ":envvar:`CMAKE_GENERATOR_TOOLSET`"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_GENERATOR.rst:18
+msgid ":envvar:`CMAKE_GENERATOR_INSTANCE`"
+msgstr ":envvar:`CMAKE_GENERATOR_INSTANCE`"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_GENERATOR_INSTANCE.rst:2
+msgid "CMAKE_GENERATOR_INSTANCE"
+msgstr "CMAKE_GENERATOR_INSTANCE"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_GENERATOR_INSTANCE.rst:8
+msgid ""
+"Default value for :variable:`CMAKE_GENERATOR_INSTANCE` if no Cache entry "
+"is present. This value is only applied if :envvar:`CMAKE_GENERATOR` is "
+"set."
+msgstr ""
+"如果不存在缓存条目，则 CMAKE_GENERATOR_INSTANCE 的默认值。仅当设置了 :envvar:`CMAKE_GENERATOR` "
+"时才应用此值。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_GENERATOR_PLATFORM.rst:2
+msgid "CMAKE_GENERATOR_PLATFORM"
+msgstr "CMAKE_GENERATOR_PLATFORM"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_GENERATOR_PLATFORM.rst:8
+msgid ""
+"Default value for :variable:`CMAKE_GENERATOR_PLATFORM` if no Cache entry "
+"is present and no value is specified by :option:`cmake -A` option. This "
+"value is only applied if :envvar:`CMAKE_GENERATOR` is set."
+msgstr ""
+":variable:`CMAKE_GENERATOR_PLATFORM` 的默认值，如果不存在缓存条目且 :option:`cmake -A` "
+"选项未指定任何值。仅当设置了 :envvar:`CMAKE_GENERATOR` 时才应用此值。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_GENERATOR_TOOLSET.rst:2
+msgid "CMAKE_GENERATOR_TOOLSET"
+msgstr "CMAKE_GENERATOR_TOOLSET"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_GENERATOR_TOOLSET.rst:8
+msgid ""
+"Default value for :variable:`CMAKE_GENERATOR_TOOLSET` if no Cache entry is"
+" present and no value is specified by :option:`cmake -T` option. This "
+"value is only applied if :envvar:`CMAKE_GENERATOR` is set."
+msgstr ""
+"CMAKE_GENERATOR_TOOLSET 的默认值，如果不存在缓存条目且 cmake -T 选项未指定任何值。仅当设置了 "
+":envvar:`CMAKE_GENERATOR` 时才应用此值。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:2
+msgid "CMAKE_INSTALL_MODE"
+msgstr "CMAKE_INSTALL_MODE"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:8
+msgid ""
+"The ``CMAKE_INSTALL_MODE`` environment variable allows users to operate "
+"CMake in an alternate mode of :command:`file(INSTALL)` and "
+":command:`install()`."
+msgstr ""
+"``CMAKE_INSTALL_MODE`` 环境变量允许用户在 :command:`file(INSTALL)` 和 "
+":command:`install()` 的交替模式下操作 CMake。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:11
+msgid ""
+"The default behavior for an installation is to copy a source file from a "
+"source directory into a destination directory. This environment variable "
+"however allows the user to override this behavior, causing CMake to create"
+" symbolic links instead."
+msgstr "安装的默认行为是将源文件从源目录复制到目标目录。然而，此环境变量允许用户覆盖此行为，导致 CMake 创建符号链接。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:17
+msgid "Usage Scenarios"
+msgstr "使用场景"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:19
+msgid ""
+"Installing symbolic links rather than copying files can help in the "
+"following ways:"
+msgstr "安装符号链接而不是复制文件可以通过以下方式提供帮助："
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:22
+msgid ""
+"Conserving storage space because files do not have to be duplicated on "
+"disk."
+msgstr "节省存储空间，因为不必在磁盘上复制文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:23
+msgid ""
+"Changes to the source of the symbolic link are seen at the install "
+"destination without having to re-run the install step."
+msgstr "在安装目标位置可以看到对符号链接源的更改，而无需重新运行安装步骤。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:25
+msgid ""
+"Editing through the link at the install destination will modify the source"
+" of the link. This may be useful when dealing with CMake project "
+"hierarchies, i.e. using :module:`ExternalProject` and consistent source "
+"navigation and refactoring is desired across projects."
+msgstr ""
+"通过安装目的地的链接进行编辑将修改链接的来源。这在处理 CMake 项目层次结构时可能很有用，即使用 "
+":module:`ExternalProject` 并且跨项目需要一致的源导航和重构。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:31
+msgid "Allowed Values"
+msgstr "允许值"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:33
+msgid "The following values are allowed for ``CMAKE_INSTALL_MODE``:"
+msgstr "``CMAKE_INSTALL_MODE`` 允许使用以下值："
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:36
+msgid "``COPY``, empty or unset"
+msgstr "``COPY``，为空或未设置"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:36
+msgid ""
+"Duplicate the file at its destination.  This is the default behavior."
+msgstr "在目标位置复制文件。这是默认行为。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:40
+msgid "``ABS_SYMLINK``"
+msgstr "``ABS_SYMLINK``"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:39
+msgid ""
+"Create an *absolute* symbolic link to the source file at the destination. "
+"Halt with an error if the link cannot be created."
+msgstr "在目标位置创建指向源文件的*绝对*符号链接。如果无法创建链接，则会因错误而停止。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:44
+msgid "``ABS_SYMLINK_OR_COPY``"
+msgstr "``ABS_SYMLINK_OR_COPY``"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:43
+msgid ""
+"Like ``ABS_SYMLINK`` but fall back to silently copying if the symlink "
+"couldn't be created."
+msgstr "类似于 ``ABS_SYMLINK`` 但如果无法创建符号链接，则退回到静默复制。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:48
+msgid "``REL_SYMLINK``"
+msgstr "``REL_SYMLINK``"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:47
+msgid ""
+"Create a *relative* symbolic link to the source file at the destination. "
+"Halt with an error if the link cannot be created."
+msgstr "在目标位置创建指向源文件的 *relative* 符号链接。如果无法创建链接，则会因错误而停止。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:52
+msgid "``REL_SYMLINK_OR_COPY``"
+msgstr "``REL_SYMLINK_OR_COPY``"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:51
+msgid ""
+"Like ``REL_SYMLINK`` but fall back to silently copying if the symlink "
+"couldn't be created."
+msgstr "类似于 ``REL_SYMLINK`` 但如果无法创建符号链接，则退回到静默复制。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:57
+msgid "``SYMLINK``"
+msgstr "``符号链接``"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:55
+msgid ""
+"Try as if through ``REL_SYMLINK`` and fall back to ``ABS_SYMLINK`` if the "
+"referenced file cannot be expressed using a relative path. Halt with an "
+"error if the link cannot be created."
+msgstr ""
+"如果引用的文件不能使用相对路径表示，则尝试通过 ``REL_SYMLINK`` 并回退到 "
+"``ABS_SYMLINK``。如果无法创建链接，则会因错误而停止。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:61
+msgid "``SYMLINK_OR_COPY``"
+msgstr "``SYMLINK_OR_COPY``"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:60
+msgid ""
+"Like ``SYMLINK`` but fall back to silently copying if the symlink couldn't"
+" be created."
+msgstr "类似于 ``SYMLINK`` 但如果无法创建符号链接，则退回到静默复制。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:64
+msgid ""
+"A symbolic link consists of a reference file path rather than contents of "
+"its own, hence there are two ways to express the relation, either by a "
+"*relative* or an *absolute* path."
+msgstr "符号链接由参考文件路径而不是它自己的内容组成，因此有两种方式来表达关系，通过*相对*或*绝对*路径。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:69
+msgid "When To Set The Environment Variable"
+msgstr "何时设置环境变量"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:71
+msgid ""
+"For the environment variable to take effect, it must be set during the "
+"correct build phase(s)."
+msgstr "要使环境变量生效，必须在正确的构建阶段设置它。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:74
+msgid ""
+"If the project calls :command:`file(INSTALL)` directly, the environment "
+"variable must be set during the configuration phase."
+msgstr "如果项目直接调用 :command:`file(INSTALL)` ，则必须在配置阶段设置环境变量。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:76
+msgid ""
+"In order to apply to :command:`install()`, the environment variable must "
+"be set during installation.  This could be during a build if using the "
+"``install`` or ``package`` build targets, or separate from the build when "
+"invoking an install or running :manual:`cpack <cpack(1)>` from the command"
+" line."
+msgstr ""
+"为了适用于 :command:`install()`，必须在安装期间设置环境变量。如果使用``install`` 或``package`` "
+"构建目标，这可能是在构建期间，或者在从命令行调用安装或运行时与构建分开:manual:`cpack <cpack(1)>` ."
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:81
+msgid ""
+"When using :module:`ExternalProject`, it might be required during the "
+"build phase, since the external project's own configure, build and install"
+" steps will execute during the main project's build phase."
+msgstr ""
+"使用 :module:`ExternalProject` 时，在构建阶段可能需要它，因为外部项目自己的配置、构建和安装步骤将在主项目的构建阶段执行。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:85
+msgid ""
+"Given the above, it is recommended to set the environment variable "
+"consistently across all phases (configure, build and install)."
+msgstr "鉴于上述情况，建议在所有阶段（配置、构建和安装）一致地设置环境变量。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:89
+msgid "Caveats"
+msgstr "注意事项"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:91
+msgid ""
+"Use this environment variable with caution. The following highlights some "
+"points to be considered:"
+msgstr "请谨慎使用此环境变量。以下强调了一些需要考虑的要点："
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:94
+msgid "``CMAKE_INSTALL_MODE`` only affects files, not directories."
+msgstr "``CMAKE_INSTALL_MODE`` 只影响文件，不影响目录。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:96
+msgid "Symbolic links are not available on all platforms."
+msgstr "符号链接并非在所有平台上都可用。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:98
+msgid ""
+"The way this environment variable interacts with the install step of "
+":module:`ExternalProject` is more complex. For further details, see that "
+"module's documentation."
+msgstr "此环境变量与 ExternalProject 的安装步骤交互的方式更为复杂。有关详细信息，请参阅该模块的文档。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:102
+msgid ""
+"A symbolic link ties the destination to the source in a persistent way. "
+"Writing to either of the two affects both file system objects. This is in "
+"contrast to normal install behavior which only copies files as they were "
+"at the time the install was performed, with no enduring relationship "
+"between the source and destination of the install."
+msgstr ""
+"符号链接以持久的方式将目标与源联系起来。写入两者中的任何一个都会影响两个文件系统对象。这与正常安装行为形成对比，正常安装行为仅复制执行安装时的文件，安装源和目标之间没有持久关系。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:108
+msgid ""
+"Combining ``CMAKE_INSTALL_MODE`` with :prop_tgt:`IOS_INSTALL_COMBINED` is "
+"not supported."
+msgstr ""
+"不支持将 ``CMAKE_INSTALL_MODE`` 与 :prop_tgt:`IOS_INSTALL_COMBINED` 结合使用。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst:111
+msgid ""
+"Changing ``CMAKE_INSTALL_MODE`` from what it was on a previous run can "
+"lead to unexpected results.  Moving from a non-symlinking mode to a "
+"symlinking mode will discard any previous file at the destination, but the"
+" reverse is not true.  Once a symlink exists at the destination, even if "
+"you switch to a non-symlink mode, the symlink will continue to exist at "
+"the destination and will not be replaced by an actual file."
+msgstr ""
+"将 CMAKE_INSTALL_MODE "
+"从上一次运行时的状态更改为可能会导致意外结果。从非符号链接模式移动到符号链接模式将丢弃目标位置的所有先前文件，但反之则不然。一旦目标处存在符号链接，即使切换到非符号链接模式，符号链接也会继续存在于目标处，不会被实际文件替换。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_LANG_COMPILER_LAUNCHER.rst:2
+msgid "CMAKE_<LANG>_COMPILER_LAUNCHER"
+msgstr "CMAKE_<LANG>_COMPILER_LAUNCHER"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_LANG_COMPILER_LAUNCHER.rst:8
+msgid ""
+"Default compiler launcher to use for the specified language. Will only be "
+"used by CMake to initialize the variable on the first configuration. "
+"Afterwards, it is available through the cache setting of the variable of "
+"the same name. For any configuration run (including the first), the "
+"environment variable will be ignored if the "
+":variable:`CMAKE_<LANG>_COMPILER_LAUNCHER` variable is defined."
+msgstr ""
+"用于指定语言的默认编译器启动器。只会被 CMake "
+"用于在第一次配置时初始化变量。之后可以通过同名变量的缓存设置来获取。对于任何配置运行（包括第一次），如果定义了 "
+":variable:`CMAKE_<LANG>_COMPILER_LAUNCHER` 变量，环境变量将被忽略。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_LANG_LINKER_LAUNCHER.rst:2
+msgid "CMAKE_<LANG>_LINKER_LAUNCHER"
+msgstr "CMAKE_<LANG>_LINKER_LAUNCHER"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_LANG_LINKER_LAUNCHER.rst:8
+msgid ""
+"Default launcher to use when linking a target of the specified language. "
+"Will only be used by CMake to initialize the variable on the first "
+"configuration. Afterwards, it is available through the cache setting of "
+"the variable of the same name. For any configuration run (including the "
+"first), the environment variable will be ignored if the "
+":variable:`CMAKE_<LANG>_LINKER_LAUNCHER` variable is defined."
+msgstr ""
+"链接指定语言的目标时使用的默认启动器。只会被 CMake "
+"用于在第一次配置时初始化变量。之后可以通过同名变量的缓存设置来获取。对于任何配置运行（包括第一次），如果定义了 "
+":variable:`CMAKE_<LANG>_LINKER_LAUNCHER` 变量，环境变量将被忽略。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_MSVCIDE_RUN_PATH.rst:2
+msgid "CMAKE_MSVCIDE_RUN_PATH"
+msgstr "CMAKE_MSVCIDE_RUN_PATH"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_MSVCIDE_RUN_PATH.rst:6
+msgid ""
+"Extra PATH locations for custom commands when using :generator:`Visual "
+"Studio 9 2008` (or above) generators."
+msgstr "使用 :generator:`Visual Studio 9 2008`（或更高版本）生成器时自定义命令的额外 PATH 位置。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_MSVCIDE_RUN_PATH.rst:9
+msgid ""
+"The ``CMAKE_MSVCIDE_RUN_PATH`` environment variable sets the default value"
+" for the :variable:`CMAKE_MSVCIDE_RUN_PATH` variable if not already "
+"explicitly set."
+msgstr ""
+"``CMAKE_MSVCIDE_RUN_PATH`` 环境变量设置 :variable:`CMAKE_MSVCIDE_RUN_PATH` "
+"变量的默认值（如果尚未明确设置）。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_NO_VERBOSE.rst:2
+msgid "CMAKE_NO_VERBOSE"
+msgstr "CMAKE_NO_VERBOSE"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_NO_VERBOSE.rst:6
+msgid ""
+"Disables verbose output from CMake when :envvar:`VERBOSE` environment "
+"variable is set."
+msgstr "设置 :envvar:`VERBOSE` 环境变量时禁用 CMake 的详细输出。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_NO_VERBOSE.rst:9
+msgid ""
+"Only your build tool of choice will still print verbose output when you "
+"start to actually build your project."
+msgstr "当您开始实际构建项目时，只有您选择的构建工具仍会打印详细输出。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_OSX_ARCHITECTURES.rst:2
+msgid "CMAKE_OSX_ARCHITECTURES"
+msgstr "CMAKE_OSX_ARCHITECTURES 架构"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_OSX_ARCHITECTURES.rst:6
+msgid "Target specific architectures for macOS."
+msgstr "针对 macOS 的特定架构。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_OSX_ARCHITECTURES.rst:8
+msgid ""
+"The ``CMAKE_OSX_ARCHITECTURES`` environment variable sets the default "
+"value for the :variable:`CMAKE_OSX_ARCHITECTURES` variable. See "
+":prop_tgt:`OSX_ARCHITECTURES` for more information."
+msgstr ""
+"``CMAKE_OSX_ARCHITECTURES`` 环境变量设置 :variable:`CMAKE_OSX_ARCHITECTURES` "
+"变量的默认值。有关详细信息，请参阅 :prop_tgt:`OSX_ARCHITECTURES`。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_PREFIX_PATH.rst:2
+msgid "CMAKE_PREFIX_PATH"
+msgstr "CMAKE_PREFIX_PATH"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_PREFIX_PATH.rst:6
+msgid ""
+"The ``CMAKE_PREFIX_PATH`` environment variable may be set to a list of "
+"directories specifying installation *prefixes* to be searched by the "
+":command:`find_package`, :command:`find_program`, :command:`find_library`,"
+" :command:`find_file`, and :command:`find_path` commands.  Each command "
+"will add appropriate subdirectories (like ``bin``, ``lib``, or "
+"``include``) as specified in its own documentation."
+msgstr ""
+"``CMAKE_PREFIX_PATH`` 环境变量可以设置为指定安装 *prefixes* 的目录列表，以供 "
+":command:`find_package`、 :command:`find_program`、 :command:`find_library`、 :command:"
+" `find_file` 和 :command:`find_path` 命令。每个命令将添加其自己的文档中指定的适当子目录（如 "
+"``bin``、``lib`` 或 ``include``）。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_PREFIX_PATH.rst:13
+#: ../../cmake-prefix/src/cmake/Help/envvar/PackageName_ROOT.rst:15
+msgid ""
+"This variable may hold a single prefix or a list of prefixes separated by "
+"``:`` on UNIX or ``;`` on Windows (the same as the ``PATH`` environment "
+"variable convention on those platforms)."
+msgstr ""
+"这个变量可以包含一个前缀或一个前缀列表，在 UNIX 上用“ :”分隔，在 Windows "
+"上用“;”分隔（与这些平台上的“PATH”环境变量约定相同）。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_PREFIX_PATH.rst:17
+msgid "See also the :variable:`CMAKE_PREFIX_PATH` CMake variable."
+msgstr "另请参阅 :variable:`CMAKE_PREFIX_PATH` CMake 变量。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_TOOLCHAIN_FILE.rst:2
+msgid "CMAKE_TOOLCHAIN_FILE"
+msgstr "CMAKE_TOOLCHAIN_FILE"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CMAKE_TOOLCHAIN_FILE.rst:8
+msgid ""
+"The ``CMAKE_TOOLCHAIN_FILE`` environment variable specifies a default "
+"value for the :variable:`CMAKE_TOOLCHAIN_FILE` variable when there is no "
+"explicit configuration given on the first run while creating a new build "
+"tree. On later runs in an existing build tree the value persists in the "
+"cache as :variable:`CMAKE_TOOLCHAIN_FILE`."
+msgstr ""
+"``CMAKE_TOOLCHAIN_FILE`` 环境变量为 :variable:`CMAKE_TOOLCHAIN_FILE` "
+"变量指定一个默认值，当在创建新的构建树时第一次运行时没有给出明确的配置。在稍后在现有构建树中运行时，该值将作为 "
+"CMAKE_TOOLCHAIN_FILE 保存在缓存中。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CSFLAGS.rst:2
+msgid "CSFLAGS"
+msgstr "CSFLAGS"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CSFLAGS.rst:8
+msgid ""
+"Add default compilation flags to be used when compiling ``CSharp`` files."
+msgstr "添加编译“CSharp”文件时要使用的默认编译标志。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CSFLAGS.rst:14
+msgid ""
+"See also :variable:`CMAKE_CSharp_FLAGS_INIT <CMAKE_<LANG>_FLAGS_INIT>`."
+msgstr "另见 :variable:`CMAKE_CSharp_FLAGS_INIT <CMAKE_<LANG>_FLAGS_INIT>`。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CTEST_INTERACTIVE_DEBUG_MODE.rst:2
+msgid "CTEST_INTERACTIVE_DEBUG_MODE"
+msgstr "CTEST_INTERACTIVE_DEBUG_MODE"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CTEST_INTERACTIVE_DEBUG_MODE.rst:6
+msgid ""
+"Environment variable that will exist and be set to ``1`` when a test "
+"executed by :manual:`ctest(1)` is run in interactive mode."
+msgstr "当 :manual:`ctest(1)` 执行的测试以交互模式运行时，将存在并设置为 ``1`` 的环境变量。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CTEST_NO_TESTS_ACTION.rst:2
+msgid "CTEST_NO_TESTS_ACTION"
+msgstr "CTEST_NO_TESTS_ACTION"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CTEST_NO_TESTS_ACTION.rst:8
+msgid ""
+"Environment variable that controls how :manual:`ctest <ctest(1)>` handles "
+"cases when there are no tests to run. Possible values are: ``error``, "
+"``ignore``, empty or unset."
+msgstr ""
+"控制 :manual:`ctest <ctest(1)>` "
+"在没有要运行的测试时如何处理情况的环境变量。可能的值是：``error``、``ignore``、空或未设置。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CTEST_NO_TESTS_ACTION.rst:12
+msgid ""
+"The :option:`--no-tests=\\<action\\> <ctest --no-tests>` option to "
+":manual:`ctest <ctest(1)>` overrides this environment variable if both are"
+" given."
+msgstr ""
+":option:`--no-tests=\\<action\\> <ctest --no-tests>` :manual:`ctest "
+"<ctest(1)>` 的选项会覆盖此环境变量（如果两者都已给出）。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CTEST_OUTPUT_ON_FAILURE.rst:2
+msgid "CTEST_OUTPUT_ON_FAILURE"
+msgstr "CTEST_OUTPUT_ON_FAILURE"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CTEST_OUTPUT_ON_FAILURE.rst:6
+msgid ""
+"Boolean environment variable that controls if the output should be logged "
+"for failed tests. Set the value to ``1``, ``True``, or ``ON`` to enable "
+"output on failure. See :manual:`ctest(1)` for more information on "
+"controlling output of failed tests."
+msgstr ""
+"布尔环境变量，控制是否应记录失败测试的输出。将值设置为“1”、“True”或“ON”以在失败时启用输出。有关控制失败测试输出的更多信息，请参阅 :manual:`ctest(1)`。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CTEST_PARALLEL_LEVEL.rst:2
+msgid "CTEST_PARALLEL_LEVEL"
+msgstr "CTEST_PARALLEL_LEVEL"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CTEST_PARALLEL_LEVEL.rst:6
+msgid ""
+"Specify the number of tests for CTest to run in parallel. See "
+":manual:`ctest(1)` for more information on parallel test execution."
+msgstr "指定 CTest 并行运行的测试数。有关并行测试执行的更多信息，请参阅 :manual:`ctest(1)`。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CTEST_PROGRESS_OUTPUT.rst:2
+msgid "CTEST_PROGRESS_OUTPUT"
+msgstr "CTEST_PROGRESS_OUTPUT"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CTEST_PROGRESS_OUTPUT.rst:8
+msgid ""
+"Boolean environment variable that affects how :manual:`ctest <ctest(1)>` "
+"command output reports overall progress.  When set to ``1``, ``TRUE``, "
+"``ON`` or anything else that evaluates to boolean true, progress is "
+"reported by repeatedly updating the same line.  This greatly reduces the "
+"overall verbosity, but is only supported when output is sent directly to a"
+" terminal.  If the environment variable is not set or has a value that "
+"evaluates to false, output is reported normally with each test having its "
+"own start and end lines logged to the output."
+msgstr ""
+"影响 :manual:`ctest <ctest(1)>` 命令输出如何报告总体进度的布尔环境变量。当设置为 "
+"``1``、``TRUE``、``ON`` 或任何其他计算为布尔值 true "
+"的值时，通过重复更新同一行来报告进度。这大大减少了整体的冗长程度，但仅在输出直接发送到终端时才受支持。如果环境变量未设置或具有评估为 false "
+"的值，则正常报告输出，每个测试都有自己的开始和结束行记录到输出。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CTEST_PROGRESS_OUTPUT.rst:17
+msgid ""
+"The :option:`--progress <ctest --progress>` option to :manual:`ctest "
+"<ctest(1)>` overrides this environment variable if both are given."
+msgstr ""
+":option:`--progress <ctest --progress>` 选项到 :manual:`ctest <ctest(1)>` "
+"覆盖这个环境变量，如果两者都给定的话。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CTEST_USE_LAUNCHERS_DEFAULT.rst:2
+msgid "CTEST_USE_LAUNCHERS_DEFAULT"
+msgstr "CTEST_USE_LAUNCHERS_DEFAULT"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CTEST_USE_LAUNCHERS_DEFAULT.rst:6
+msgid ""
+"Initializes the :variable:`CTEST_USE_LAUNCHERS` variable if not already "
+"defined."
+msgstr "如果尚未定义，则初始化 CTEST_USE_LAUNCHERS 变量。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CUDAARCHS.rst:2
+msgid "CUDAARCHS"
+msgstr "CUDA架构师"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CUDAARCHS.rst:8
+msgid ""
+"Value used to initialize :variable:`CMAKE_CUDA_ARCHITECTURES` on the first"
+" configuration. Subsequent runs will use the value stored in the cache."
+msgstr "用于在第一个配置上初始化 CMAKE_CUDA_ARCHITECTURES 的值。后续运行将使用存储在缓存中的值。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CUDAARCHS.rst:11
+msgid ""
+"This is a semicolon-separated list of architectures as described in "
+":prop_tgt:`CUDA_ARCHITECTURES`."
+msgstr "这是一个以分号分隔的体系结构列表，如 :prop_tgt:`CUDA_ARCHITECTURES` 中所述。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CUDACXX.rst:2
+msgid "CUDACXX"
+msgstr "CUDACXX"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CUDACXX.rst:8
+msgid ""
+"Preferred executable for compiling ``CUDA`` language files. Will only be "
+"used by CMake on the first configuration to determine ``CUDA`` compiler, "
+"after which the value for ``CUDA`` is stored in the cache as "
+":variable:`CMAKE_CUDA_COMPILER <CMAKE_<LANG>_COMPILER>`. For any "
+"configuration run (including the first), the environment variable will be "
+"ignored if the :variable:`CMAKE_CUDA_COMPILER <CMAKE_<LANG>_COMPILER>` "
+"variable is defined."
+msgstr ""
+"编译 CUDA 语言文件的首选可执行文件。 CMake 只会在第一次配置时使用它来确定 ``CUDA`` 编译器，之后 ``CUDA`` 的值将作为"
+" :variable:`CMAKE_CUDA_COMPILER <CMAKE_<LANG>_COMPILER>` "
+"存储在缓存中。对于任何配置运行（包括第一次），如果定义了 :variable:`CMAKE_CUDA_COMPILER "
+"<CMAKE_<LANG>_COMPILER>` 变量，环境变量将被忽略。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CUDAFLAGS.rst:2
+msgid "CUDAFLAGS"
+msgstr "CUDA旗帜"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CUDAFLAGS.rst:8
+msgid ""
+"Add default compilation flags to be used when compiling ``CUDA`` files."
+msgstr "添加编译 CUDA 文件时要使用的默认编译标志。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CUDAFLAGS.rst:14
+msgid ""
+"See also :variable:`CMAKE_CUDA_FLAGS_INIT <CMAKE_<LANG>_FLAGS_INIT>`."
+msgstr "另见 :variable:`CMAKE_CUDA_FLAGS_INIT <CMAKE_<LANG>_FLAGS_INIT>`。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CUDAHOSTCXX.rst:2
+msgid "CUDAHOSTCXX"
+msgstr "CUDA主机CXX"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CUDAHOSTCXX.rst:8
+msgid ""
+"Preferred executable for compiling host code when compiling ``CUDA`` "
+"language files. Will only be used by CMake on the first configuration to "
+"determine ``CUDA`` host compiler, after which the value for "
+"``CUDAHOSTCXX`` is stored in the cache as "
+":variable:`CMAKE_CUDA_HOST_COMPILER`. This environment variable is "
+"preferred over :variable:`CMAKE_CUDA_HOST_COMPILER`."
+msgstr ""
+"编译 CUDA 语言文件时编译主机代码的首选可执行文件。 CMake 只会在第一次配置时使用它来确定 ``CUDA`` 主机编译器，之后 "
+"``CUDAHOSTCXX`` 的值将作为 :variable:`CMAKE_CUDA_HOST_COMPILER` 存储在缓存中。此环境变量优于 "
+":variable:`CMAKE_CUDA_HOST_COMPILER`。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CUDAHOSTCXX.rst:14
+msgid ""
+"This environment variable is primarily meant for use with projects that "
+"enable ``CUDA`` as a first-class language."
+msgstr "此环境变量主要用于将“CUDA”作为一流语言的项目。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CUDAHOSTCXX.rst:19
+msgid "Ignored when using :ref:`Visual Studio Generators`."
+msgstr "使用 :ref:`Visual Studio Generators` 时被忽略。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CUDAHOSTCXX.rst:21
+msgid ""
+"The :module:`FindCUDA` module will use this variable to initialize its "
+"``CUDA_HOST_COMPILER`` setting."
+msgstr "FindCUDA 模块将使用此变量来初始化其 CUDA_HOST_COMPILER 设置。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CXX.rst:2
+msgid "CXX"
+msgstr "CXX"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CXX.rst:6
+msgid ""
+"Preferred executable for compiling ``CXX`` language files. Will only be "
+"used by CMake on the first configuration to determine ``CXX`` compiler, "
+"after which the value for ``CXX`` is stored in the cache as "
+":variable:`CMAKE_CXX_COMPILER <CMAKE_<LANG>_COMPILER>`. For any "
+"configuration run (including the first), the environment variable will be "
+"ignored if the :variable:`CMAKE_CXX_COMPILER <CMAKE_<LANG>_COMPILER>` "
+"variable is defined."
+msgstr ""
+"编译“CXX”语言文件的首选可执行文件。 CMake 只会在第一次配置时使用它来确定 ``CXX`` 编译器，之后 ``CXX`` 的值将作为 "
+":variable:`CMAKE_CXX_COMPILER <CMAKE_<LANG>_COMPILER>` "
+"存储在缓存中。对于任何配置运行（包括第一次），如果定义了 :variable:`CMAKE_CXX_COMPILER "
+"<CMAKE_<LANG>_COMPILER>` 变量，环境变量将被忽略。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CXXFLAGS.rst:2
+msgid "CXXFLAGS"
+msgstr "CXX标志"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CXXFLAGS.rst:6
+msgid ""
+"Add default compilation flags to be used when compiling ``CXX`` (C++) "
+"files."
+msgstr "添加编译“CXX”（C++）文件时要使用的默认编译标志。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/CXXFLAGS.rst:12
+msgid "See also :variable:`CMAKE_CXX_FLAGS_INIT <CMAKE_<LANG>_FLAGS_INIT>`."
+msgstr "另见 :variable:`CMAKE_CXX_FLAGS_INIT <CMAKE_<LANG>_FLAGS_INIT>`。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/DASHBOARD_TEST_FROM_CTEST.rst:2
+msgid "DASHBOARD_TEST_FROM_CTEST"
+msgstr "DASHBOARD_TEST_FROM_CTEST"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/DASHBOARD_TEST_FROM_CTEST.rst:6
+msgid ""
+"Environment variable that will exist when a test executed by "
+":manual:`ctest(1)` is run in non-interactive mode.  The value will be "
+"equal to :variable:`CMAKE_VERSION`."
+msgstr "当 ctest(1) 执行的测试在非交互模式下运行时将存在的环境变量。该值将等于 :variable:`CMAKE_VERSION`。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/DESTDIR.rst:2
+msgid "DESTDIR"
+msgstr "目标目录"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/DESTDIR.rst:6
+msgid ""
+"On UNIX one can use the ``DESTDIR`` mechanism in order to relocate the "
+"whole installation.  ``DESTDIR`` means DESTination DIRectory.  It is "
+"commonly used by packagers to install software in a staging directory."
+msgstr ""
+"在 UNIX 上，可以使用 ``DESTDIR`` 机制来重新定位整个安装。 ``DESTDIR`` "
+"表示目标目录。打包程序通常使用它在暂存目录中安装软件。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/DESTDIR.rst:10
+msgid "For example, running"
+msgstr "例如，跑步"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/DESTDIR.rst:16
+msgid ""
+"will install the software using the installation prefix, e.g. "
+"``/usr/local``, prepended with the ``DESTDIR`` value which gives "
+"``/package/stage/usr/local``. The packaging tool may then construct the "
+"package from the content of the ``/package/stage`` directory."
+msgstr ""
+"将使用安装前缀安装软件，例如``/usr/local``，前缀为``DESTDIR`` "
+"值，给出``/package/stage/usr/local``。然后，打包工具可以从“/package/stage”目录的内容构建包。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/DESTDIR.rst:21
+msgid ""
+"See the :variable:`CMAKE_INSTALL_PREFIX` variable to control the "
+"installation prefix when configuring a build tree.  Or, when using the "
+":manual:`cmake(1)` command-line tool's :option:`--install <cmake "
+"--install>` mode, one may specify a different prefix using the "
+":option:`--prefix <cmake--install --prefix>` option."
+msgstr ""
+"请参阅 :variable:`CMAKE_INSTALL_PREFIX` 变量以在配置构建树时控制安装前缀。或者，当使用 "
+":manual:`cmake(1)` 命令行工具的 :option:`--install <cmake --install>` 模式时，可以使用 "
+":option:`--prefix < 指定不同的前缀cmake--install --prefix>` 选项。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/DESTDIR.rst:29
+msgid ""
+"``DESTDIR`` may not be used on Windows because installation prefix usually"
+" contains a drive letter like in ``C:/Program Files`` which cannot be "
+"prepended with some other prefix."
+msgstr ""
+"``DESTDIR`` 可能无法在 Windows 上使用，因为安装前缀通常包含一个驱动器号，如 ``C:/Program Files`` "
+"中不能使用其他前缀。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/FC.rst:2
+msgid "FC"
+msgstr "FC"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/FC.rst:6
+msgid ""
+"Preferred executable for compiling ``Fortran`` language files. Will only "
+"be used by CMake on the first configuration to determine ``Fortran`` "
+"compiler, after which the value for ``Fortran`` is stored in the cache as "
+":variable:`CMAKE_Fortran_COMPILER <CMAKE_<LANG>_COMPILER>`. For any "
+"configuration run (including the first), the environment variable will be "
+"ignored if the :variable:`CMAKE_Fortran_COMPILER <CMAKE_<LANG>_COMPILER>` "
+"variable is defined."
+msgstr ""
+"编译“Fortran”语言文件的首选可执行文件。 CMake 只会在第一次配置时使用它来确定``Fortran`` "
+"编译器，之后``Fortran`` 的值将存储在缓存中作为 :variable:`CMAKE_Fortran_COMPILER "
+"<CMAKE_<LANG>_COMPILER>`。对于任何配置运行（包括第一次），如果定义了 "
+":variable:`CMAKE_Fortran_COMPILER <CMAKE_<LANG>_COMPILER>` 变量，环境变量将被忽略。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/FFLAGS.rst:2
+msgid "FFLAGS"
+msgstr "旗标"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/FFLAGS.rst:6
+msgid ""
+"Add default compilation flags to be used when compiling ``Fortran`` files."
+msgstr "添加编译“Fortran”文件时要使用的默认编译标志。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/FFLAGS.rst:12
+msgid ""
+"See also :variable:`CMAKE_Fortran_FLAGS_INIT <CMAKE_<LANG>_FLAGS_INIT>`."
+msgstr "另见 :variable:`CMAKE_Fortran_FLAGS_INIT <CMAKE_<LANG>_FLAGS_INIT>`。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/HIPCXX.rst:2
+msgid "HIPCXX"
+msgstr "HIPCXX"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/HIPCXX.rst:8
+msgid ""
+"Preferred executable for compiling ``HIP`` language files. Will only be "
+"used by CMake on the first configuration to determine ``HIP`` compiler, "
+"after which the value for ``HIP`` is stored in the cache as "
+":variable:`CMAKE_HIP_COMPILER <CMAKE_<LANG>_COMPILER>`. For any "
+"configuration run (including the first), the environment variable will be "
+"ignored if the :variable:`CMAKE_HIP_COMPILER <CMAKE_<LANG>_COMPILER>` "
+"variable is defined."
+msgstr ""
+"编译“HIP”语言文件的首选可执行文件。 CMake 只会在第一次配置时使用它来确定``HIP`` 编译器，之后``HIP`` 的值将作为 "
+":variable:`CMAKE_HIP_COMPILER <CMAKE_<LANG>_COMPILER>` "
+"存储在缓存中。对于任何配置运行（包括第一次），如果定义了 :variable:`CMAKE_HIP_COMPILER "
+"<CMAKE_<LANG>_COMPILER>` 变量，环境变量将被忽略。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/HIPFLAGS.rst:2
+msgid "HIPFLAGS"
+msgstr "旗帜"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/HIPFLAGS.rst:8
+msgid ""
+"Add default compilation flags to be used when compiling ``HIP`` files."
+msgstr "添加编译“HIP”文件时要使用的默认编译标志。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/HIPFLAGS.rst:14
+msgid "See also :variable:`CMAKE_HIP_FLAGS_INIT <CMAKE_<LANG>_FLAGS_INIT>`."
+msgstr "另见 :variable:`CMAKE_HIP_FLAGS_INIT <CMAKE_<LANG>_FLAGS_INIT>`。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/ISPC.rst:2
+msgid "ISPC"
+msgstr "ISPC"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/ISPC.rst:8
+msgid ""
+"Preferred executable for compiling ``ISPC`` language files. Will only be "
+"used by CMake on the first configuration to determine ``ISPC`` compiler, "
+"after which the value for ``ISPC`` is stored in the cache as "
+":variable:`CMAKE_ISPC_COMPILER <CMAKE_<LANG>_COMPILER>`. For any "
+"configuration run (including the first), the environment variable will be "
+"ignored if the :variable:`CMAKE_ISPC_COMPILER <CMAKE_<LANG>_COMPILER>` "
+"variable is defined."
+msgstr ""
+"编译“ISPC”语言文件的首选可执行文件。 CMake 只会在第一次配置时使用它来确定 ``ISPC`` 编译器，之后 ``ISPC`` 的值将作为"
+" :variable:`CMAKE_ISPC_COMPILER <CMAKE_<LANG>_COMPILER>` "
+"存储在缓存中。对于任何配置运行（包括第一次），如果定义了 :variable:`CMAKE_ISPC_COMPILER "
+"<CMAKE_<LANG>_COMPILER>` 变量，环境变量将被忽略。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/ISPCFLAGS.rst:2
+msgid "ISPCFLAGS"
+msgstr "ISPC标志"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/ISPCFLAGS.rst:8
+msgid ""
+"Add default compilation flags to be used when compiling ``ISPC`` files."
+msgstr "添加编译 ISPC 文件时要使用的默认编译标志。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/ISPCFLAGS.rst:14
+msgid ""
+"See also :variable:`CMAKE_ISPC_FLAGS_INIT <CMAKE_<LANG>_FLAGS_INIT>`."
+msgstr "另见 :variable:`CMAKE_ISPC_FLAGS_INIT <CMAKE_<LANG>_FLAGS_INIT>`。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/LDFLAGS.rst:2
+msgid "LDFLAGS"
+msgstr "低频标志"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/LDFLAGS.rst:6
+msgid ""
+"Will only be used by CMake on the first configuration to determine the "
+"default linker flags, after which the value for ``LDFLAGS`` is stored in "
+"the cache as :variable:`CMAKE_EXE_LINKER_FLAGS_INIT`, "
+":variable:`CMAKE_SHARED_LINKER_FLAGS_INIT`, and "
+":variable:`CMAKE_MODULE_LINKER_FLAGS_INIT`. For any configuration run "
+"(including the first), the environment variable will be ignored if the "
+"equivalent  ``CMAKE_<TYPE>_LINKER_FLAGS_INIT`` variable is defined."
+msgstr ""
+"CMake 只会在第一次配置时使用它来确定默认链接器标志，之后 ``LDFLAGS`` "
+"的值将存储在缓存中 :variable:CMAKE_EXE_LINKER_FLAGS_INIT、变量：CMAKE_SHARED_LINKER_FLAGS_INIT"
+" 和变量 :variable:`CMAKE_MODULE_LINKER_FLAGS_INIT`。对于任何配置运行（包括第一次），如果定义了等效的 "
+"CMAKE_<TYPE>_LINKER_FLAGS_INIT 变量，环境变量将被忽略。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/MACOSX_DEPLOYMENT_TARGET.rst:2
+msgid "MACOSX_DEPLOYMENT_TARGET"
+msgstr "MACOSX_DEPLOYMENT_TARGET"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/MACOSX_DEPLOYMENT_TARGET.rst:6
+msgid ""
+"Specify the minimum version of macOS on which the target binaries are to "
+"be deployed."
+msgstr "指定要部署目标二进制文件的最低 macOS 版本。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/MACOSX_DEPLOYMENT_TARGET.rst:9
+msgid ""
+"The ``MACOSX_DEPLOYMENT_TARGET`` environment variable sets the default "
+"value for the :variable:`CMAKE_OSX_DEPLOYMENT_TARGET` variable."
+msgstr ""
+"``MACOSX_DEPLOYMENT_TARGET`` 环境变量设置 "
+":variable:`CMAKE_OSX_DEPLOYMENT_TARGET` 变量的默认值。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/OBJC.rst:2
+msgid "OBJC"
+msgstr "OBJC"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/OBJC.rst:8
+msgid ""
+"Preferred executable for compiling ``OBJC`` language files. Will only be "
+"used by CMake on the first configuration to determine ``OBJC`` compiler, "
+"after which the value for ``OBJC`` is stored in the cache as "
+":variable:`CMAKE_OBJC_COMPILER <CMAKE_<LANG>_COMPILER>`. For any "
+"configuration run (including the first), the environment variable will be "
+"ignored if the :variable:`CMAKE_OBJC_COMPILER <CMAKE_<LANG>_COMPILER>` "
+"variable is defined."
+msgstr ""
+"编译“OBJC”语言文件的首选可执行文件。 CMake 只会在第一次配置时使用它来确定 ``OBJC`` 编译器，之后 ``OBJC`` 的值将作为"
+" :variable:`CMAKE_OBJC_COMPILER <CMAKE_<LANG>_COMPILER>` "
+"存储在缓存中。对于任何配置运行（包括第一次），如果定义了 :variable:`CMAKE_OBJC_COMPILER "
+"<CMAKE_<LANG>_COMPILER>` 变量，环境变量将被忽略。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/OBJC.rst:15
+msgid ""
+"If ``OBJC`` is not defined, the :envvar:`CC` environment variable will be "
+"checked instead."
+msgstr "如果未定义 ``OBJC``，则将检查 :envvar:`CC` 环境变量。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/OBJCXX.rst:2
+msgid "OBJCXX"
+msgstr "OBJCXX"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/OBJCXX.rst:8
+msgid ""
+"Preferred executable for compiling ``OBJCXX`` language files. Will only be"
+" used by CMake on the first configuration to determine ``OBJCXX`` "
+"compiler, after which the value for ``OBJCXX`` is stored in the cache as "
+":variable:`CMAKE_OBJCXX_COMPILER <CMAKE_<LANG>_COMPILER>`. For any "
+"configuration run (including the first), the environment variable will be "
+"ignored if the :variable:`CMAKE_OBJCXX_COMPILER <CMAKE_<LANG>_COMPILER>` "
+"variable is defined."
+msgstr ""
+"编译 ``OBJCXX`` 语言文件的首选可执行文件。 CMake 只会在第一次配置时使用它来确定 ``OBJCXX`` 编译器，之后 "
+"``OBJCXX`` 的值将作为 :variable:`CMAKE_OBJCXX_COMPILER <CMAKE_<LANG>_COMPILER>`"
+" 存储在缓存中。对于任何配置运行（包括第一次），如果定义了 :variable:`CMAKE_OBJCXX_COMPILER "
+"<CMAKE_<LANG>_COMPILER>` 变量，环境变量将被忽略。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/OBJCXX.rst:15
+msgid ""
+"If ``OBJCXX`` is not defined, the :envvar:`CXX` environment variable will "
+"be checked instead."
+msgstr "如果未定义 ``OBJCXX``，则将检查 :envvar:`CXX` 环境变量。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/PackageName_ROOT.rst:2
+msgid "<PackageName>_ROOT"
+msgstr "<包名>_ROOT"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/PackageName_ROOT.rst:8
+msgid ""
+"Calls to :command:`find_package(<PackageName>)` will search in prefixes "
+"specified by the ``<PackageName>_ROOT`` environment variable, where "
+"``<PackageName>`` is the (case-preserved) name given to the "
+":command:`find_package` call and ``_ROOT`` is literal. For example, "
+"``find_package(Foo)`` will search prefixes specified in the ``Foo_ROOT`` "
+"environment variable (if set).  See policy :policy:`CMP0074`."
+msgstr ""
+"调用 :command:`find_package(<PackageName>)` 将搜索由 ``<PackageName>_ROOT`` "
+"环境变量指定的前缀，其中 ``<PackageName>`` 是给定的（保留大小写的）名称 :command:`find_package` 调用和 "
+"``_ROOT`` 是文字。例如，``find_package(Foo)`` 将搜索在 ``Foo_ROOT`` "
+"环境变量（如果设置）中指定的前缀。请参阅政策:policy:`CMP0074`。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/PackageName_ROOT.rst:19
+msgid "See also the :variable:`<PackageName>_ROOT` CMake variable."
+msgstr "另请参阅 :variable:`<PackageName>_ROOT` CMake 变量。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/RC.rst:2
+msgid "RC"
+msgstr "钢筋混凝土"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/RC.rst:6
+msgid ""
+"Preferred executable for compiling ``resource`` files. Will only be used "
+"by CMake on the first configuration to determine ``resource`` compiler, "
+"after which the value for ``RC`` is stored in the cache as "
+":variable:`CMAKE_RC_COMPILER <CMAKE_<LANG>_COMPILER>`. For any "
+"configuration run (including the first), the environment variable will be "
+"ignored if the :variable:`CMAKE_RC_COMPILER <CMAKE_<LANG>_COMPILER>` "
+"variable is defined."
+msgstr ""
+"编译“资源”文件的首选可执行文件。 CMake 只会在第一次配置时使用它来确定 ``resource`` 编译器，之后 ``RC`` 的值将作为 "
+":variable:`CMAKE_RC_COMPILER <CMAKE_<LANG>_COMPILER>` "
+"存储在缓存中。对于任何配置运行（包括第一次），如果定义了 :variable:`CMAKE_RC_COMPILER "
+"<CMAKE_<LANG>_COMPILER>` 变量，环境变量将被忽略。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/RCFLAGS.rst:2
+msgid "RCFLAGS"
+msgstr "RCFLAG"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/RCFLAGS.rst:6
+msgid ""
+"Add default compilation flags to be used when compiling ``RC`` (resource) "
+"files."
+msgstr "添加编译“RC”（资源）文件时要使用的默认编译标志。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/RCFLAGS.rst:12
+msgid "See also :variable:`CMAKE_RC_FLAGS_INIT <CMAKE_<LANG>_FLAGS_INIT>`."
+msgstr "另见 :variable:`CMAKE_RC_FLAGS_INIT <CMAKE_<LANG>_FLAGS_INIT>`。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/SSL_CERT_DIR.rst:2
+msgid "SSL_CERT_DIR"
+msgstr "SSL_CERT_DIR"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/SSL_CERT_DIR.rst:8
+msgid ""
+"Specify default directory containing CA certificates.  It overrides the "
+"default CA directory used."
+msgstr "指定包含 CA 证书的默认目录。它会覆盖使用的默认 CA 目录。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/SSL_CERT_FILE.rst:2
+msgid "SSL_CERT_FILE"
+msgstr "SSL_CERT_FILE"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/SSL_CERT_FILE.rst:8
+msgid ""
+"Specify the file name containing CA certificates.  It overrides the "
+"default, os-specific CA file used."
+msgstr "指定包含 CA 证书的文件名。它会覆盖默认的、特定于操作系统的 CA 文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/SWIFTC.rst:2
+msgid "SWIFTC"
+msgstr "瑞士国际金融贸易委员会"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/SWIFTC.rst:8
+msgid ""
+"Preferred executable for compiling ``Swift`` language files. Will only be "
+"used by CMake on the first configuration to determine ``Swift`` compiler, "
+"after which the value for ``SWIFTC`` is stored in the cache as "
+":variable:`CMAKE_Swift_COMPILER <CMAKE_<LANG>_COMPILER>`. For any "
+"configuration run (including the first), the environment variable will be "
+"ignored if the :variable:`CMAKE_Swift_COMPILER <CMAKE_<LANG>_COMPILER>` "
+"variable is defined."
+msgstr ""
+"编译“Swift”语言文件的首选可执行文件。 CMake 只会在第一次配置时使用它来确定 ``Swift`` 编译器，之后 ``SWIFTC`` "
+"的值将作为 :variable:`CMAKE_Swift_COMPILER <CMAKE_<LANG>_COMPILER>` "
+"存储在缓存中。对于任何配置运行（包括第一次），如果定义了 :variable:`CMAKE_Swift_COMPILER "
+"<CMAKE_<LANG>_COMPILER>` 变量，环境变量将被忽略。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/VERBOSE.rst:2
+msgid "VERBOSE"
+msgstr "冗长"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/VERBOSE.rst:6
+msgid ""
+"Activates verbose output from CMake and your build tools of choice when "
+"you start to actually build your project."
+msgstr "当您开始实际构建项目时，激活来自 CMake 和您选择的构建工具的详细输出。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/VERBOSE.rst:9
+msgid ""
+"Note that any given value is ignored. It's just checked for existence."
+msgstr "请注意，任何给定的值都将被忽略。它只是检查存在。"
+
+#: ../../cmake-prefix/src/cmake/Help/envvar/VERBOSE.rst:11
+msgid ""
+"See also :ref:`Build Tool Mode <Build Tool Mode>` and "
+":envvar:`CMAKE_NO_VERBOSE` environment variable"
+msgstr ""
+"另见:ref:`Build Tool Mode <Build Tool Mode>` 和 :envvar:`CMAKE_NO_VERBOSE` "
+"环境变量"
