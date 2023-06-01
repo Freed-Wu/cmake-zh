@@ -1,0 +1,8 @@
+[tool.mdformat]
+number = true
+
+[tool.codespell]
+ignore-words-list = "ser, varn, ans, sophisticted, requeted, varialbe, dependees"
+
+[tool.bandit.assert_used]
+skips = ["*_test.py", "test_*.py"]
