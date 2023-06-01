@@ -1,0 +1,1691 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2023 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.26.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-01 00:02+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Borland Makefiles.rst:2
+msgid "Borland Makefiles"
+msgstr "Borland 生成文件"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Borland Makefiles.rst:4
+msgid "Generates Borland makefiles."
+msgstr "生成 Borland 生成文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/CodeBlocks.rst:2
+msgid "CodeBlocks"
+msgstr "代码块"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/CodeBlocks.rst:4
+msgid "Generates CodeBlocks project files."
+msgstr "生成代码块项目文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/CodeBlocks.rst:6
+msgid ""
+"Project files for CodeBlocks will be created in the top directory and in "
+"every subdirectory which features a ``CMakeLists.txt`` file containing a "
+":command:`project` call.  Additionally a hierarchy of makefiles is "
+"generated into the build tree. The appropriate make program can build the "
+"project through the default ``all`` target.  An ``install`` target is also"
+" provided."
+msgstr ""
+"CodeBlocks 的项目文件将在顶层目录和每个子目录中创建，每个子目录都有一个包含 :command:`project` 调用的 "
+"``CMakeLists.txt`` 文件。此外，生成文件的层次结构会生成到构建树中。适当的 make 程序可以通过默认的 ``all`` "
+"目标构建项目。还提供了一个“安装”目标。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/CodeBlocks.rst:14
+msgid ""
+"The :variable:`CMAKE_CODEBLOCKS_EXCLUDE_EXTERNAL_FILES` variable may be "
+"set to ``ON`` to exclude any files which are located outside of the "
+"project root directory."
+msgstr ""
+":variable:`CMAKE_CODEBLOCKS_EXCLUDE_EXTERNAL_FILES` 变量可以设置为 ``ON`` "
+"以排除位于项目根目录之外的任何文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/CodeBlocks.rst:19
+#: ../../cmake-prefix/src/cmake/Help/generator/CodeLite.rst:18
+#: ../../cmake-prefix/src/cmake/Help/generator/Eclipse
+#: ../../cmake-prefix/src/cmake/Help/generator/Kate.rst:14
+#: ../../cmake-prefix/src/cmake/Help/generator/Sublime 2.rst:13 CDT4.rst:13
+#: Text
+msgid "This \"extra\" generator may be specified as:"
+msgstr "这个“额外”生成器可以指定为："
+
+#: ../../cmake-prefix/src/cmake/Help/generator/CodeBlocks.rst:22
+msgid "``CodeBlocks - MinGW Makefiles``"
+msgstr "``CodeBlocks - MinGW Makefiles``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/CodeBlocks.rst:22
+#: ../../cmake-prefix/src/cmake/Help/generator/CodeLite.rst:21
+#: ../../cmake-prefix/src/cmake/Help/generator/Eclipse
+#: ../../cmake-prefix/src/cmake/Help/generator/Kate.rst:17
+#: ../../cmake-prefix/src/cmake/Help/generator/Sublime 2.rst:16 CDT4.rst:16
+#: Text
+msgid "Generate with :generator:`MinGW Makefiles`."
+msgstr "使用 :generator:`MinGW Makefiles` 生成。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/CodeBlocks.rst:25
+msgid "``CodeBlocks - NMake Makefiles``"
+msgstr "``CodeBlocks - NMake Makefiles``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/CodeBlocks.rst:25
+#: ../../cmake-prefix/src/cmake/Help/generator/CodeLite.rst:24
+#: ../../cmake-prefix/src/cmake/Help/generator/Eclipse
+#: ../../cmake-prefix/src/cmake/Help/generator/Kate.rst:20
+#: ../../cmake-prefix/src/cmake/Help/generator/Sublime 2.rst:19 CDT4.rst:19
+#: Text
+msgid "Generate with :generator:`NMake Makefiles`."
+msgstr "使用 :generator:`NMake Makefiles` 生成。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/CodeBlocks.rst:29
+msgid "``CodeBlocks - NMake Makefiles JOM``"
+msgstr "``CodeBlocks - NMake Makefiles JOM``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/CodeBlocks.rst:28
+msgid "Generate with :generator:`NMake Makefiles JOM`."
+msgstr "使用 :generator:`NMake Makefiles JOM` 生成。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/CodeBlocks.rst:32
+msgid "``CodeBlocks - Ninja``"
+msgstr "``CodeBlocks - 忍者``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/CodeBlocks.rst:32
+#: ../../cmake-prefix/src/cmake/Help/generator/CodeLite.rst:27
+#: ../../cmake-prefix/src/cmake/Help/generator/Eclipse
+#: ../../cmake-prefix/src/cmake/Help/generator/Kate.rst:23
+#: ../../cmake-prefix/src/cmake/Help/generator/Sublime 2.rst:22 CDT4.rst:22
+#: Text
+msgid "Generate with :generator:`Ninja`."
+msgstr "使用 :generator:`Ninja` 生成。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/CodeBlocks.rst:34
+msgid "``CodeBlocks - Unix Makefiles``"
+msgstr "``CodeBlocks - Unix Makefiles``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/CodeBlocks.rst:35
+#: ../../cmake-prefix/src/cmake/Help/generator/CodeLite.rst:30
+#: ../../cmake-prefix/src/cmake/Help/generator/Eclipse
+#: ../../cmake-prefix/src/cmake/Help/generator/Kate.rst:26
+#: ../../cmake-prefix/src/cmake/Help/generator/Sublime 2.rst:25 CDT4.rst:25
+#: Text
+msgid "Generate with :generator:`Unix Makefiles`."
+msgstr "使用 :generator:`Unix Makefiles` 生成。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/CodeLite.rst:2
+msgid "CodeLite"
+msgstr "程式码"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/CodeLite.rst:4
+msgid "Generates CodeLite project files."
+msgstr "生成 CodeLite 项目文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/CodeLite.rst:6
+msgid ""
+"Project files for CodeLite will be created in the top directory and in "
+"every subdirectory which features a CMakeLists.txt file containing a "
+":command:`project` call. The appropriate make program can build the "
+"project through the default ``all`` target.  An ``install`` target is also"
+" provided."
+msgstr ""
+"CodeLite 的项目文件将在顶层目录和每个子目录中创建，每个子目录都有一个包含 :command:`project` 调用的 "
+"CMakeLists.txt 文件。适当的 make 程序可以通过默认的 ``all`` 目标构建项目。还提供了一个“安装”目标。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/CodeLite.rst:13
+msgid ""
+"The :variable:`CMAKE_CODELITE_USE_TARGETS` variable may be set to ``ON`` "
+"to change the default behavior from projects to targets as the basis for "
+"project files."
+msgstr ""
+":variable:`CMAKE_CODELITE_USE_TARGETS` 变量可以设置为 ``ON`` "
+"以将默认行为从项目更改为目标，作为项目文件的基础。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/CodeLite.rst:21
+msgid "``CodeLite - MinGW Makefiles``"
+msgstr "``CodeLite - MinGW Makefiles``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/CodeLite.rst:24
+msgid "``CodeLite - NMake Makefiles``"
+msgstr "``CodeLite - NMake Makefiles``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/CodeLite.rst:27
+msgid "``CodeLite - Ninja``"
+msgstr "``CodeLite - 忍者``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/CodeLite.rst:29
+msgid "``CodeLite - Unix Makefiles``"
+msgstr "``CodeLite - Unix Makefiles``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Eclipse CDT4.rst:2
+msgid "Eclipse CDT4"
+msgstr "Eclipse CDT4"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Eclipse CDT4.rst:4
+msgid "Generates Eclipse CDT 4.0 project files."
+msgstr "生成 Eclipse CDT 4.0 项目文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Eclipse CDT4.rst:6
+msgid ""
+"Project files for Eclipse will be created in the top directory.  In out of"
+" source builds, a linked resource to the top level source directory will "
+"be created.  Additionally a hierarchy of makefiles is generated into the "
+"build tree.  The appropriate make program can build the project through "
+"the default ``all`` target.  An ``install`` target is also provided."
+msgstr ""
+"Eclipse "
+"的项目文件将在顶层目录中创建。在源代码之外的构建中，将创建一个链接到顶级源目录的资源。此外，生成文件的层次结构会生成到构建树中。适当的 make "
+"程序可以通过默认的 ``all`` 目标构建项目。还提供了一个“安装”目标。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Eclipse CDT4.rst:16
+msgid "``Eclipse CDT4 - MinGW Makefiles``"
+msgstr "``Eclipse CDT4 - MinGW Makefiles``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Eclipse CDT4.rst:19
+msgid "``Eclipse CDT4 - NMake Makefiles``"
+msgstr "``Eclipse CDT4 - NMake Makefiles``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Eclipse CDT4.rst:22
+msgid "``Eclipse CDT4 - Ninja``"
+msgstr "``Eclipse CDT4 - 忍者``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Eclipse CDT4.rst:24
+msgid "``Eclipse CDT4 - Unix Makefiles``"
+msgstr "``Eclipse CDT4 - Unix Makefiles``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:2
+msgid "Green Hills MULTI"
+msgstr "绿山多"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:6
+msgid "Linux support."
+msgstr "Linux 支持。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:9
+msgid ""
+"Generates Green Hills MULTI project files (experimental, work-in-"
+"progress)."
+msgstr "生成 Green Hills MULTI 项目文件（实验性的，进行中的工作）。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:11
+msgid ""
+"The buildsystem has predetermined build-configuration settings that can be"
+" controlled via the :variable:`CMAKE_BUILD_TYPE` variable."
+msgstr "构建系统具有预先确定的构建配置设置，可以通过 CMAKE_BUILD_TYPE 变量进行控制。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 11 12 14 15 16 17
+#: 2008.rst:7 2012.rst:24 2013.rst:17 2015.rst:16 2017.rst:24 2019.rst:22
+#: 2022.rst:22 9 Hills MULTI.rst:15 Studio
+msgid "Platform Selection"
+msgstr "平台选择"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:19
+msgid ""
+"The variable ``GHS_PRIMARY_TARGET`` can be used to select the target "
+"platform."
+msgstr "变量“GHS_PRIMARY_TARGET”可用于选择目标平台。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst
+msgid "Sets ``primaryTarget`` entry in project file."
+msgstr "在项目文件中设置“primaryTarget”条目。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:23
+#: MULTI.rst:42 MULTI.rst:103 MULTI.rst:112 MULTI.rst:121
+msgid "For example:"
+msgstr "例如："
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:25
+msgid ""
+"``cmake -G \"Green Hills MULTI\" -D GHS_PRIMARY_TARGET=ppc_integrity.tgt``"
+msgstr ""
+"``cmake -G \"Green Hills MULTI\" -D GHS_PRIMARY_TARGET=ppc_integrity.tgt``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:27
+msgid ""
+"Otherwise the ``primaryTarget`` will be composed from the values of "
+":variable:`CMAKE_GENERATOR_PLATFORM` and ``GHS_TARGET_PLATFORM``. "
+"Defaulting to the value of ``arm_integrity.tgt``"
+msgstr ""
+"否则，``primaryTarget`` 将由 CMAKE_GENERATOR_PLATFORM 和 ``GHS_TARGET_PLATFORM``"
+" 的值组成。默认为 arm_integrity.tgt 的值"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:30
+msgid ""
+"The :variable:`CMAKE_GENERATOR_PLATFORM` variable may be set, perhaps via "
+"the :option:`cmake -A` option."
+msgstr ""
+":variable:`CMAKE_GENERATOR_PLATFORM` 变量可能会被设置，可能是通过 :option:`cmake -A` 选项。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst
+msgid "Typical values of ``arm``, ``ppc``, ``86``, etcetera, are used."
+msgstr "使用了“arm”、“ppc”、“86”等典型值。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:35
+msgid ""
+"The variable ``GHS_TARGET_PLATFORM`` may be set, perhaps via the "
+":option:`cmake -D` option."
+msgstr "可以设置变量 ``GHS_TARGET_PLATFORM``，也许是通过 :option:`cmake -D` 选项。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst
+msgid "Defaults to ``integrity``."
+msgstr "默认为“完整性”。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst
+msgid ""
+"Usual values are ``integrity``, ``threadx``, ``uvelosity``, ``velosity``, "
+"``vxworks``, ``standalone``."
+msgstr ""
+"通常的值是``integrity``、``threadx``、``uvelosity``、``velosity``、``vxworks``、``standalone``。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:44
+msgid "``cmake -G \"Green Hills MULTI\"`` for ``arm_integrity.tgt``."
+msgstr "``cmake -G \"Green Hills MULTI\"`` for ``arm_integrity.tgt``。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:45
+msgid "``cmake -G \"Green Hills MULTI\" -A 86`` for ``86_integrity.tgt``."
+msgstr "``cmake -G \"Green Hills MULTI\" -A 86`` 用于 ``86_integrity.tgt``。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:46
+msgid ""
+"``cmake -G \"Green Hills MULTI\" -D GHS_TARGET_PLATFORM=standalone`` for "
+"``arm_standalone.tgt``."
+msgstr ""
+"``cmake -G \"Green Hills MULTI\" -D GHS_TARGET_PLATFORM=standalone`` for "
+"``arm_standalone.tgt``。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:47
+msgid ""
+"``cmake -G \"Green Hills MULTI\" -A ppc -D "
+"GHS_TARGET_PLATFORM=standalone`` for ``ppc_standalone.tgt``."
+msgstr ""
+"``cmake -G \"Green Hills MULTI\" -A ppc -D "
+"GHS_TARGET_PLATFORM=standalone`` 用于 ``ppc_standalone.tgt``。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 11 12 14 15 16 17
+#: 2012.rst:53 2013.rst:41 2015.rst:39 2017.rst:48 2019.rst:37 2022.rst:37
+#: Hills MULTI.rst:50 Studio
+msgid "Toolset Selection"
+msgstr "工具集选择"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:54
+msgid ""
+"The generator searches for the latest compiler or can be given a location "
+"to use. ``GHS_TOOLSET_ROOT`` is the directory that is checked for the "
+"latest compiler."
+msgstr "生成器搜索最新的编译器或可以指定一个位置使用。 ``GHS_TOOLSET_ROOT`` 是检查最新编译器的目录。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:57
+msgid ""
+"The :variable:`CMAKE_GENERATOR_TOOLSET` option may be set, perhaps via the"
+" :option:`cmake -T` option, to specify the location of the toolset. Both "
+"absolute and relative paths are valid. Paths are relative to "
+"``GHS_TOOLSET_ROOT``."
+msgstr ""
+":variable:`CMAKE_GENERATOR_TOOLSET` 选项可能通过 :option:`cmake -T` "
+"选项设置，以指定工具集的位置。绝对路径和相对路径均有效。路径与“GHS_TOOLSET_ROOT”相关。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:61
+msgid ""
+"The variable ``GHS_TOOLSET_ROOT`` may be set, perhaps via the "
+":option:`cmake -D` option."
+msgstr "可以设置变量 ``GHS_TOOLSET_ROOT``，也许是通过 :option:`cmake -D` 选项。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst
+msgid "Root path for toolset searches and relative paths."
+msgstr "工具集搜索的根路径和相对路径。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst
+msgid "Defaults to ``C:/ghs`` in Windows or ``/usr/ghs`` in Linux."
+msgstr "在 Windows 中默认为“C:/ghs”，在 Linux 中默认为“/usr/ghs”。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:67
+msgid "For example, setting a specific compiler:"
+msgstr "例如，设置特定的编译器："
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:69
+msgid ""
+"``cmake -G \"Green Hills MULTI\" -T comp_201754`` for "
+"``/usr/ghs/comp_201754``."
+msgstr ""
+"``cmake -G \"Green Hills MULTI\" -T comp_201754`` 用于 "
+"``/usr/ghs/comp_201754``。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:70
+msgid ""
+"``cmake -G \"Green Hills MULTI\" -T comp_201754 -D "
+"GHS_TOOLSET_ROOT=/opt/ghs`` for ``/opt/ghs/comp_201754``."
+msgstr ""
+"``cmake -G \"Green Hills MULTI\" -T comp_201754 -D "
+"GHS_TOOLSET_ROOT=/opt/ghs`` 用于 ``/opt/ghs/comp_201754``。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:71
+msgid "``cmake -G \"Green Hills MULTI\" -T /usr/ghs/comp_201554``"
+msgstr "``cmake -G \"Green Hills MULTI\" -T /usr/ghs/comp_201554``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:72
+msgid "``cmake -G \"Green Hills MULTI\" -T C:/ghs/comp_201754``"
+msgstr "``cmake -G \"Green Hills MULTI\" -T C:/ghs/comp_201754``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:74
+msgid "For example, searching for latest compiler:"
+msgstr "例如，搜索最新的编译器："
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:76
+msgid "``cmake -G \"Green Hills MULTI\"`` for searching ``/usr/ghs``."
+msgstr "``cmake -G \"Green Hills MULTI\"`` 用于搜索 ``/usr/ghs``。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:77
+msgid ""
+"``cmake -G \"Green Hills MULTI -D GHS_TOOLSET_ROOT=/opt/ghs\"`` for "
+"searching ``/opt/ghs``."
+msgstr ""
+"``cmake -G \"Green Hills MULTI -D GHS_TOOLSET_ROOT=/opt/ghs\"`` 用于搜索 "
+"``/opt/ghs``。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:80
+msgid ""
+"The :variable:`CMAKE_GENERATOR_TOOLSET` should use CMake style paths."
+msgstr ":variable:`CMAKE_GENERATOR_TOOLSET` 应该使用 CMake 风格的路径。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:83
+msgid "OS and BSP Selection"
+msgstr "操作系统和 BSP 选择"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:87
+msgid ""
+"Certain target platforms, like Integrity, require an OS.  The RTOS "
+"directory path can be explicitly set using ``GHS_OS_DIR``.  Otherwise "
+"``GHS_OS_ROOT`` will be searched for the latest Integrity RTOS."
+msgstr ""
+"某些目标平台，如 Integrity，需要操作系统。可以使用“GHS_OS_DIR”显式设置 RTOS 目录路径。否则将搜索 "
+"``GHS_OS_ROOT`` 以查找最新的 Integrity RTOS。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:91
+msgid ""
+"If the target platform, like Integrity, requires a BSP name then it can be"
+" set via the ``GHS_BSP_NAME`` variable."
+msgstr "如果目标平台（如 Integrity）需要 BSP 名称，则可以通过“GHS_BSP_NAME”变量进行设置。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:94
+msgid "``GHS_OS_DIR`` and ``GHS_OS_DIR_OPTION``"
+msgstr "``GHS_OS_DIR`` 和 ``GHS_OS_DIR_OPTION``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst
+msgid "Sets ``-os_dir`` entry in project file."
+msgstr "在项目文件中设置“-os_dir”条目。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst
+msgid "``GHS_OS_DIR_OPTION`` default value is ``-os_dir``."
+msgstr "``GHS_OS_DIR_OPTION`` 默认值为 ``-os_dir``。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:100
+msgid "The ``GHS_OS_DIR_OPTION`` variable."
+msgstr "``GHS_OS_DIR_OPTION`` 变量。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:105
+msgid "``cmake -G \"Green Hills MULTI\" -D GHS_OS_DIR=/usr/ghs/int1144``"
+msgstr "``cmake -G \"Green Hills MULTI\" -D GHS_OS_DIR=/usr/ghs/int1144``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:107
+msgid "``GHS_OS_ROOT``"
+msgstr "``GHS_OS_ROOT``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst
+msgid "Root path for RTOS searches."
+msgstr "RTOS 搜索的根路径。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:114
+msgid "``cmake -G \"Green Hills MULTI\" -D GHS_OS_ROOT=/opt/ghs``"
+msgstr "``cmake -G \"Green Hills MULTI\" -D GHS_OS_ROOT=/opt/ghs``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:116
+msgid "``GHS_BSP_NAME``"
+msgstr "``GHS_BSP_NAME``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst
+msgid "Sets ``-bsp`` entry in project file."
+msgstr "在项目文件中设置“-bsp”条目。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst
+msgid "Defaults to ``sim<arch>`` for ``integrity`` platforms."
+msgstr "对于“完整性”平台，默认为“sim<arch>”。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:123
+msgid ""
+"``cmake -G \"Green Hills MULTI\"`` for ``simarm`` on "
+"``arm_integrity.tgt``."
+msgstr ""
+"``cmake -G \"Green Hills MULTI\"`` for ``simarm`` on "
+"``arm_integrity.tgt``。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:124
+msgid ""
+"``cmake -G \"Green Hills MULTI\" -A 86`` for ``sim86`` on "
+"``86_integrity.tgt``."
+msgstr ""
+"``cmake -G \"Green Hills MULTI\" -A 86`` for ``sim86`` on "
+"``86_integrity.tgt``。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:125
+msgid ""
+"``cmake -G \"Green Hills MULTI\" -A ppc -D GHS_BSP_NAME=sim800`` for "
+"``sim800`` on ``ppc_integrity.tgt``."
+msgstr ""
+"``cmake -G \"Green Hills MULTI\" -A ppc -D GHS_BSP_NAME=sim800`` for "
+"``sim800`` on ``ppc_integrity.tgt``。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:127
+msgid ""
+"``cmake -G \"Green Hills MULTI\" -D GHS_PRIMARY_TARGET=ppc_integrity.tgt "
+"-D GHS_BSP_NAME=fsl-t1040`` for ``fsl-t1040`` on ``ppc_integrity.tgt``."
+msgstr ""
+"``cmake -G \"Green Hills MULTI\" -D GHS_PRIMARY_TARGET=ppc_integrity.tgt "
+"-D GHS_BSP_NAME=fsl-t1040`` 用于 ``ppc_integrity.tgt`` 上的 ``fsl-t1040``。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:131
+msgid "Target Properties"
+msgstr "目标属性"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:135
+msgid "The following properties are available:"
+msgstr "以下属性可用："
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:137
+msgid ":prop_tgt:`GHS_INTEGRITY_APP`"
+msgstr ":prop_tgt:`GHS_INTEGRITY_APP`"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:138
+msgid ":prop_tgt:`GHS_NO_SOURCE_GROUP_FILE`"
+msgstr ":prop_tgt:`GHS_NO_SOURCE_GROUP_FILE`"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:141
+msgid "MULTI Project Variables"
+msgstr "多项目变量"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:145
+msgid ""
+"Adding a Customization file and macros are available through the use of "
+"the following variables:"
+msgstr "通过使用以下变量可以添加自定义文件和宏："
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:148
+msgid "``GHS_CUSTOMIZATION`` - CMake path name to Customization File."
+msgstr "``GHS_CUSTOMIZATION`` - 自定义文件的 CMake 路径名。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:149
+msgid "``GHS_GPJ_MACROS`` - CMake list of Macros."
+msgstr "``GHS_GPJ_MACROS`` - CMake 宏列表。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Green Hills MULTI.rst:152
+msgid ""
+"This generator is deemed experimental as of CMake |release| and is still a"
+" work in progress.  Future versions of CMake may make breaking changes as "
+"the generator matures."
+msgstr ""
+"该生成器在 CMake |release| 中被视为实验性的并且仍在进行中。随着生成器的成熟，CMake 的未来版本可能会做出重大更改。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Kate.rst:2
+msgid "Kate"
+msgstr "凯特"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Kate.rst:4
+msgid "Generates Kate project files."
+msgstr "生成 Kate 项目文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Kate.rst:6
+msgid ""
+"A project file for Kate will be created in the top directory in the top "
+"level build directory. To use it in Kate, the Project plugin must be "
+"enabled. The project file is loaded in Kate by opening the "
+"``ProjectName.kateproject`` file in the editor. If the Kate Build-plugin "
+"is enabled, all targets generated by CMake are available for building."
+msgstr ""
+"Kate 的项目文件将在顶级构建目录的顶级目录中创建。要在 Kate "
+"中使用它，必须启用项目插件。通过在编辑器中打开“ProjectName.kateproject”文件，将项目文件加载到 Kate 中。如果启用了 "
+"Kate Build-plugin，则 CMake 生成的所有目标都可用于构建。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Kate.rst:17
+msgid "``Kate - MinGW Makefiles``"
+msgstr "``Kate - MinGW Makefiles``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Kate.rst:20
+msgid "``Kate - NMake Makefiles``"
+msgstr "``Kate - NMake Makefiles``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Kate.rst:23
+msgid "``Kate - Ninja``"
+msgstr "``凯特 - 忍者``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Kate.rst:25
+msgid "``Kate - Unix Makefiles``"
+msgstr "``Kate - Unix Makefiles``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/MSYS Makefiles.rst:2
+msgid "MSYS Makefiles"
+msgstr "MSYS 生成文件"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/MSYS Makefiles.rst:4
+msgid ""
+"Generates makefiles for use with MSYS (Minimal SYStem) ``make`` under the "
+"MSYS shell."
+msgstr "在 MSYS shell 下生成与 MSYS（Minimal SYStem）``make`` 一起使用的 makefile。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/MSYS Makefiles.rst:7
+msgid ""
+"Use this generator in a MSYS shell prompt and using ``make`` as the build "
+"tool.  The generated makefiles use ``/bin/sh`` as the shell to launch "
+"build rules.  They are not compatible with a Windows command prompt."
+msgstr ""
+"在 MSYS shell 提示符下使用此生成器并使用“make”作为构建工具。生成的 makefile 使用“/bin/sh”作为 shell "
+"来启动构建规则。它们与 Windows 命令提示符不兼容。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/MSYS Makefiles.rst:11
+msgid ""
+"To build under a Windows command prompt, use the :generator:`MinGW "
+"Makefiles` generator."
+msgstr "要在 Windows 命令提示符下构建，请使用 :generator:`MinGW Makefiles` 生成器。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/MinGW Makefiles.rst:2
+msgid "MinGW Makefiles"
+msgstr "MinGW 生成文件"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/MinGW Makefiles.rst:4
+msgid ""
+"Generates makefiles for use with ``mingw32-make`` under a Windows command "
+"prompt."
+msgstr "在 Windows 命令提示符下生成 makefile 以与“mingw32-make”一起使用。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/MinGW Makefiles.rst:7
+msgid ""
+"Use this generator under a Windows command prompt with MinGW (Minimalist "
+"GNU for Windows) in the ``PATH`` and using ``mingw32-make`` as the build "
+"tool.  The generated makefiles use ``cmd.exe`` as the shell to launch "
+"build rules.  They are not compatible with MSYS or a unix shell."
+msgstr ""
+"在 Windows 命令提示符下使用此生成器，在 ``PATH`` 中使用 MinGW（Windows 的极简 GNU）并使用 "
+"``mingw32-make`` 作为构建工具。生成的 makefile 使用 ``cmd.exe`` 作为 shell 来启动构建规则。它们与 "
+"MSYS 或 unix shell 不兼容。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/MinGW Makefiles.rst:13
+msgid ""
+"To build under the MSYS shell, use the :generator:`MSYS Makefiles` "
+"generator."
+msgstr "要在 MSYS shell 下构建，请使用 :generator:`MSYS Makefiles` 生成器。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/NMake Makefiles.rst:2
+msgid "NMake Makefiles"
+msgstr "NMake 生成文件"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/NMake Makefiles.rst:4
+msgid "Generates NMake makefiles."
+msgstr "生成 NMake 联编文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/NMake JOM.rst:2 Makefiles
+msgid "NMake Makefiles JOM"
+msgstr "NMake 生成文件 JOM"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/NMake JOM.rst:4 Makefiles
+msgid "Generates JOM makefiles."
+msgstr "生成 JOM 联编文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/NMake JOM.rst:6 Makefiles
+msgid ":generator:`CodeBlocks` generator can be used as an extra generator."
+msgstr ":generator:`CodeBlocks` 生成器可以用作额外的生成器。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja.rst:2
+msgid "Ninja"
+msgstr "忍者"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja.rst:4
+msgid "Generates ``build.ninja`` files."
+msgstr "生成 ``build.ninja`` 文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja.rst:6
+msgid ""
+"A ``build.ninja`` file is generated into the build tree.  Use the ninja "
+"program to build the project through the ``all`` target and install the "
+"project through the ``install`` (or ``install/strip``) target."
+msgstr ""
+"构建树中会生成一个 ``build.ninja`` 文件。使用 ninja 程序通过 ``all`` 目标构建项目，并通过 "
+"``install``（或 ``install/strip``）目标安装项目。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja.rst:10
+msgid ""
+"For each subdirectory ``sub/dir`` of the project, additional targets are "
+"generated:"
+msgstr "对于项目的每个子目录“sub/dir”，都会生成其他目标："
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja.rst:13
+msgid "``sub/dir/all``"
+msgstr "``子/目录/所有``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja.rst:17
+#: ../../cmake-prefix/src/cmake/Help/generator/Unix Makefiles.rst:15
+msgid "Depends on all targets required by the subdirectory."
+msgstr "取决于子目录所需的所有目标。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja.rst:19
+msgid "``sub/dir/install``"
+msgstr "``子/目录/安装``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja.rst:23
+#: ../../cmake-prefix/src/cmake/Help/generator/Unix Makefiles.rst:18
+msgid "Runs the install step in the subdirectory, if any."
+msgstr "运行子目录中的安装步骤（如果有）。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja.rst:25
+msgid "``sub/dir/install/strip``"
+msgstr "``sub/dir/install/strip``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja.rst:27
+#: ../../cmake-prefix/src/cmake/Help/generator/Unix Makefiles.rst:21
+msgid ""
+"Runs the install step in the subdirectory followed by a ``CMAKE_STRIP`` "
+"command, if any."
+msgstr "在子目录中运行安装步骤，然后执行 CMAKE_STRIP 命令（如果有）。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja.rst:31
+#: ../../cmake-prefix/src/cmake/Help/generator/Unix Makefiles.rst:24
+msgid ""
+"The ``CMAKE_STRIP`` variable will contain the platform's ``strip`` "
+"utility, which removes symbols information from generated binaries."
+msgstr "``CMAKE_STRIP`` 变量将包含平台的``strip`` 实用程序，它从生成的二进制文件中删除符号信息。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja.rst:34
+msgid "``sub/dir/test``"
+msgstr "``子/目录/测试``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja.rst:38
+#: ../../cmake-prefix/src/cmake/Help/generator/Unix Makefiles.rst:28
+msgid "Runs the test step in the subdirectory, if any."
+msgstr "运行子目录中的测试步骤（如果有）。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja.rst:40
+msgid "``sub/dir/package``"
+msgstr "``子/目录/包``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja.rst:44
+#: ../../cmake-prefix/src/cmake/Help/generator/Unix Makefiles.rst:31
+msgid "Runs the package step in the subdirectory, if any."
+msgstr "运行子目录中的包步骤（如果有）。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja.rst:47
+msgid "Fortran Support"
+msgstr "语言支持"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja.rst:51
+msgid ""
+"The ``Ninja`` generator conditionally supports Fortran when the ``ninja`` "
+"tool is at least version 1.10 (which has the required features)."
+msgstr "当 ``ninja`` 工具至少为 1.10 版（具有所需的功能）时，``Ninja`` 生成器有条件地支持 Fortran。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja.rst:55
+#: ../../cmake-prefix/src/cmake/Help/generator/Xcode.rst:40
+msgid "Swift Support"
+msgstr "快速支持"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja.rst:59
+msgid ""
+"The Swift support is experimental, not considered stable, and may change "
+"in future releases of CMake."
+msgstr "Swift 支持是实验性的，不被认为是稳定的，并且可能会在未来的 CMake 版本中发生变化。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja.rst:63
+msgid "See Also"
+msgstr "也可以看看"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja.rst:65
+msgid ""
+"The :generator:`Ninja Multi-Config` generator is similar to the ``Ninja`` "
+"generator, but generates multiple configurations at once."
+msgstr ":generator:`Ninja Multi-Config` 生成器类似于 ``Ninja`` 生成器，但一次生成多个配置。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja Multi-Config.rst:2
+msgid "Ninja Multi-Config"
+msgstr "忍者多配置"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja Multi-Config.rst:6
+msgid "Generates multiple ``build-<Config>.ninja`` files."
+msgstr "生成多个 ``build-<Config>.ninja`` 文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja Multi-Config.rst:8
+msgid ""
+"This generator is very much like the :generator:`Ninja` generator, but "
+"with some key differences. Only these differences will be discussed in "
+"this document."
+msgstr "此生成器与 Ninja 生成器非常相似，但有一些关键差异。本文档将仅讨论这些差异。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja Multi-Config.rst:12
+msgid ""
+"Unlike the :generator:`Ninja` generator, ``Ninja Multi-Config`` generates "
+"multiple configurations at once with :variable:`CMAKE_CONFIGURATION_TYPES`"
+" instead of only one configuration with :variable:`CMAKE_BUILD_TYPE`. One "
+"``build-<Config>.ninja`` file will be generated for each of these "
+"configurations (with ``<Config>`` being the configuration name.) These "
+"files are intended to be run with ``ninja -f build-<Config>.ninja``. A "
+"``build.ninja`` file is also generated, using the configuration from "
+"either :variable:`CMAKE_DEFAULT_BUILD_TYPE` or the first item from "
+":variable:`CMAKE_CONFIGURATION_TYPES`."
+msgstr ""
+"与 :generator:`Ninja` 生成器不同，``Ninja Multi-Config`` 使用 "
+"CMAKE_CONFIGURATION_TYPES 一次生成多个配置，而不是使用 CMAKE_BUILD_TYPE "
+"仅生成一个配置。将为每个配置生成一个 ``build-<Config>.ninja`` 文件（``<Config>`` "
+"是配置名称。）这些文件旨在使用 ``ninja -f build 运行-<配置>.ninja``。使用 "
+"CMAKE_DEFAULT_BUILD_TYPE 中的配置或 CMAKE_CONFIGURATION_TYPES 中的第一项配置，也会生成一个 "
+"build.ninja 文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja Multi-Config.rst:22
+msgid ""
+"``cmake --build . --config <Config>`` will always use "
+"``build-<Config>.ninja`` to build. If no :option:`--config <cmake--build "
+"--config>` argument is specified, :option:`cmake --build . <cmake "
+"--build>` will use ``build.ninja``."
+msgstr ""
+"``cmake --build 。 --config <Config>`` 将始终使用 ``build-<Config>.ninja`` "
+"进行构建。如果未指定 :option:`--config <cmake--build --config>` 参数，则 :option:`cmake "
+"--build 。 <cmake --build>` 将使用 ``build.ninja``。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja Multi-Config.rst:26
+msgid ""
+"Each ``build-<Config>.ninja`` file contains ``<target>`` targets as well "
+"as ``<target>:<Config>`` targets, where ``<Config>`` is the same as the "
+"configuration specified in ``build-<Config>.ninja`` Additionally, if "
+"cross-config mode is enabled, ``build-<Config>.ninja`` may contain "
+"``<target>:<OtherConfig>`` targets, where ``<OtherConfig>`` is a cross-"
+"config, as well as ``<target>:all``, which builds the target in all cross-"
+"configs. See below for how to enable cross-config mode."
+msgstr ""
+"每个 ``build-<Config>.ninja`` 文件包含 ``<target>`` 目标以及 ``<target>:<Config>`` "
+"目标，其中 ``<Config>`` 与``build-<Config>.ninja`` "
+"中指定的配置此外，如果启用交叉配置模式，``build-<Config>.ninja`` "
+"可能包含``<target>:<OtherConfig>`` 目标，其中 ``<OtherConfig>`` 是一个交叉配置，以及 "
+"``<target>:all``，它在所有交叉配置中构建目标。请参阅下文了解如何启用交叉配置模式。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja Multi-Config.rst:34
+msgid ""
+"The ``Ninja Multi-Config`` generator recognizes the following variables:"
+msgstr "``Ninja Multi-Config`` 生成器识别以下变量："
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja Multi-Config.rst:39
+msgid ":variable:`CMAKE_CONFIGURATION_TYPES`"
+msgstr ":variable:`CMAKE_CONFIGURATION_TYPES`"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja Multi-Config.rst:37
+msgid ""
+"Specifies the total set of configurations to build. Unlike with other "
+"multi-config generators, this variable has a value of "
+"``Debug;Release;RelWithDebInfo`` by default."
+msgstr "指定要构建的总配置集。与其他多配置生成器不同，此变量默认值为“Debug;Release;RelWithDebInfo”。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja Multi-Config.rst:43
+msgid ":variable:`CMAKE_CROSS_CONFIGS`"
+msgstr ":variable:`CMAKE_CROSS_CONFIGS`"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja Multi-Config.rst:42
+msgid ""
+"Specifies a :ref:`semicolon-separated list <CMake Language Lists>` of "
+"configurations available from all ``build-<Config>.ninja`` files."
+msgstr ""
+"指定一个 :ref:`分号分隔的列表 <CMake Language Lists>` 所有``build-<Config>.ninja`` "
+"文件中可用的配置。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja Multi-Config.rst:46
+msgid ":variable:`CMAKE_DEFAULT_BUILD_TYPE`"
+msgstr ":variable:`CMAKE_DEFAULT_BUILD_TYPE`"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja Multi-Config.rst:46
+msgid ""
+"Specifies the configuration to use by default in a ``build.ninja`` file."
+msgstr "指定在 ``build.ninja`` 文件中默认使用的配置。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja Multi-Config.rst:51
+msgid ":variable:`CMAKE_DEFAULT_CONFIGS`"
+msgstr ":variable:`CMAKE_DEFAULT_CONFIGS`"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja Multi-Config.rst:49
+msgid ""
+"Specifies a :ref:`semicolon-separated list <CMake Language Lists>` of "
+"configurations to build for a target in ``build.ninja`` if no "
+"``:<Config>`` suffix is specified."
+msgstr ""
+"如果未指定 ``:<Config>`` 后缀，则指定要在 ``build.ninja`` 中为目标构建的配置的 :ref:`分号分隔列表 "
+"<CMake Language Lists>`。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja Multi-Config.rst:53
+msgid "Consider the following example:"
+msgstr "考虑以下示例："
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja Multi-Config.rst:64
+msgid ""
+"Now assume you configure the project with ``Ninja Multi-Config`` and run "
+"one of the following commands:"
+msgstr "现在假设您使用“Ninja Multi-Config”配置项目并运行以下命令之一："
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja Multi-Config.rst:73
+msgid ""
+"This would build the ``Debug`` configuration of ``generator``, which would"
+" be used to generate ``generated.c``, which would be used to build the "
+"``Debug`` configuration of ``generated``."
+msgstr ""
+"这将构建 ``generator`` 的 ``Debug`` 配置，它将用于生成 ``generated.c``，后者将用于构建 "
+"``generated`` 的 ``Debug`` 配置."
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja Multi-Config.rst:77
+msgid ""
+"But if :variable:`CMAKE_CROSS_CONFIGS` is set to ``all``, and you run the "
+"following instead:"
+msgstr "但是，如果 :variable:`CMAKE_CROSS_CONFIGS` 设置为 ``all``，则改为运行以下命令："
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja Multi-Config.rst:86
+msgid ""
+"This would build the ``Release`` configuration of ``generator``, which "
+"would be used to generate ``generated.c``, which would be used to build "
+"the ``Debug`` configuration of ``generated``. This is useful for running a"
+" release-optimized version of a generator utility while still building the"
+" debug version of the targets built with the generated code."
+msgstr ""
+"这将构建 ``generator`` 的 ``Release`` 配置，它将用于生成 ``generated.c``，后者将用于构建 "
+"``generated`` 的 ``Debug`` "
+"配置.这对于运行生成器实用程序的发布优化版本，同时仍然构建使用生成的代码构建的目标的调试版本非常有用。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja Multi-Config.rst:93
+msgid "Custom Commands"
+msgstr "自定义命令"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja Multi-Config.rst:97
+msgid ""
+"The ``Ninja Multi-Config`` generator adds extra capabilities to "
+":command:`add_custom_command` and :command:`add_custom_target` through its"
+" cross-config mode. The ``COMMAND``, ``DEPENDS``, and "
+"``WORKING_DIRECTORY`` arguments can be evaluated in the context of either "
+"the \"command config\" (the \"native\" configuration of the "
+"``build-<Config>.ninja`` file in use) or the \"output config\" (the "
+"configuration used to evaluate the ``OUTPUT`` and ``BYPRODUCTS``)."
+msgstr ""
+"``Ninja Multi-Config`` 生成器通过其交叉配置模式向 :command:`add_custom_command` 和 "
+":command:`add_custom_target` 添加了额外的功能。 ``COMMAND``、``DEPENDS`` 和 "
+"``WORKING_DIRECTORY`` 参数可以在“命令配置”（``build-<Config>.ninja "
+"的“本机”配置）的上下文中进行评估`` 正在使用的文件）或“输出配置”（用于评估 ``OUTPUT`` 和 ``BYPRODUCTS`` 的配置）。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja Multi-Config.rst:105
+msgid ""
+"If either ``OUTPUT`` or ``BYPRODUCTS`` names a path that is common to more"
+" than one configuration (e.g. it does not use any generator expressions), "
+"all arguments are evaluated in the command config by default. If all "
+"``OUTPUT`` and ``BYPRODUCTS`` paths are unique to each configuration (e.g."
+" by using the :genex:`$<CONFIG>` generator expression), the first argument"
+" of ``COMMAND`` is still evaluated in the command config by default, while"
+" all subsequent arguments, as well as the arguments to ``DEPENDS`` and "
+"``WORKING_DIRECTORY``, are evaluated in the output config. These defaults "
+"can be overridden with the :genex:`$<OUTPUT_CONFIG:...>` and "
+":genex:`$<COMMAND_CONFIG:...>` generator-expressions. Note that if a "
+"target is specified by its name in ``DEPENDS``, or as the first argument "
+"of ``COMMAND``, it is always evaluated in the command config, even if it "
+"is wrapped in :genex:`$<OUTPUT_CONFIG:...>` (because its plain name is not"
+" a generator expression)."
+msgstr ""
+"如果 ``OUTPUT`` 或 ``BYPRODUCTS`` "
+"命名的路径对多个配置是通用的（例如，它不使用任何生成器表达式），则所有参数默认情况下都在命令配置中进行评估。如果所有 ``OUTPUT`` 和 "
+"``BYPRODUCTS`` 路径对于每个配置都是唯一的（例如，通过使用 :genex:`$<CONFIG>` "
+"生成器表达式），``COMMAND`` "
+"的第一个参数仍然在评估默认情况下是命令配置，而所有后续参数以及“DEPENDS”和“WORKING_DIRECTORY”的参数都在输出配置中进行评估。这些默认值可以被"
+" :genex:`$<OUTPUT_CONFIG:...>` 和 :genex:`$<COMMAND_CONFIG:...>` "
+"生成器表达式覆盖。请注意，如果目标在“DEPENDS”中由其名称指定，或者作为“COMMAND”的第一个参数，则它始终在命令配置中进行评估，即使它包含在"
+" :genex:`$< OUTPUT_CONFIG:...>`（因为它的普通名称不是生成器表达式）。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja Multi-Config.rst:119
+msgid "As an example, consider the following:"
+msgstr "例如，请考虑以下内容："
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja Multi-Config.rst:136
+msgid ""
+"Assume that ``generator``, ``tgt1``, ``tgt2``, ``tgt3``, and ``tgt4`` are "
+"all executable targets, and assume that ``$<CONFIG>.txt`` is built in the "
+"``Debug`` output config using the ``Release`` command config. The "
+"``Release`` build of the ``generator`` target is called with ``Debug.txt "
+"Debug Release`` as arguments. The command depends on the ``Release`` "
+"builds of ``tgt1`` and ``tgt4``, and the ``Debug`` builds of ``tgt2`` and "
+"``tgt3``."
+msgstr ""
+"假设 ``generator``、``tgt1``、``tgt2``、``tgt3`` 和 ``tgt4`` 都是可执行目标，并假设 "
+"``$<CONFIG>.txt``使用“发布”命令配置在“调试”输出配置中构建。 ``generator`` 目标的``Release`` "
+"构建以``Debug.txt Debug Release`` 作为参数调用。该命令取决于``tgt1`` 和``tgt4`` "
+"的``Release`` 构建，以及``tgt2`` 和``tgt3`` 的``Debug`` 构建。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja Multi-Config.rst:143
+msgid ""
+"``PRE_BUILD``, ``PRE_LINK``, and ``POST_BUILD`` custom commands for "
+"targets only get run in their \"native\" configuration (the ``Release`` "
+"configuration in the ``build-Release.ninja`` file) unless they have no "
+"``BYPRODUCTS`` or their ``BYPRODUCTS`` are unique per config. Consider the"
+" following example:"
+msgstr ""
+"``PRE_BUILD``、``PRE_LINK`` 和 ``POST_BUILD`` 目标的自定义命令仅在其“本机”配置中运行（``build-"
+"Release.ninja`` 中的 ``Release`` "
+"配置文件）除非它们没有“副产品”或者它们的“副产品”在每个配置中都是唯一的。考虑以下示例："
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Ninja Multi-Config.rst:174
+msgid ""
+"In this example, if you build ``exe:Debug`` in ``build-Release.ninja``, "
+"the first and second custom commands get run, since their byproducts are "
+"unique per-config, but the last custom command does not. However, if you "
+"build ``exe:Release`` in ``build-Release.ninja``, all three custom "
+"commands get run."
+msgstr ""
+"在这个例子中，如果你在 ``build-Release.ninja`` 中构建 "
+"``exe:Debug``，第一个和第二个自定义命令会运行，因为它们的副产品在每个配置中都是唯一的，但最后一个自定义命令不会.但是，如果您在 "
+"``build-Release.ninja`` 中构建 ``exe:Release``，所有三个自定义命令都会运行。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Sublime 2.rst:2 Text
+msgid "Sublime Text 2"
+msgstr "崇高文本 2"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Sublime 2.rst:4 Text
+msgid "Generates Sublime Text 2 project files."
+msgstr "生成 Sublime Text 2 项目文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Sublime 2.rst:6 Text
+msgid ""
+"Project files for Sublime Text 2 will be created in the top directory and "
+"in every subdirectory which features a ``CMakeLists.txt`` file containing "
+"a :command:`project` call.  Additionally ``Makefiles`` (or ``build.ninja``"
+" files) are generated into the build tree. The appropriate make program "
+"can build the project through the default ``all`` target.  An ``install`` "
+"target is also provided."
+msgstr ""
+"Sublime Text 2 的项目文件将在顶层目录和每个子目录中创建，其中包含一个包含 :command:`project` 调用的 "
+"``CMakeLists.txt`` 文件。此外，``Makefiles``（或``build.ninja`` 文件）会生成到构建树中。适当的 "
+"make 程序可以通过默认的 ``all`` 目标构建项目。还提供了一个“安装”目标。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Sublime 2.rst:16 Text
+msgid "``Sublime Text 2 - MinGW Makefiles``"
+msgstr "``Sublime Text 2 - MinGW Makefiles``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Sublime 2.rst:19 Text
+msgid "``Sublime Text 2 - NMake Makefiles``"
+msgstr "``Sublime Text 2 - NMake Makefiles``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Sublime 2.rst:22 Text
+msgid "``Sublime Text 2 - Ninja``"
+msgstr "``Sublime Text 2 - 忍者``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Sublime 2.rst:24 Text
+msgid "``Sublime Text 2 - Unix Makefiles``"
+msgstr "``Sublime Text 2 - Unix Makefiles``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Unix Makefiles.rst:2
+msgid "Unix Makefiles"
+msgstr "Unix 生成文件"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Unix Makefiles.rst:4
+msgid "Generates standard UNIX makefiles."
+msgstr "生成标准的 UNIX 联编文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Unix Makefiles.rst:6
+msgid ""
+"A hierarchy of UNIX makefiles is generated into the build tree.  Use any "
+"standard UNIX-style make program to build the project through the ``all`` "
+"target and install the project through the ``install`` (or "
+"``install/strip``) target."
+msgstr ""
+"UNIX makefile 的层次结构生成到构建树中。使用任何标准 UNIX 风格的 make "
+"程序通过“all”目标构建项目并通过“install”（或“install/strip”）目标安装项目。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Unix Makefiles.rst:11
+msgid ""
+"For each subdirectory ``sub/dir`` of the project a UNIX makefile will be "
+"created, containing the following targets:"
+msgstr "对于项目的每个子目录“sub/dir”，将创建一个 UNIX makefile，其中包含以下目标："
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Unix Makefiles.rst:15
+msgid "``all``"
+msgstr "``全部``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Unix Makefiles.rst:18
+msgid "``install``"
+msgstr "``安装``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Unix Makefiles.rst:25
+msgid "``install/strip``"
+msgstr "``安装/剥离``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Unix Makefiles.rst:28
+msgid "``test``"
+msgstr "``测试``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Unix Makefiles.rst:30
+msgid "``package``"
+msgstr "``包``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 10 2010.rst:2 Studio
+msgid "Visual Studio 10 2010"
+msgstr "视觉工作室 10 2010"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 10 2010.rst:4 Studio
+msgid ""
+"Removed.  This once generated Visual Studio 10 2010 project files, but the"
+" generator has been removed since CMake 3.25.  It is still possible to "
+"build with VS 10 2010 tools using the :generator:`Visual Studio 12 2013` "
+"(or above) generator with :variable:`CMAKE_GENERATOR_TOOLSET` set to "
+"``v100``, or by using the :generator:`NMake Makefiles` generator."
+msgstr ""
+"删除。这曾经生成 Visual Studio 10 2010 项目文件，但从 CMake 3.25 开始，该生成器已被删除。仍然可以使用 "
+"Visual Studio 12 2013（或更高版本）生成器将 CMAKE_GENERATOR_TOOLSET 设置为 v100，或使用 "
+":generator: 来构建 VS 10 2010 工具NMake Makefiles` 生成器。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 11 2012.rst:2 Studio
+msgid "Visual Studio 11 2012"
+msgstr "视觉工作室 11 2012"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 11 2012.rst:4 Studio
+msgid "Deprecated.  Generates Visual Studio 11 (VS 2012) project files."
+msgstr "已弃用。生成 Visual Studio 11 (VS 2012) 项目文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 11 2012.rst:7 Studio
+msgid ""
+"This generator is deprecated and will be removed in a future version of "
+"CMake.  It will still be possible to build with VS 11 2012 tools using the"
+" :generator:`Visual Studio 12 2013` (or above) generator with "
+":variable:`CMAKE_GENERATOR_TOOLSET` set to ``v110``, or by using the "
+":generator:`NMake Makefiles` generator."
+msgstr ""
+"此生成器已弃用，并将在未来版本的 CMake 中删除。仍然可以使用 VS 11 2012 工具构建 Visual Studio 12 "
+"2013（或更高版本）生成器并将 CMAKE_GENERATOR_TOOLSET 设置为 v110，或使用 generator： `NMake "
+"Makefiles` 生成器。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 11 2012.rst:13 Studio
+msgid ""
+"For compatibility with CMake versions prior to 3.0, one may specify this "
+"generator using the name \"Visual Studio 11\" without the year component."
+msgstr "为了与 3.0 之前的 CMake 版本兼容，可以使用不带年份组件的名称“Visual Studio 11”来指定此生成器。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 11 12 14 15 16 17
+#: 2012.rst:17 2013.rst:10 2015.rst:9 2017.rst:9 2019.rst:9 2022.rst:9
+#: Studio
+msgid "Project Types"
+msgstr "项目类型"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 11 2012.rst:19 Studio
+msgid ""
+"Only Visual C++ and C# projects may be generated (and Fortran with Intel "
+"compiler integration).  Other types of projects (JavaScript, Database, "
+"Website, etc.) are not supported."
+msgstr ""
+"只能生成 Visual C++ 和 C# 项目（以及带有 Intel 编译器集成的 "
+"Fortran）。不支持其他类型的项目（JavaScript、数据库、网站等）。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 11 12 14 15 2008.rst:9
+#: 2012.rst:26 2013.rst:19 2015.rst:18 2017.rst:26 9 Studio
+msgid "The default target platform name (architecture) is ``Win32``."
+msgstr "默认的目标平台名称（架构）是 ``Win32``。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 11 12 14 15 16 17
+#: 2008.rst:11 2012.rst:28 2013.rst:21 2015.rst:20 2017.rst:28 2019.rst:27
+#: 2022.rst:27 9 Studio
+msgid ""
+"The :variable:`CMAKE_GENERATOR_PLATFORM` variable may be set, perhaps via "
+"the :option:`cmake -A` option, to specify a target platform name "
+"(architecture).  For example:"
+msgstr ""
+":variable:`CMAKE_GENERATOR_PLATFORM` 变量可以通过 :option:`cmake -A` "
+"选项设置，以指定目标平台名称（架构）。例如："
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 11 2012.rst:33 Studio
+msgid "``cmake -G \"Visual Studio 11 2012\" -A Win32``"
+msgstr "``cmake -G \"Visual Studio 11 2012\" -A Win32``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 11 2012.rst:34 Studio
+msgid "``cmake -G \"Visual Studio 11 2012\" -A x64``"
+msgstr "``cmake -G \"Visual Studio 11 2012\" -A x64``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 11 2012.rst:35 Studio
+msgid "``cmake -G \"Visual Studio 11 2012\" -A ARM``"
+msgstr "``cmake -G \"Visual Studio 11 2012\" -A ARM``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 11 2012.rst:36 Studio
+msgid ""
+"``cmake -G \"Visual Studio 11 2012\" -A <WinCE-SDK>`` (Specify a target "
+"platform matching a Windows CE SDK name.)"
+msgstr ""
+"``cmake -G \"Visual Studio 11 2012\" -A <WinCE-SDK>``（指定与 Windows CE SDK "
+"名称匹配的目标平台。）"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 11 12 14 15
+#: 2008.rst:22 2012.rst:39 2013.rst:30 2015.rst:28 2017.rst:37 9 Studio
+msgid ""
+"For compatibility with CMake versions prior to 3.1, one may specify a "
+"target platform name optionally at the end of the generator name. This is "
+"supported only for:"
+msgstr "为了与 3.1 之前的 CMake 版本兼容，可以在生成器名称的末尾选择性地指定一个目标平台名称。这仅支持："
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 11 2012.rst:44 Studio
+msgid "``Visual Studio 11 2012 Win64``"
+msgstr "``Visual Studio 11 2012 Win64``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 11 12 14 15
+#: 2008.rst:27 2012.rst:44 2013.rst:35 2015.rst:33 2017.rst:42 9 Studio
+msgid "Specify target platform ``x64``."
+msgstr "指定目标平台“x64”。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 11 2012.rst:47 Studio
+msgid "``Visual Studio 11 2012 ARM``"
+msgstr "``Visual Studio 11 2012 ARM``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 11 12 14 15
+#: 2012.rst:47 2013.rst:38 2015.rst:36 2017.rst:45 Studio
+msgid "Specify target platform ``ARM``."
+msgstr "指定目标平台“ARM”。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 11 2012.rst:50 Studio
+msgid "``Visual Studio 11 2012 <WinCE-SDK>``"
+msgstr "``Visual Studio 11 2012 <WinCE-SDK>``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 11 2008.rst:33
+#: 2012.rst:50 9 Studio
+msgid "Specify target platform matching a Windows CE SDK name."
+msgstr "指定与 Windows CE SDK 名称匹配的目标平台。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 11 2012.rst:55 Studio
+msgid ""
+"The ``v110`` toolset that comes with Visual Studio 11 2012 is selected by "
+"default.  The :variable:`CMAKE_GENERATOR_TOOLSET` option may be set, "
+"perhaps via the :option:`cmake -T` option, to specify another toolset."
+msgstr ""
+"默认选择 Visual Studio 11 2012 自带的“v110”工具集。 "
+":variable:`CMAKE_GENERATOR_TOOLSET` 选项可以通过 :option:`cmake -T` "
+"选项设置，以指定另一个工具集。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 12 2013.rst:2 Studio
+msgid "Visual Studio 12 2013"
+msgstr "视觉工作室 12 2013"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 12 2013.rst:4 Studio
+msgid "Generates Visual Studio 12 (VS 2013) project files."
+msgstr "生成 Visual Studio 12 (VS 2013) 项目文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 12 2013.rst:6 Studio
+msgid ""
+"For compatibility with CMake versions prior to 3.0, one may specify this "
+"generator using the name \"Visual Studio 12\" without the year component."
+msgstr "为了与 3.0 之前的 CMake 版本兼容，可以使用不带年份组件的名称“Visual Studio 12”来指定此生成器。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 12 14 15 16 17
+#: 2013.rst:12 2015.rst:11 2017.rst:11 2019.rst:11 2022.rst:11 Studio
+msgid ""
+"Only Visual C++ and C# projects may be generated (and Fortran with Intel "
+"compiler integration).  Other types of projects (JavaScript, Powershell, "
+"Python, etc.) are not supported."
+msgstr ""
+"只能生成 Visual C++ 和 C# 项目（以及带有 Intel 编译器集成的 "
+"Fortran）。不支持其他类型的项目（JavaScript、Powershell、Python 等）。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 12 2013.rst:26 Studio
+msgid "``cmake -G \"Visual Studio 12 2013\" -A Win32``"
+msgstr "``cmake -G \"Visual Studio 12 2013\" -A Win32``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 12 2013.rst:27 Studio
+msgid "``cmake -G \"Visual Studio 12 2013\" -A x64``"
+msgstr "``cmake -G \"Visual Studio 12 2013\" -A x64``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 12 2013.rst:28 Studio
+msgid "``cmake -G \"Visual Studio 12 2013\" -A ARM``"
+msgstr "``cmake -G \"Visual Studio 12 2013\" -A ARM``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 12 2013.rst:35 Studio
+msgid "``Visual Studio 12 2013 Win64``"
+msgstr "``Visual Studio 12 2013 Win64``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 12 2013.rst:38 Studio
+msgid "``Visual Studio 12 2013 ARM``"
+msgstr "``Visual Studio 12 2013 ARM``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 12 2013.rst:43 Studio
+msgid ""
+"The ``v120`` toolset that comes with Visual Studio 12 2013 is selected by "
+"default.  The :variable:`CMAKE_GENERATOR_TOOLSET` option may be set, "
+"perhaps via the :option:`cmake -T` option, to specify another toolset."
+msgstr ""
+"默认选择 Visual Studio 12 2013 自带的“v120”工具集。 "
+":variable:`CMAKE_GENERATOR_TOOLSET` 选项可以通过 :option:`cmake -T` "
+"选项设置，以指定另一个工具集。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/VS_TOOLSET_HOST_ARCH.txt:1
+#: ../../cmake-prefix/src/cmake/Help/generator/VS_TOOLSET_HOST_ARCH_LEGACY.txt:1
+msgid ""
+"For each toolset that comes with this version of Visual Studio, there are "
+"variants that are themselves compiled for 32-bit (``x86``) and 64-bit "
+"(``x64``) hosts (independent of the architecture they target). "
+"|VS_TOOLSET_HOST_ARCH_DEFAULT| One may explicitly request use of either "
+"the 32-bit or 64-bit host tools by adding either ``host=x86`` or "
+"``host=x64`` to the toolset specification. See the "
+":variable:`CMAKE_GENERATOR_TOOLSET` variable for details."
+msgstr ""
+"对于这个版本的 Visual Studio 附带的每个工具集，都有自己为 32 位 (``x86``) 和 64 位 (``x64``) "
+"主机编译的变体（独立于它们所针对的体系结构） . |VS_TOOLSET_HOST_ARCH_DEFAULT|可以通过在工具集规范中添加 "
+"``host=x86`` 或 ``host=x64`` 来明确请求使用 32 位或 64 "
+"位主机工具。有关详细信息，请参阅 :variable:`CMAKE_GENERATOR_TOOLSET` 变量。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/VS_TOOLSET_HOST_ARCH_LEGACY.txt:10
+msgid "Added support for ``host=x86`` option."
+msgstr "添加了对 ``host=x86`` 选项的支持。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 14 2015.rst:2 Studio
+msgid "Visual Studio 14 2015"
+msgstr "视觉工作室 14 2015"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 14 2015.rst:6 Studio
+msgid "Generates Visual Studio 14 (VS 2015) project files."
+msgstr "生成 Visual Studio 14 (VS 2015) 项目文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 14 2015.rst:24 Studio
+msgid "``cmake -G \"Visual Studio 14 2015\" -A Win32``"
+msgstr "``cmake -G \"Visual Studio 14 2015\" -A Win32``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 14 2015.rst:25 Studio
+msgid "``cmake -G \"Visual Studio 14 2015\" -A x64``"
+msgstr "``cmake -G \"Visual Studio 14 2015\" -A x64``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 14 2015.rst:26 Studio
+msgid "``cmake -G \"Visual Studio 14 2015\" -A ARM``"
+msgstr "``cmake -G \"Visual Studio 14 2015\" -A ARM``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 14 2015.rst:33 Studio
+msgid "``Visual Studio 14 2015 Win64``"
+msgstr "``Visual Studio 14 2015 Win64``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 14 2015.rst:36 Studio
+msgid "``Visual Studio 14 2015 ARM``"
+msgstr "``Visual Studio 14 2015 ARM``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 14 2015.rst:41 Studio
+msgid ""
+"The ``v140`` toolset that comes with Visual Studio 14 2015 is selected by "
+"default.  The :variable:`CMAKE_GENERATOR_TOOLSET` option may be set, "
+"perhaps via the :option:`cmake -T` option, to specify another toolset."
+msgstr ""
+"默认选择 Visual Studio 14 2015 自带的“v140”工具集。 "
+":variable:`CMAKE_GENERATOR_TOOLSET` 选项可以通过 :option:`cmake -T` "
+"选项设置，以指定另一个工具集。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 14 2015.rst:53 Studio
+msgid "Windows 10 SDK Maximum Version for VS 2015"
+msgstr "适用于 VS 2015 的 Windows 10 SDK 最高版本"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 14 2015.rst:57 Studio
+msgid ""
+"Microsoft stated in a \"Windows 10 October 2018 Update\" blog post that "
+"Windows 10 SDK versions (15063, 16299, 17134, 17763) are not supported by "
+"VS 2015 and are only supported by VS 2017 and later.  Therefore by default"
+" CMake automatically ignores Windows 10 SDKs beyond ``10.0.14393.0``."
+msgstr ""
+"微软在“Windows 10 October 2018 Update”博文中表示，Windows 10 SDK "
+"版本（15063、16299、17134、17763）不受 VS 2015 支持，仅受 VS 2017 及更高版本支持。因此，默认情况下，CMake"
+" 会自动忽略 ``10.0.14393.0`` 之后的 Windows 10 SDK。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 14 2015.rst:62 Studio
+msgid ""
+"However, there are other recommendations for certain driver/Win32 builds "
+"that indicate otherwise.  A user can override this behavior by either "
+"setting the :variable:`CMAKE_VS_WINDOWS_TARGET_PLATFORM_VERSION_MAXIMUM` "
+"to a false value or setting the "
+":variable:`CMAKE_VS_WINDOWS_TARGET_PLATFORM_VERSION_MAXIMUM` to the string"
+" value of the required maximum (e.g. ``10.0.15063.0``)."
+msgstr ""
+"但是，对于某些驱动程序/Win32 版本，还有其他建议表明情况并非如此。用户可以通过将 "
+"CMAKE_VS_WINDOWS_TARGET_PLATFORM_VERSION_MAXIMUM 设置为假值或将 "
+"CMAKE_VS_WINDOWS_TARGET_PLATFORM_VERSION_MAXIMUM 设置为所需最大值的字符串值（例如 "
+"10.0.15063.0 ）来覆盖此行为。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 15 2017.rst:2 Studio
+msgid "Visual Studio 15 2017"
+msgstr "视觉工作室 15 2017"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 15 2017.rst:6 Studio
+msgid "Generates Visual Studio 15 (VS 2017) project files."
+msgstr "生成 Visual Studio 15 (VS 2017) 项目文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 15 16 17 2017.rst:16
+#: 2019.rst:16 2022.rst:16 Studio
+msgid "Instance Selection"
+msgstr "实例选择"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 15 2017.rst:20 Studio
+msgid ""
+"VS 2017 supports multiple installations on the same machine.  The "
+":variable:`CMAKE_GENERATOR_INSTANCE` variable may be used to select one."
+msgstr ""
+"VS 2017 支持在同一台机器上安装多个。 :variable:`CMAKE_GENERATOR_INSTANCE` 变量可用于选择一个。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 15 2017.rst:32 Studio
+msgid "``cmake -G \"Visual Studio 15 2017\" -A Win32``"
+msgstr "``cmake -G \"Visual Studio 15 2017\" -A Win32``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 15 2017.rst:33 Studio
+msgid "``cmake -G \"Visual Studio 15 2017\" -A x64``"
+msgstr "``cmake -G \"Visual Studio 15 2017\" -A x64``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 15 2017.rst:34 Studio
+msgid "``cmake -G \"Visual Studio 15 2017\" -A ARM``"
+msgstr "``cmake -G \"Visual Studio 15 2017\" -A ARM``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 15 2017.rst:35 Studio
+msgid "``cmake -G \"Visual Studio 15 2017\" -A ARM64``"
+msgstr "``cmake -G \"Visual Studio 15 2017\" -A ARM64``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 15 2017.rst:42 Studio
+msgid "``Visual Studio 15 2017 Win64``"
+msgstr "``Visual Studio 15 2017 Win64``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 15 2017.rst:45 Studio
+msgid "``Visual Studio 15 2017 ARM``"
+msgstr "``Visual Studio 15 2017 ARM``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 15 2017.rst:50 Studio
+msgid ""
+"The ``v141`` toolset that comes with Visual Studio 15 2017 is selected by "
+"default.  The :variable:`CMAKE_GENERATOR_TOOLSET` option may be set, "
+"perhaps via the :option:`cmake -T` option, to specify another toolset."
+msgstr ""
+"默认选择 Visual Studio 15 2017 自带的“v141”工具集。 "
+":variable:`CMAKE_GENERATOR_TOOLSET` 选项可以通过 :option:`cmake -T` "
+"选项设置，以指定另一个工具集。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 16 2019.rst:2 Studio
+msgid "Visual Studio 16 2019"
+msgstr "视觉工作室 16 2019"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 16 2019.rst:6 Studio
+msgid "Generates Visual Studio 16 (VS 2019) project files."
+msgstr "生成 Visual Studio 16 (VS 2019) 项目文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 16 2019.rst:18 Studio
+msgid ""
+"VS 2019 supports multiple installations on the same machine.  The "
+":variable:`CMAKE_GENERATOR_INSTANCE` variable may be used to select one."
+msgstr ""
+"VS 2019 支持在同一台机器上安装多个。 :variable:`CMAKE_GENERATOR_INSTANCE` 变量可用于选择一个。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 16 17 2019.rst:24
+#: 2022.rst:24 Studio
+msgid ""
+"The default target platform name (architecture) is that of the host and is"
+" provided in the :variable:`CMAKE_VS_PLATFORM_NAME_DEFAULT` variable."
+msgstr "默认目标平台名称（架构）是主机的名称，并在 CMAKE_VS_PLATFORM_NAME_DEFAULT 变量中提供。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 16 2019.rst:31 Studio
+msgid "``cmake -G \"Visual Studio 16 2019\" -A Win32``"
+msgstr "``cmake -G \"Visual Studio 16 2019\" -A Win32``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 16 2019.rst:32 Studio
+msgid "``cmake -G \"Visual Studio 16 2019\" -A x64``"
+msgstr "``cmake -G \"Visual Studio 16 2019\" -A x64``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 16 2019.rst:33 Studio
+msgid "``cmake -G \"Visual Studio 16 2019\" -A ARM``"
+msgstr "``cmake -G \"Visual Studio 16 2019\" -A ARM``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 16 2019.rst:34 Studio
+msgid "``cmake -G \"Visual Studio 16 2019\" -A ARM64``"
+msgstr "``cmake -G \"Visual Studio 16 2019\" -A ARM64``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 16 2019.rst:39 Studio
+msgid ""
+"The ``v142`` toolset that comes with Visual Studio 16 2019 is selected by "
+"default.  The :variable:`CMAKE_GENERATOR_TOOLSET` option may be set, "
+"perhaps via the :option:`cmake -T` option, to specify another toolset."
+msgstr ""
+"默认选择 Visual Studio 16 2019 自带的“v142”工具集。 "
+":variable:`CMAKE_GENERATOR_TOOLSET` 选项可以通过 :option:`cmake -T` "
+"选项设置，以指定另一个工具集。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 17 2022.rst:2 Studio
+msgid "Visual Studio 17 2022"
+msgstr "视觉工作室 17 2022"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 17 2022.rst:6 Studio
+msgid "Generates Visual Studio 17 (VS 2022) project files."
+msgstr "生成 Visual Studio 17 (VS 2022) 项目文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 17 2022.rst:18 Studio
+msgid ""
+"VS 2022 supports multiple installations on the same machine.  The "
+":variable:`CMAKE_GENERATOR_INSTANCE` variable may be used to select one."
+msgstr ""
+"VS 2022 支持在同一台机器上安装多个。 :variable:`CMAKE_GENERATOR_INSTANCE` 变量可用于选择一个。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 17 2022.rst:31 Studio
+msgid "``cmake -G \"Visual Studio 17 2022\" -A Win32``"
+msgstr "``cmake -G \"Visual Studio 17 2022\" -A Win32``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 17 2022.rst:32 Studio
+msgid "``cmake -G \"Visual Studio 17 2022\" -A x64``"
+msgstr "``cmake -G \"Visual Studio 17 2022\" -A x64``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 17 2022.rst:33 Studio
+msgid "``cmake -G \"Visual Studio 17 2022\" -A ARM``"
+msgstr "``cmake -G \"Visual Studio 17 2022\" -A ARM``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 17 2022.rst:34 Studio
+msgid "``cmake -G \"Visual Studio 17 2022\" -A ARM64``"
+msgstr "``cmake -G \"Visual Studio 17 2022\" -A ARM64``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 17 2022.rst:39 Studio
+msgid ""
+"The ``v143`` toolset that comes with VS 17 2022 is selected by default. "
+"The :variable:`CMAKE_GENERATOR_TOOLSET` option may be set, perhaps via the"
+" :option:`cmake -T` option, to specify another toolset."
+msgstr ""
+"默认选择VS 17 2022自带的``v143``工具集。 :variable:`CMAKE_GENERATOR_TOOLSET` 选项可以通过 "
+":option:`cmake -T` 选项设置，以指定另一个工具集。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 6.rst:2 Studio
+msgid "Visual Studio 6"
+msgstr "视觉工作室 6"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 6.rst:4 Studio
+msgid ""
+"Removed.  This once generated Visual Studio 6 project files, but the "
+"generator has been removed since CMake 3.6.  It is still possible to build"
+" with VS 6 tools using the :generator:`NMake Makefiles` generator."
+msgstr ""
+"删除。这曾经生成 Visual Studio 6 项目文件，但从 CMake 3.6 开始，该生成器已被删除。仍然可以使用 "
+":generator:`NMake Makefiles` 生成器使用 VS 6 工具进行构建。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 7.rst:2 Studio
+msgid "Visual Studio 7"
+msgstr "视觉工作室 7"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 7.rst:4 Studio
+msgid ""
+"Removed.  This once generated Visual Studio .NET 2002 project files, but "
+"the generator has been removed since CMake 3.6.  It is still possible to "
+"build with VS 7.0 tools using the :generator:`NMake Makefiles` generator."
+msgstr ""
+"删除。这曾经生成 Visual Studio .NET 2002 项目文件，但生成器已从 CMake 3.6 中删除。仍然可以使用 "
+":generator:`NMake Makefiles` 生成器使用 VS 7.0 工具进行构建。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual .NET 2003.rst:2 7
+#: Studio
+msgid "Visual Studio 7 .NET 2003"
+msgstr "视觉工作室 7.NET 2003"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual .NET 2003.rst:4 7
+#: Studio
+msgid ""
+"Removed.  This once generated Visual Studio .NET 2003 project files, but "
+"the generator has been removed since CMake 3.9.  It is still possible to "
+"build with VS 7.1 tools using the :generator:`NMake Makefiles` generator."
+msgstr ""
+"删除。这曾经生成 Visual Studio .NET 2003 项目文件，但生成器已从 CMake 3.9 中删除。仍然可以使用 "
+":generator:`NMake Makefiles` 生成器使用 VS 7.1 工具进行构建。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 2005.rst:2 8 Studio
+msgid "Visual Studio 8 2005"
+msgstr "视觉工作室 8 2005"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 2005.rst:4 8 Studio
+msgid ""
+"Removed.  This once generated Visual Studio 8 2005 project files, but the "
+"generator has been removed since CMake 3.12.  It is still possible to "
+"build with VS 2005 tools using the :generator:`NMake Makefiles` generator."
+msgstr ""
+"删除。这曾经生成 Visual Studio 8 2005 项目文件，但从 CMake 3.12 开始，该生成器已被删除。仍然可以使用 "
+":generator:`NMake Makefiles` 生成器使用 VS 2005 工具进行构建。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 2008.rst:2 9 Studio
+msgid "Visual Studio 9 2008"
+msgstr "视觉工作室 9 2008"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 2008.rst:4 9 Studio
+msgid "Generates Visual Studio 9 2008 project files."
+msgstr "生成 Visual Studio 9 2008 项目文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 2008.rst:16 9 Studio
+msgid "``cmake -G \"Visual Studio 9 2008\" -A Win32``"
+msgstr "``cmake -G \"Visual Studio 9 2008\" -A Win32``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 2008.rst:17 9 Studio
+msgid "``cmake -G \"Visual Studio 9 2008\" -A x64``"
+msgstr "``cmake -G \"Visual Studio 9 2008\" -A x64``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 2008.rst:18 9 Studio
+msgid "``cmake -G \"Visual Studio 9 2008\" -A Itanium``"
+msgstr "``cmake -G \"Visual Studio 9 2008\" -A Itanium``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 2008.rst:19 9 Studio
+msgid ""
+"``cmake -G \"Visual Studio 9 2008\" -A <WinCE-SDK>`` (Specify a target "
+"platform matching a Windows CE SDK name.)"
+msgstr ""
+"``cmake -G \"Visual Studio 9 2008\" -A <WinCE-SDK>``（指定与 Windows CE SDK "
+"名称匹配的目标平台。）"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 2008.rst:27 9 Studio
+msgid "``Visual Studio 9 2008 Win64``"
+msgstr "``Visual Studio 9 2008 Win64``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 2008.rst:30 9 Studio
+msgid "``Visual Studio 9 2008 IA64``"
+msgstr "``Visual Studio 9 2008 IA64``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 2008.rst:30 9 Studio
+msgid "Specify target platform ``Itanium``."
+msgstr "指定目标平台“Itanium”。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Visual 2008.rst:32 9 Studio
+msgid "``Visual Studio 9 2008 <WinCE-SDK>``"
+msgstr "``Visual Studio 9 2008 <WinCE-SDK>``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Watcom WMake.rst:2
+msgid "Watcom WMake"
+msgstr "沃通WMake"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Watcom WMake.rst:4
+msgid "Generates Watcom WMake makefiles."
+msgstr "生成 Watcom WMake 生成文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Xcode.rst:2
+msgid "Xcode"
+msgstr "Xcode"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Xcode.rst:4
+msgid "Generate Xcode project files."
+msgstr "生成 Xcode 项目文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Xcode.rst:6
+msgid "This generator supports Xcode 5.0 and above."
+msgstr "此生成器支持 Xcode 5.0 及更高版本。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Xcode.rst:12
+msgid "Toolset and Build System Selection"
+msgstr "工具集和构建系统选择"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Xcode.rst:14
+msgid ""
+"By default Xcode is allowed to select its own default toolchain. The "
+":variable:`CMAKE_GENERATOR_TOOLSET` option may be set, perhaps via the "
+":option:`cmake -T` option, to specify another toolset."
+msgstr ""
+"默认情况下，允许 Xcode 选择自己的默认工具链。 :variable:`CMAKE_GENERATOR_TOOLSET` 选项可以通过 "
+":option:`cmake -T` 选项设置，以指定另一个工具集。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Xcode.rst:18
+msgid ""
+"This generator supports toolset specification using one of these forms:"
+msgstr "此生成器支持使用以下形式之一的工具集规范："
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Xcode.rst:21
+msgid "``toolset``"
+msgstr "``工具集``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Xcode.rst:22
+msgid "``toolset[,key=value]*``"
+msgstr "``工具集[，键=值] *``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Xcode.rst:23
+msgid "``key=value[,key=value]*``"
+msgstr "``键=值[，键=值]*``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Xcode.rst:25
+msgid ""
+"The ``toolset`` specifies the toolset name.  The selected toolset name is "
+"provided in the :variable:`CMAKE_XCODE_PLATFORM_TOOLSET` variable."
+msgstr "``toolset`` 指定工具集名称。所选工具集名称在 CMAKE_XCODE_PLATFORM_TOOLSET 变量中提供。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Xcode.rst:28
+msgid ""
+"The ``key=value`` pairs form a comma-separated list of options to specify "
+"generator-specific details of the toolset selection. Supported pairs are:"
+msgstr "``key=value`` 对形成一个以逗号分隔的选项列表，用于指定工具集选择的特定于生成器的详细信息。支持的对是："
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Xcode.rst:37
+msgid "``buildsystem=<variant>``"
+msgstr "``buildsystem=<变体>``"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Xcode.rst:33
+msgid ""
+"Specify the buildsystem variant to use. See the "
+":variable:`CMAKE_XCODE_BUILD_SYSTEM` variable for allowed values."
+msgstr "指定要使用的构建系统变体。请参阅 :variable:`CMAKE_XCODE_BUILD_SYSTEM` 变量以了解允许的值。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Xcode.rst:36
+msgid ""
+"For example, to select the original build system under Xcode 12, run "
+":manual:`cmake(1)` with the option :option:`-T buildsystem=1 <cmake -T>`."
+msgstr ""
+"例如，要在 Xcode 12 下选择原始构建系统，请使用选项运行 :manual:`cmake(1)` :option:`-T "
+"buildsystem=1 <cmake -T>`。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Xcode.rst:44
+msgid ""
+"When using the ``Xcode`` generator with Xcode 6.1 or higher, one may "
+"enable the ``Swift`` language with the :command:`enable_language` command "
+"or the :command:`project`."
+msgstr ""
+"在 Xcode 6.1 或更高版本中使用 ``Xcode`` 生成器时，可以使用 :command:`enable_language` 命令或 "
+":command:`project` 启用 ``Swift`` 语言。"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Xcode.rst:49
+msgid "Limitations"
+msgstr "限制"
+
+#: ../../cmake-prefix/src/cmake/Help/generator/Xcode.rst:51
+msgid ""
+"The Xcode generator does not support per-configuration sources. Code like "
+"the following will result in a generation error:"
+msgstr "Xcode 生成器不支持按配置源。像下面这样的代码会导致生成错误："

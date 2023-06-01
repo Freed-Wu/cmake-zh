@@ -1,0 +1,98 @@
+# index
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.26.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-01 00:02+0800\n"
+"PO-Revision-Date: 2023-06-01 20:35+0800\n"
+"Last-Translator: Wu Zhenyu <wuzhenyu@ustc.edu>\n"
+"Language-Team: Wu Zhenyu <wuzhenyu@ustc.edu>\n"
+"Language: zh-CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../cmake-prefix/src/cmake/Help/index.rst:4
+msgid "Introduction"
+msgstr "介绍"
+
+#: ../../cmake-prefix/src/cmake/Help/index.rst:6
+msgid ""
+"CMake is a tool to manage building of source code.  Originally, CMake was "
+"designed as a generator for various dialects of ``Makefile``, today CMake "
+"generates modern buildsystems such as ``Ninja`` as well as project files "
+"for IDEs such as Visual Studio and Xcode."
+msgstr ""
+"CMake 是一种管理源代码构建的工具。最初，CMake 被设计为各种“Makefile”方言的生成器，如今 CMake "
+"生成现代构建系统，例如“Ninja”，以及用于虚拟实验室和 Xcode 等 IDE 的项目文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/index.rst:11
+msgid ""
+"CMake is widely used for the C and C++ languages, but it may be used to "
+"build source code of other languages too."
+msgstr "CMake 广泛用于 C 和 C++ 语言，但它也可用于构建其他语言的源代码。"
+
+#: ../../cmake-prefix/src/cmake/Help/index.rst:14
+msgid ""
+"People encountering CMake for the first time may have different initial "
+"goals.  To learn how to build a source code package downloaded from the "
+"internet, start with the :guide:`User Interaction Guide`. This will detail"
+" the steps needed to run the :manual:`cmake(1)` or :manual:`cmake-gui(1)` "
+"executable and how to choose a generator, and how to complete the build."
+msgstr ""
+"第一次接触 CMake 的人可能会有不同的初始目标。要了解如何构建从互联网下载的源代码包，请从 :guide:`用户交互指南 <User Interaction Guide>` 开始。这将详细说明运行 :manual:`cmake(1)` 或 :manual:`cmake-gui(1)`"
+" 可执行文件所需的步骤、如何选择生成器以及如何完成构建。"
+
+#: ../../cmake-prefix/src/cmake/Help/index.rst:21
+msgid ""
+"The :guide:`Using Dependencies Guide` is aimed at developers wishing to "
+"get started using a third-party library."
+msgstr ":guide:`使用依赖指南 <Using Dependencies Guide>` 面向希望开始使用第三方库的开发人员。"
+
+#: ../../cmake-prefix/src/cmake/Help/index.rst:24
+msgid ""
+"For developers starting a project using CMake, the :guide:`CMake Tutorial`"
+" is a suitable starting point.  The :manual:`cmake-buildsystem(7)` manual "
+"is aimed at developers expanding their knowledge of maintaining a "
+"buildsystem and becoming familiar with the build targets that can be "
+"represented in CMake.  The :manual:`cmake-packages(7)` manual explains how"
+" to create packages which can easily be consumed by third-party CMake-"
+"based buildsystems."
+msgstr ""
+"对于使用 CMake 开始项目的开发人员， :guide:`CMake 教程 <CMake Tutorial>` 是一个合适的起点。 :manual:`cmake-"
+"buildsystem(7)` 手册旨在帮助开发人员扩展他们维护构建系统的知识，并熟悉可以在 CMake 中表示的构建目标。 "
+":manual:`cmake-packages(7)` 手册解释了如何创建可以被第三方基于 CMake 的构建系统轻松使用的包。"
+
+#: ../../cmake-prefix/src/cmake/Help/index.rst:33
+msgid "Command-Line Tools"
+msgstr "命令行工具"
+
+#: ../../cmake-prefix/src/cmake/Help/index.rst:43
+msgid "Interactive Dialogs"
+msgstr "互动对话"
+
+#: ../../cmake-prefix/src/cmake/Help/index.rst:52
+msgid "Reference Manuals"
+msgstr "参考手册"
+
+#: ../../cmake-prefix/src/cmake/Help/index.rst:81
+msgid "Guides"
+msgstr "指南"
+
+#: ../../cmake-prefix/src/cmake/Help/index.rst:95
+msgid "Release Notes"
+msgstr "发行说明"
+
+#: ../../cmake-prefix/src/cmake/Help/index.rst:105
+msgid "Index and Search"
+msgstr "索引和搜索"
+
+#: ../../cmake-prefix/src/cmake/Help/index.rst:107
+msgid ":ref:`genindex`"
+msgstr ":ref:`genindex`"
+
+#: ../../cmake-prefix/src/cmake/Help/index.rst:108
+msgid ":ref:`search`"
+msgstr ":ref:`search`"

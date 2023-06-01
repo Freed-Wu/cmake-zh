@@ -1,0 +1,1015 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2023 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.26.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-01 00:02+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/ATTACHED_FILES.rst:2
+msgid "ATTACHED_FILES"
+msgstr "附加的文件"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/ATTACHED_FILES.rst:4
+msgid "Attach a list of files to a dashboard submission."
+msgstr "将文件列表附加到仪表板提交。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/ATTACHED_FILES.rst:6
+msgid ""
+"Set this property to a list of files that will be encoded and submitted to"
+" the dashboard as an addition to the test result."
+msgstr "将此属性设置为将被编码并作为测试结果的补充提交到仪表板的文件列表。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/ATTACHED_FILES_ON_FAIL.rst:2
+msgid "ATTACHED_FILES_ON_FAIL"
+msgstr "ATTACHED_FILES_ON_FAIL"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/ATTACHED_FILES_ON_FAIL.rst:4
+msgid "Attach a list of files to a dashboard submission if the test fails."
+msgstr "如果测试失败，请将文件列表附加到仪表板提交。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/ATTACHED_FILES_ON_FAIL.rst:6
+msgid ""
+"Same as :prop_test:`ATTACHED_FILES`, but these files will only be included"
+" if the test does not pass."
+msgstr "与 :prop_test:`ATTACHED_FILES` 相同，但只有在测试未通过时才会包含这些文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/COST.rst:2
+msgid "COST"
+msgstr "成本"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/COST.rst:4
+msgid ""
+"This property describes the cost of a test.  When parallel testing is "
+"enabled, tests in the test set will be run in descending order of cost. "
+"Projects can explicitly define the cost of a test by setting this property"
+" to a floating point value."
+msgstr "此属性描述测试的成本。启用并行测试后，测试集中的测试将按成本降序运行。项目可以通过将此属性设置为浮点值来明确定义测试成本。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/COST.rst:9
+msgid ""
+"When the cost of a test is not defined by the project, :manual:`ctest "
+"<ctest(1)>` will initially use a default cost of ``0``. It computes a "
+"weighted average of the cost each time a test is run and uses that as an "
+"improved estimate of the cost for the next run.  The more a test is re-run"
+" in the same build directory, the more representative the cost should "
+"become."
+msgstr ""
+"当项目未定义测试成本时， :manual:`ctest <ctest(1)>` 最初将使用默认成本 "
+"``0``。它会在每次运行测试时计算成本的加权平均值，并将其用作下一次运行的改进成本估算。在同一个构建目录中重新运行的测试越多，成本就越有代表性。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/DEPENDS.rst:2
+msgid "DEPENDS"
+msgstr "依靠"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/DEPENDS.rst:4
+msgid ""
+"Specifies that this test should only be run after the specified list of "
+"tests."
+msgstr "指定此测试应仅在指定的测试列表之后运行。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/DEPENDS.rst:6
+msgid ""
+"Set this to a list of tests that must finish before this test is run. The "
+"results of those tests are not considered, the dependency relationship is "
+"purely for order of execution (i.e. it is really just a *run after* "
+"relationship). Consider using test fixtures with setup tests if a "
+"dependency with successful completion is required (see "
+":prop_test:`FIXTURES_REQUIRED`)."
+msgstr ""
+"将其设置为在此测试运行之前必须完成的测试列表。不考虑这些测试的结果，依赖关系纯粹是为了执行顺序（即它实际上只是一个 *run after* "
+"关系）。如果需要成功完成的依赖项，请考虑将测试装置与设置测试一起使用（请参阅:prop_test:`FIXTURES_REQUIRED`）。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/DEPENDS.rst:13
+#: ../../cmake-prefix/src/cmake/Help/prop_test/REQUIRED_FILES.rst:11
+msgid "Examples"
+msgstr "例子"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/DISABLED.rst:2
+msgid "DISABLED"
+msgstr "禁用"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/DISABLED.rst:6
+msgid ""
+"If set to ``True``, the test will be skipped and its status will be 'Not "
+"Run'. A ``DISABLED`` test will not be counted in the total number of tests"
+" and its completion status will be reported to CDash as ``Disabled``."
+msgstr ""
+"如果设置为“True”，测试将被跳过，其状态将为“未运行”。 ``DISABLED`` 测试将不计入测试总数，其完成状态将作为 "
+"``Disabled`` 报告给 CDash。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/DISABLED.rst:10
+msgid ""
+"A ``DISABLED`` test does not participate in test fixture dependency "
+"resolution. If a ``DISABLED`` test has fixture requirements defined in its"
+" :prop_test:`FIXTURES_REQUIRED` property, it will not cause setup or "
+"cleanup tests for those fixtures to be added to the test set."
+msgstr ""
+"``DISABLED`` 测试不参与测试夹具依赖性解析。如果 ``DISABLED`` 测试在其 "
+":prop_test:`FIXTURES_REQUIRED` 属性中定义了夹具要求，则不会导致将这些夹具添加到测试集中的设置或清理测试。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/DISABLED.rst:15
+msgid ""
+"If a test with the :prop_test:`FIXTURES_SETUP` property set is "
+"``DISABLED``, the fixture behavior will be as though that setup test was "
+"passing and any test case requiring that fixture will still run."
+msgstr ""
+"如果带有 :prop_test:`FIXTURES_SETUP` 属性集的测试为 ``DISABLED``，则 fixture "
+"行为将如同该设置测试已通过，并且任何需要该 fixture 的测试用例仍将运行。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/ENVIRONMENT.rst:2
+msgid "ENVIRONMENT"
+msgstr "环境"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/ENVIRONMENT.rst:4
+msgid ""
+"Specify environment variables that should be defined for running a test."
+msgstr "指定应为运行测试定义的环境变量。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/ENVIRONMENT.rst:6
+msgid ""
+"Set to a :ref:`semicolon-separated list <CMake Language Lists>` list of "
+"environment variables and values of the form ``MYVAR=value``. Those "
+"environment variables will be defined while running the test. The "
+"environment changes from this property do not affect other tests."
+msgstr ""
+"设置为:ref:`分号分隔的列表 <CMake Language Lists>` 环境变量列表和``MYVAR=value`` "
+"形式的值。这些环境变量将在运行测试时定义。此属性的环境更改不会影响其他测试。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/ENVIRONMENT_MODIFICATION.rst:2
+msgid "ENVIRONMENT_MODIFICATION"
+msgstr "环境修改"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/ENVIRONMENT_MODIFICATION.rst:6
+msgid ""
+"Specify environment variables that should be modified for running a test. "
+"Note that the operations performed by this property are performed after "
+"the :prop_test:`ENVIRONMENT` property is already applied."
+msgstr "指定应修改以运行测试的环境变量。请注意，此属性执行的操作是在 :prop_test:`ENVIRONMENT` 属性已应用后执行的。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/ENVIRONMENT_MODIFICATION.rst:10
+msgid ""
+"Set to a :ref:`semicolon-separated list <CMake Language Lists>` of "
+"environment variables and values of the form ``MYVAR=OP:VALUE``, where "
+"``MYVAR`` is the case-sensitive name of an environment variable to be "
+"modified.  Entries are considered in the order specified in the property's"
+" value.  The ``OP`` may be one of:"
+msgstr ""
+"设置为:ref:`分号分隔的列表 <CMake Language Lists>` 的环境变量和 ``MYVAR=OP:VALUE`` 形式的值，其中"
+" ``MYVAR`` 是区分大小写的环境名称要修改的变量。按照属性值中指定的顺序考虑条目。 ``OP`` 可能是以下之一："
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/ENVIRONMENT_MODIFICATION.rst:16
+msgid ""
+"``reset``: Reset to the unmodified value, ignoring all modifications to "
+"``MYVAR`` prior to this entry. Note that this will reset the variable to "
+"the value set by :prop_test:`ENVIRONMENT`, if it was set, and otherwise to"
+" its state from the rest of the CTest execution."
+msgstr ""
+"``reset``：重置为未修改的值，忽略在此条目之前对 ``MYVAR`` 的所有修改。请注意，这会将变量重置为由 "
+":prop_test:`ENVIRONMENT` 设置的值（如果已设置），否则将重置为 CTest 执行的其余部分的状态。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/ENVIRONMENT_MODIFICATION.rst:20
+msgid "``set``: Replaces the current value of ``MYVAR`` with ``VALUE``."
+msgstr "``set``：将``MYVAR`` 的当前值替换为``VALUE``。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/ENVIRONMENT_MODIFICATION.rst:21
+msgid "``unset``: Unsets the current value of ``MYVAR``."
+msgstr "``unset``：取消设置``MYVAR`` 的当前值。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/ENVIRONMENT_MODIFICATION.rst:22
+msgid ""
+"``string_append``: Appends singular ``VALUE`` to the current value of "
+"``MYVAR``."
+msgstr "``string_append``：将单数``VALUE`` 附加到``MYVAR`` 的当前值。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/ENVIRONMENT_MODIFICATION.rst:24
+msgid ""
+"``string_prepend``: Prepends singular ``VALUE`` to the current value of "
+"``MYVAR``."
+msgstr "``string_prepend``：在``MYVAR`` 的当前值前加上单数``VALUE``。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/ENVIRONMENT_MODIFICATION.rst:26
+msgid ""
+"``path_list_append``: Appends singular ``VALUE`` to the current value of "
+"``MYVAR`` using the host platform's path list separator (``;`` on Windows "
+"and ``:`` elsewhere)."
+msgstr ""
+"``path_list_append``：使用主机平台的路径列表分隔符（Windows 上的``;`` "
+"和其他地方的``:``）将单数``VALUE`` 附加到``MYVAR`` 的当前值。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/ENVIRONMENT_MODIFICATION.rst:29
+msgid ""
+"``path_list_prepend``: Prepends singular ``VALUE`` to the current value of"
+" ``MYVAR`` using the host platform's path list separator (``;`` on Windows"
+" and ``:`` elsewhere)."
+msgstr ""
+"``path_list_prepend``：使用主机平台的路径列表分隔符（Windows 上的``;`` "
+"和其他地方的``:``）将单数``VALUE`` 添加到``MYVAR`` 的当前值。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/ENVIRONMENT_MODIFICATION.rst:32
+msgid ""
+"``cmake_list_append``: Appends singular ``VALUE`` to the current value of "
+"``MYVAR`` using ``;`` as the separator."
+msgstr "``cmake_list_append``：使用``;`` 作为分隔符将单数``VALUE`` 附加到``MYVAR`` 的当前值。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/ENVIRONMENT_MODIFICATION.rst:34
+msgid ""
+"``cmake_list_prepend``: Prepends singular ``VALUE`` to the current value "
+"of ``MYVAR`` using ``;`` as the separator."
+msgstr "``cmake_list_prepend``：使用``;``作为分隔符将单数``VALUE``添加到``MYVAR``的当前值。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/ENVIRONMENT_MODIFICATION.rst:37
+msgid ""
+"Unrecognized ``OP`` values will result in the test failing before it is "
+"executed. This is so that future operations may be added without changing "
+"valid behavior of existing tests."
+msgstr "无法识别的 ``OP`` 值将导致测试在执行之前失败。这样可以在不改变现有测试的有效行为的情况下添加未来的操作。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/ENVIRONMENT_MODIFICATION.rst:41
+msgid ""
+"The environment changes from this property do not affect other tests."
+msgstr "此属性的环境更改不会影响其他测试。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FAIL_REGULAR_EXPRESSION.rst:2
+msgid "FAIL_REGULAR_EXPRESSION"
+msgstr "FAIL_REGULAR_EXPRESSION 失败"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FAIL_REGULAR_EXPRESSION.rst:4
+msgid ""
+"If the output matches this regular expression the test will fail, "
+"regardless of the process exit code."
+msgstr "如果输出与此正则表达式匹配，则无论进程退出代码如何，测试都将失败。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FAIL_REGULAR_EXPRESSION.rst:7
+msgid ""
+"If set, if the output matches one of specified regular expressions, the "
+"test will fail.  Example:"
+msgstr "如果设置，如果输出与指定的正则表达式之一匹配，则测试将失败。例子："
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FAIL_REGULAR_EXPRESSION.rst:16
+msgid "``FAIL_REGULAR_EXPRESSION`` expects a list of regular expressions."
+msgstr "``FAIL_REGULAR_EXPRESSION`` 需要一个正则表达式列表。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FAIL_REGULAR_EXPRESSION.rst:18
+msgid ""
+"See also the :prop_test:`PASS_REGULAR_EXPRESSION` and "
+":prop_test:`SKIP_REGULAR_EXPRESSION` test properties."
+msgstr ""
+"另请参阅 :prop_test:`PASS_REGULAR_EXPRESSION` 和 "
+":prop_test:`SKIP_REGULAR_EXPRESSION` 测试属性。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FIXTURES_CLEANUP.rst:2
+msgid "FIXTURES_CLEANUP"
+msgstr "FIXTURES_CLEANUP"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FIXTURES_CLEANUP.rst:6
+msgid ""
+"Specifies a list of fixtures for which the test is to be treated as a "
+"cleanup test. These fixture names are distinct from test case names and "
+"are not required to have any similarity to the names of tests associated "
+"with them."
+msgstr "指定要将测试视为清理测试的固定装置列表。这些夹具名称与测试用例名称不同，并且不需要与与其关联的测试名称有任何相似之处。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FIXTURES_CLEANUP.rst:10
+msgid ""
+"Fixture cleanup tests are ordinary tests with all of the usual test "
+"functionality. Setting the ``FIXTURES_CLEANUP`` property for a test has "
+"two primary effects:"
+msgstr "夹具清理测试是具有所有常用测试功能的普通测试。为测试设置 ``FIXTURES_CLEANUP`` 属性有两个主要影响："
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FIXTURES_CLEANUP.rst:14
+msgid ""
+"CTest will ensure the test executes after all other tests which list any "
+"of the fixtures in its :prop_test:`FIXTURES_REQUIRED` property."
+msgstr ""
+"CTest 将确保测试在所有其他测试之后执行，这些测试在其 :prop_test:`FIXTURES_REQUIRED` 属性中列出了任何固定装置。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FIXTURES_CLEANUP.rst:17
+msgid ""
+"If CTest is asked to run only a subset of tests (e.g. using regular "
+"expressions or the ``--rerun-failed`` option) and the cleanup test is not "
+"in the set of tests to run, it will automatically be added if any tests in"
+" the set require any fixture listed in ``FIXTURES_CLEANUP``."
+msgstr ""
+"如果要求 CTest 仅运行测试的一个子集（例如使用正则表达式或“--rerun-"
+"failed”选项）并且清理测试不在要运行的测试集中，它将自动添加（如果有）集合中的测试需要 ``FIXTURES_CLEANUP`` "
+"中列出的任何夹具。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FIXTURES_CLEANUP.rst:22
+msgid ""
+"A cleanup test can have multiple fixtures listed in its "
+"``FIXTURES_CLEANUP`` property. It will execute only once for the whole "
+"CTest run, not once for each fixture. A fixture can also have more than "
+"one cleanup test defined. If there are multiple cleanup tests for a "
+"fixture, projects can control their order with the usual "
+":prop_test:`DEPENDS` test property if necessary."
+msgstr ""
+"清理测试可以在其“FIXTURES_CLEANUP”属性中列出多个固定装置。它将只对整个 CTest 运行执行一次，而不是对每个 fixture "
+"执行一次。夹具也可以定义多个清理测试。如果一个夹具有多个清理测试，项目可以在必要时使用通常的 :prop_test:`DEPENDS` "
+"测试属性来控制它们的顺序。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FIXTURES_CLEANUP.rst:28
+msgid ""
+"A cleanup test is allowed to require other fixtures, but not any fixture "
+"listed in its ``FIXTURES_CLEANUP`` property. For example:"
+msgstr "允许清理测试需要其他固定装置，但不需要其“FIXTURES_CLEANUP”属性中列出的任何固定装置。例如："
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FIXTURES_CLEANUP.rst:45
+msgid ""
+"Cleanup tests will execute even if setup or regular tests for that fixture"
+" fail or are skipped."
+msgstr "即使该夹具的设置或常规测试失败或被跳过，清理测试也会执行。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FIXTURES_CLEANUP.rst:48
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FIXTURES_SETUP.rst:49
+msgid ""
+"See :prop_test:`FIXTURES_REQUIRED` for a more complete discussion of how "
+"to use test fixtures."
+msgstr "有关如何使用测试夹具的更完整讨论，请参见:prop_test:`FIXTURES_REQUIRED`。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FIXTURES_REQUIRED.rst:2
+msgid "FIXTURES_REQUIRED"
+msgstr "FIXTURES_REQUIRED"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FIXTURES_REQUIRED.rst:6
+msgid ""
+"Specifies a list of fixtures the test requires. Fixture names are case "
+"sensitive and they are not required to have any similarity to test names."
+msgstr "指定测试所需的固定装置列表。夹具名称区分大小写，并且不需要与测试名称有任何相似之处。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FIXTURES_REQUIRED.rst:9
+msgid ""
+"Fixtures are a way to attach setup and cleanup tasks to a set of tests. If"
+" a test requires a given fixture, then all tests marked as setup tasks for"
+" that fixture will be executed first (once for the whole set of tests, not"
+" once per test requiring the fixture). After all tests requiring a "
+"particular fixture have completed, CTest will ensure all tests marked as "
+"cleanup tasks for that fixture are then executed. Tests are marked as "
+"setup tasks with the :prop_test:`FIXTURES_SETUP` property and as cleanup "
+"tasks with the :prop_test:`FIXTURES_CLEANUP` property. If any of a "
+"fixture's setup tests fail, all tests listing that fixture in their "
+"``FIXTURES_REQUIRED`` property will not be executed. The cleanup tests for"
+" the fixture will always be executed, even if some setup tests fail."
+msgstr ""
+"夹具是一种将设置和清理任务附加到一组测试的方法。如果测试需要给定的夹具，则将首先执行标记为该夹具的设置任务的所有测试（一次用于整个测试集，而不是每个需要夹具的测试一次）。在需要特定夹具的所有测试完成后，CTest"
+" 将确保随后执行标记为该夹具清理任务的所有测试。测试被标记为具有 :prop_test:`FIXTURES_SETUP` 属性的设置任务和具有 "
+":prop_test:`FIXTURES_CLEANUP` "
+"属性的清理任务。如果夹具的任何设置测试失败，则不会执行在其“FIXTURES_REQUIRED”属性中列出该夹具的所有测试。 fixture "
+"的清理测试将始终执行，即使某些设置测试失败。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FIXTURES_REQUIRED.rst:21
+msgid ""
+"When CTest is asked to execute only a subset of tests (e.g. by the use of "
+"regular expressions or when run with the :option:`--rerun-failed <ctest "
+"--rerun-failed>` command line option), it will automatically add any setup"
+" or cleanup tests for fixtures required by any of the tests that are in "
+"the execution set. This behavior can be overridden with the :option:`-FS "
+"<ctest -FS>`, :option:`-FC <ctest -FC>` and :option:`-FA <ctest -FA>` "
+"command line options to :manual:`ctest(1)` if desired."
+msgstr ""
+"当要求 CTest 仅执行一部分测试时（例如，通过使用正则表达式或使用 :option:`--rerun-failed <ctest "
+"--rerun-failed>` 命令行选项运行时），它会自动为执行集中的任何测试所需的固定装置添加任何设置或清理测试。可以使用 "
+":option:`-FS <ctest -FS>`、 :option:`-FC <ctest -FC>` 和 :option:`-FA <ctest "
+"-FA>` 命令行选项覆盖此行为 :manual:`ctest(1)` 如果需要。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FIXTURES_REQUIRED.rst:29
+msgid ""
+"Since setup and cleanup tasks are also tests, they can have an ordering "
+"specified by the :prop_test:`DEPENDS` test property just like any other "
+"tests. This can be exploited to implement setup or cleanup using multiple "
+"tests for a single fixture to modularise setup or cleanup logic."
+msgstr ""
+"由于设置和清理任务也是测试，因此它们可以像任何其他测试一样具有由 :prop_test:`DEPENDS` "
+"测试属性指定的顺序。这可以被利用来实现设置或清理，使用多个测试对单个夹具进行模块化设置或清理逻辑。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FIXTURES_REQUIRED.rst:34
+msgid ""
+"The concept of a fixture is different to that of a resource specified by "
+":prop_test:`RESOURCE_LOCK`, but they may be used together. A fixture "
+"defines a set of tests which share setup and cleanup requirements, whereas"
+" a resource lock has the effect of ensuring a particular set of tests do "
+"not run in parallel. Some situations may need both, such as setting up a "
+"database, serializing test access to that database and deleting the "
+"database again at the end. For such cases, tests would populate both "
+"``FIXTURES_REQUIRED`` and :prop_test:`RESOURCE_LOCK` to combine the two "
+"behaviors. Names used for :prop_test:`RESOURCE_LOCK` have no relationship "
+"with names of fixtures, so note that a resource lock does not imply a "
+"fixture and vice versa."
+msgstr ""
+"fixture 的概念与 :prop_test:`RESOURCE_LOCK` 指定的资源的概念不同，但它们可以一起使用。 fixture "
+"定义一组共享设置和清理要求的测试，而资源锁具有确保一组特定测试不会并行运行的效果。有些情况可能两者都需要，例如设置数据库、序列化对该数据库的测试访问并在最后再次删除数据库。对于这种情况，测试将填充"
+" ``FIXTURES_REQUIRED`` 和 :prop_test:`RESOURCE_LOCK` 以结合这两种行为。用于 "
+":prop_test:`RESOURCE_LOCK` 的名称与 fixture 的名称没有关系，因此请注意，资源锁并不意味着 "
+"fixture，反之亦然。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FIXTURES_REQUIRED.rst:45
+msgid ""
+"Consider the following example which represents a database test scenario "
+"similar to that mentioned above:"
+msgstr "考虑以下示例，它表示与上述类似的数据库测试场景："
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FIXTURES_REQUIRED.rst:74
+msgid "Key points from this example:"
+msgstr "这个例子的要点："
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FIXTURES_REQUIRED.rst:76
+msgid ""
+"Two fixtures are defined: ``DB`` and ``Foo``. Tests can require a single "
+"fixture as ``fooOnly`` and ``dbOnly`` do, or they can depend on multiple "
+"fixtures like ``dbWithFoo`` does."
+msgstr ""
+"定义了两个固定装置：``DB`` 和``Foo``。测试可以像``fooOnly`` 和``dbOnly`` "
+"那样需要一个固定装置，或者它们可以像``dbWithFoo`` 那样依赖于多个固定装置。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FIXTURES_REQUIRED.rst:80
+msgid ""
+"A ``DEPENDS`` relationship is set up to ensure ``setupUsers`` happens "
+"after ``createDB``, both of which are setup tests for the ``DB`` fixture "
+"and will therefore be executed before the ``dbOnly`` and ``dbWithFoo`` "
+"tests automatically."
+msgstr ""
+"建立“DEPENDS”关系以确保“setupUsers”发生在“createDB”之后，这两者都是“DB”夹具的设置测试，因此将在“dbOnly”之前执行`"
+" 和 ``dbWithFoo`` 自动测试。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FIXTURES_REQUIRED.rst:85
+msgid ""
+"No explicit ``DEPENDS`` relationships were needed to make the setup tests "
+"run before or the cleanup tests run after the regular tests."
+msgstr "不需要明确的“DEPENDS”关系来使设置测试在常规测试之前运行或清理测试在常规测试之后运行。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FIXTURES_REQUIRED.rst:88
+msgid ""
+"The ``Foo`` fixture has no setup tests defined, only a single cleanup "
+"test."
+msgstr "``Foo`` 夹具没有定义设置测试，只有一个清理测试。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FIXTURES_REQUIRED.rst:90
+msgid ""
+"``testsDone`` is a cleanup test for both the ``DB`` and ``Foo`` fixtures. "
+"Therefore, it will only execute once regular tests for both fixtures have "
+"finished (i.e. after ``fooOnly``, ``dbOnly`` and ``dbWithFoo``). No "
+"``DEPENDS`` relationship was specified for ``testsDone``, so it is free to"
+" run before, after or concurrently with other cleanup tests for either "
+"fixture."
+msgstr ""
+"``testsDone`` 是针对 ``DB`` 和 ``Foo`` "
+"固定装置的清理测试。因此，它只会在两个固定装置的常规测试完成后执行（即在“fooOnly”、“dbOnly”和“dbWithFoo”之后）。没有为 "
+"``testsDone`` 指定 ``DEPENDS`` 关系，因此它可以在任何一个夹具的其他清理测试之前、之后或同时运行。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FIXTURES_REQUIRED.rst:97
+msgid ""
+"The setup and cleanup tests never list the fixtures they are for in their "
+"own ``FIXTURES_REQUIRED`` property, as that would result in a dependency "
+"on themselves and be considered an error."
+msgstr ""
+"setup 和 cleanup 测试从不在它们自己的 ``FIXTURES_REQUIRED`` 属性中列出它们所针对的 "
+"fixture，因为这会导致对它们自己的依赖并被视为错误。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FIXTURES_SETUP.rst:2
+msgid "FIXTURES_SETUP"
+msgstr "FIXTURES_SETUP"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FIXTURES_SETUP.rst:6
+msgid ""
+"Specifies a list of fixtures for which the test is to be treated as a "
+"setup test. These fixture names are distinct from test case names and are "
+"not required to have any similarity to the names of tests associated with "
+"them."
+msgstr "指定一个夹具列表，测试将被视为设置测试。这些夹具名称与测试用例名称不同，并且不需要与与其关联的测试名称有任何相似之处。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FIXTURES_SETUP.rst:10
+msgid ""
+"Fixture setup tests are ordinary tests with all of the usual test "
+"functionality. Setting the ``FIXTURES_SETUP`` property for a test has two "
+"primary effects:"
+msgstr "夹具设置测试是具有所有常用测试功能的普通测试。为测试设置“FIXTURES_SETUP”属性有两个主要影响："
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FIXTURES_SETUP.rst:14
+msgid ""
+"CTest will ensure the test executes before any other test which lists the "
+"fixture name(s) in its :prop_test:`FIXTURES_REQUIRED` property."
+msgstr "CTest 将确保测试在任何其他在其 :prop_test:`FIXTURES_REQUIRED` 属性中列出夹具名称的测试之前执行。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FIXTURES_SETUP.rst:17
+msgid ""
+"If CTest is asked to run only a subset of tests (e.g. using regular "
+"expressions or the ``--rerun-failed`` option) and the setup test is not in"
+" the set of tests to run, it will automatically be added if any tests in "
+"the set require any fixture listed in ``FIXTURES_SETUP``."
+msgstr ""
+"如果要求 CTest 仅运行测试的一个子集（例如使用正则表达式或“--rerun-"
+"failed”选项）并且设置测试不在要运行的测试集中，它将自动添加（如果有）集合中的测试需要“FIXTURES_SETUP”中列出的任何夹具。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FIXTURES_SETUP.rst:22
+msgid ""
+"A setup test can have multiple fixtures listed in its ``FIXTURES_SETUP`` "
+"property. It will execute only once for the whole CTest run, not once for "
+"each fixture. A fixture can also have more than one setup test defined. If"
+" there are multiple setup tests for a fixture, projects can control their "
+"order with the usual :prop_test:`DEPENDS` test property if necessary."
+msgstr ""
+"设置测试可以在其“FIXTURES_SETUP”属性中列出多个夹具。它将只对整个 CTest 运行执行一次，而不是对每个 fixture "
+"执行一次。夹具还可以定义多个设置测试。如果一个夹具有多个设置测试，项目可以在必要时使用通常的 :prop_test:`DEPENDS` "
+"测试属性来控制它们的顺序。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FIXTURES_SETUP.rst:28
+msgid ""
+"A setup test is allowed to require other fixtures, but not any fixture "
+"listed in its ``FIXTURES_SETUP`` property. For example:"
+msgstr "允许设置测试需要其他夹具，但不是其“FIXTURES_SETUP”属性中列出的任何夹具。例如："
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/FIXTURES_SETUP.rst:45
+msgid ""
+"If any of a fixture's setup tests fail, none of the tests listing that "
+"fixture in its :prop_test:`FIXTURES_REQUIRED` property will be run. "
+"Cleanup tests will, however, still be executed."
+msgstr ""
+"如果夹具的任何设置测试失败，则不会运行在其 :prop_test:`FIXTURES_REQUIRED` "
+"属性中列出该夹具的任何测试。但是，清理测试仍将执行。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/LABELS.rst:2
+msgid "LABELS"
+msgstr "标签"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/LABELS.rst:4
+msgid ""
+"Specify a list of text labels associated with a test.  The labels are "
+"reported in both the :program:`ctest` output summary and in dashboard "
+"submissions. They can also be used to filter the set of tests to be "
+"executed (see the :option:`ctest -L` and :option:`ctest -LE` options)."
+msgstr ""
+"指定与测试关联的文本标签列表。这些标签在 :program:`ctest` "
+"输出摘要和仪表板提交中均有报告。它们还可以用于过滤要执行的测试集（请参阅:option:`ctest -L` 和:option:`ctest -LE` 选项）。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/LABELS.rst:9
+msgid ""
+"See :ref:`Additional Labels` for adding labels to a test dynamically "
+"during test execution."
+msgstr "请参阅 :ref:`Additional Labels` 以在测试执行期间动态地向测试添加标签。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/MEASUREMENT.rst:2
+msgid "MEASUREMENT"
+msgstr "测量"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/MEASUREMENT.rst:4
+msgid "Specify a ``CDASH`` measurement and value to be reported for a test."
+msgstr "指定要为测试报告的 ``CDASH`` 测量和值。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/MEASUREMENT.rst:6
+msgid ""
+"If set to a name then that name will be reported to ``CDASH`` as a named "
+"measurement with a value of ``1``.  You may also specify a value by "
+"setting ``MEASUREMENT`` to ``measurement=value``."
+msgstr ""
+"如果设置为一个名称，那么该名称将作为值为“1”的命名测量报告给“CDASH”。您还可以通过将“MEASUREMENT”设置为“measurement=value”来指定一个值。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/PASS_REGULAR_EXPRESSION.rst:2
+msgid "PASS_REGULAR_EXPRESSION"
+msgstr "通过_REGULAR_EXPRESSION"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/PASS_REGULAR_EXPRESSION.rst:4
+msgid ""
+"The output must match this regular expression for the test to pass. The "
+"process exit code is ignored."
+msgstr "输出必须匹配此正则表达式才能通过测试。进程退出代码被忽略。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/PASS_REGULAR_EXPRESSION.rst:7
+msgid ""
+"If set, the test output will be checked against the specified regular "
+"expressions and at least one of the regular expressions has to match, "
+"otherwise the test will fail.  Example:"
+msgstr "如果设置，测试输出将根据指定的正则表达式进行检查，并且至少有一个正则表达式必须匹配，否则测试将失败。例子："
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/PASS_REGULAR_EXPRESSION.rst:17
+msgid "``PASS_REGULAR_EXPRESSION`` expects a list of regular expressions."
+msgstr "``PASS_REGULAR_EXPRESSION`` 需要一个正则表达式列表。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/PASS_REGULAR_EXPRESSION.rst:19
+msgid ""
+"See also the :prop_test:`FAIL_REGULAR_EXPRESSION` and "
+":prop_test:`SKIP_REGULAR_EXPRESSION` test properties."
+msgstr ""
+"另请参阅 :prop_test:`FAIL_REGULAR_EXPRESSION` 和 "
+":prop_test:`SKIP_REGULAR_EXPRESSION` 测试属性。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/PROCESSORS.rst:2
+msgid "PROCESSORS"
+msgstr "处理器"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/PROCESSORS.rst:4
+msgid ""
+"Set to specify how many process slots this test requires. If not set, the "
+"default is ``1`` processor."
+msgstr "设置以指定此测试需要多少进程槽。如果未设置，则默认为“1”处理器。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/PROCESSORS.rst:7
+msgid ""
+"Denotes the number of processors that this test will require.  This is "
+"typically used for MPI tests, and should be used in conjunction with the "
+":command:`ctest_test` ``PARALLEL_LEVEL`` option."
+msgstr ""
+"表示此测试将需要的处理器数量。这通常用于 MPI 测试，应该与 :command:`ctest_test` ``PARALLEL_LEVEL`` "
+"选项结合使用。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/PROCESSORS.rst:11
+msgid ""
+"This will also be used to display a weighted test timing result in label "
+"and subproject summaries in the command line output of :manual:`ctest(1)`."
+" The wall clock time for the test run will be multiplied by this property "
+"to give a better idea of how much cpu resource CTest allocated for the "
+"test."
+msgstr ""
+"这也将用于在 :manual:`ctest(1)` "
+"的命令行输出中的标签和子项目摘要中显示加权测试计时结果。测试运行的挂钟时间将乘以该属性，以便更好地了解 CTest 为测试分配了多少 cpu 资源。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/PROCESSORS.rst:16
+msgid "See also the :prop_test:`PROCESSOR_AFFINITY` test property."
+msgstr "另请参阅 :prop_test:`PROCESSOR_AFFINITY` 测试属性。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/PROCESSOR_AFFINITY.rst:2
+msgid "PROCESSOR_AFFINITY"
+msgstr "PROCESSOR_AFFINITY"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/PROCESSOR_AFFINITY.rst:6
+msgid ""
+"Set to a true value to ask CTest to launch the test process with CPU "
+"affinity for a fixed set of processors.  If enabled and supported for the "
+"current platform, CTest will choose a set of processors to place in the "
+"CPU affinity mask when launching the test process.  The number of "
+"processors in the set is determined by the :prop_test:`PROCESSORS` test "
+"property or the number of processors available to CTest, whichever is "
+"smaller.  The set of processors chosen will be disjoint from the "
+"processors assigned to other concurrently running tests that also have the"
+" ``PROCESSOR_AFFINITY`` property enabled."
+msgstr ""
+"设置为真值以要求 CTest 为一组固定的处理器启动具有 CPU 亲和力的测试进程。如果为当前平台启用和支持，CTest "
+"将在启动测试过程时选择一组处理器放置在 CPU 关联掩码中。集合中的处理器数量由 :prop_test:`PROCESSORS` 测试属性或 "
+"CTest 可用的处理器数量决定，以较小者为准。选择的处理器集将与分配给其他同时运行的测试的处理器不相交，这些测试也启用了 "
+"``PROCESSOR_AFFINITY`` 属性。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/REQUIRED_FILES.rst:2
+msgid "REQUIRED_FILES"
+msgstr "REQUIRED_FILES 文件"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/REQUIRED_FILES.rst:4
+msgid ""
+"List of files required to run the test.  The filenames are relative to the"
+" test :prop_test:`WORKING_DIRECTORY` unless an absolute path is specified."
+msgstr "运行测试所需的文件列表。除非指定绝对路径，否则文件名是相对于测试 :prop_test:`WORKING_DIRECTORY` 的。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/REQUIRED_FILES.rst:7
+msgid ""
+"If set to a list of files, the test will not be run unless all of the "
+"files exist."
+msgstr "如果设置为文件列表，除非所有文件都存在，否则不会运行测试。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/REQUIRED_FILES.rst:13
+msgid ""
+"Suppose that ``test.txt`` is created by test ``baseTest`` and ``none.txt``"
+" does not exist:"
+msgstr "假设 ``test.txt`` 是由测试 ``baseTest`` 创建的，而 ``none.txt`` 不存在："
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/REQUIRED_FILES.rst:36
+msgid ""
+"The above example demonstrates how ``REQUIRED_FILES`` works, but it is not"
+" the most robust way to implement test ordering with failure detection.  "
+"For that, test fixtures are a better alternative (see "
+":prop_test:`FIXTURES_REQUIRED`)."
+msgstr ""
+"上面的示例演示了 REQUIRED_FILES "
+"是如何工作的，但它并不是实现带有故障检测的测试排序的最可靠方法。为此，测试夹具是更好的选择（请参阅:prop_test:`FIXTURES_REQUIRED`）。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/RESOURCE_GROUPS.rst:2
+msgid "RESOURCE_GROUPS"
+msgstr "资源组"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/RESOURCE_GROUPS.rst:6
+msgid ""
+"Specify resources required by a test, grouped in a way that is meaningful "
+"to the test.  See :ref:`resource allocation <ctest-resource-allocation>` "
+"for more information on how this property integrates into the CTest "
+"resource allocation feature."
+msgstr ""
+"指定测试所需的资源，以对测试有意义的方式分组。有关此属性如何集成到 CTest 资源分配功能中的更多信息，请参阅 :ref:`resource "
+"allocation <ctest-resource-allocation>`。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/RESOURCE_GROUPS.rst:11
+msgid ""
+"The ``RESOURCE_GROUPS`` property is a :ref:`semicolon-separated list "
+"<CMake Language Lists>` of group descriptions. Each entry consists of an "
+"optional number of groups using the description followed by a series of "
+"resource requirements for those groups. These requirements (and the number"
+" of groups) are separated by commas. The resource requirements consist of "
+"the name of a resource type, followed by a colon, followed by an unsigned "
+"integer specifying the number of slots required on one resource of the "
+"given type."
+msgstr ""
+"``RESOURCE_GROUPS`` 属性是:ref:`分号分隔的组描述列表 <CMake Language "
+"Lists>`。每个条目都包含可选数量的组，使用描述后跟这些组的一系列资源要求。这些要求（和组数）以逗号分隔。资源需求包括资源类型的名称，后跟一个冒号，再后跟一个无符号整数，指定给定类型的一种资源所需的槽数。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/RESOURCE_GROUPS.rst:19
+msgid ""
+"The ``RESOURCE_GROUPS`` property tells CTest what resources a test expects"
+" to use grouped in a way meaningful to the test.  The test itself must "
+"read the :ref:`environment variables <ctest-resource-environment-"
+"variables>` to determine which resources have been allocated to each "
+"group.  For example, each group may correspond to a process the test will "
+"spawn when executed."
+msgstr ""
+"``RESOURCE_GROUPS`` 属性告诉 CTest 测试期望以对测试有意义的方式分组使用哪些资源。测试本身必须读取 :ref:`环境变量 "
+"<ctest-resource-environment-variables>` "
+"以确定已将哪些资源分配给每个组。例如，每个组可能对应于测试将在执行时生成的进程。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/RESOURCE_GROUPS.rst:25
+msgid "Consider the following example:"
+msgstr "考虑以下示例："
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/RESOURCE_GROUPS.rst:34
+msgid ""
+"In this example, there are two group descriptions (implicitly separated by"
+" a semicolon.) The content of the first description is ``2,gpus:2``. This "
+"description specifies 2 groups, each of which requires 2 slots from a "
+"single GPU. The content of the second description is "
+"``gpus:4,crypto_chips:2``. This description does not specify a group "
+"count, so a default of 1 is assumed. This single group requires 4 slots "
+"from a single GPU and 2 slots from a single cryptography chip. In total, 3"
+" resource groups are specified for this test, each with its own unique "
+"requirements."
+msgstr ""
+"在这个例子中，有两个组描述（隐式用分号分隔。）第一个描述的内容是 ``2,gpus:2``。此描述指定 2 个组，每个组需要来自单个 GPU 的 2"
+" 个插槽。第二个描述的内容是``gpus:4,crypto_chips:2``。此描述未指定组计数，因此假定默认值为 1。这个单个组需要来自单个 "
+"GPU 的 4 个插槽和来自单个加密芯片的 2 个插槽。总共为该测试指定了 3 个资源组，每个资源组都有其独特的要求。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/RESOURCE_GROUPS.rst:43
+msgid ""
+"Note that the number of slots following the resource type specifies slots "
+"from a *single* instance of the resource. If the resource group can "
+"tolerate receiving slots from different instances of the same resource, it"
+" can indicate this by splitting the specification into multiple "
+"requirements of one slot. For example:"
+msgstr ""
+"请注意，资源类型后面的插槽数指定来自资源的*单个*实例的插槽。如果资源组可以容忍从同一资源的不同实例接收槽，则可以通过将规范拆分为一个槽的多个要求来表明这一点。例如："
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/RESOURCE_GROUPS.rst:55
+msgid ""
+"In this case, the single resource group indicates that it needs four GPU "
+"slots, all of which may come from separate GPUs (though they don't have "
+"to; CTest may still assign slots from the same GPU.)"
+msgstr ""
+"在这种情况下，单个资源组表明它需要四个 GPU 插槽，所有这些插槽都可能来自不同的 GPU（尽管它们不必如此；CTest 可能仍会从同一 GPU "
+"分配插槽。）"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/RESOURCE_GROUPS.rst:59
+msgid ""
+"When CTest sets the :ref:`environment variables <ctest-resource-"
+"environment-variables>` for a test, it assigns a group number based on the"
+" group description, starting at 0 on the left and the number of groups "
+"minus 1 on the right. For example, in the example above, the two groups in"
+" the first description would have IDs of 0 and 1, and the single group in "
+"the second description would have an ID of 2."
+msgstr ""
+"当 CTest 为测试设置 :ref:`环境变量 <ctest-resource-environment-variables>` "
+"时，它会根据组描述分配一个组号，从左侧的 0 开始，左侧的组数减去 1正确的。例如，在上面的示例中，第一个描述中的两个组的 ID 为 0 和 "
+"1，而第二个描述中的单个组的 ID 为 2。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/RESOURCE_GROUPS.rst:66
+msgid ""
+"Both the ``RESOURCE_GROUPS`` and :prop_test:`RESOURCE_LOCK` properties "
+"serve similar purposes, but they are distinct and orthogonal. Resources "
+"specified by ``RESOURCE_GROUPS`` do not affect :prop_test:`RESOURCE_LOCK`,"
+" and vice versa. Whereas :prop_test:`RESOURCE_LOCK` is a simpler property "
+"that is used for locking one global resource, ``RESOURCE_GROUPS`` is a "
+"more advanced property that allows multiple tests to simultaneously use "
+"multiple resources of the same type, specifying their requirements in a "
+"fine-grained manner."
+msgstr ""
+"``RESOURCE_GROUPS`` 和 :prop_test:`RESOURCE_LOCK` 属性都有相似的用途，但它们不同且正交。 "
+"``RESOURCE_GROUPS`` 指定的资源不会影响 :prop_test:`RESOURCE_LOCK`，反之亦然。 "
+":prop_test:`RESOURCE_LOCK` 是一个更简单的属性，用于锁定一个全局资源，``RESOURCE_GROUPS`` "
+"是一个更高级的属性，允许多个测试同时使用多个相同类型的资源，并详细说明它们的要求-粒度方式。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/RESOURCE_LOCK.rst:2
+msgid "RESOURCE_LOCK"
+msgstr "资源锁"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/RESOURCE_LOCK.rst:4
+msgid "Specify a list of resources that are locked by this test."
+msgstr "指定被该测试锁定的资源列表。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/RESOURCE_LOCK.rst:6
+msgid ""
+"If multiple tests specify the same resource lock, they are guaranteed not "
+"to run concurrently."
+msgstr "如果多个测试指定同一个资源锁，则保证它们不会并发运行。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/RESOURCE_LOCK.rst:9
+msgid ""
+"See also :prop_test:`FIXTURES_REQUIRED` if the resource requires any setup"
+" or cleanup steps."
+msgstr "如果资源需要任何设置或清理步骤，另请参阅:prop_test:`FIXTURES_REQUIRED`。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/RESOURCE_LOCK.rst:12
+msgid ""
+"Both the :prop_test:`RESOURCE_GROUPS` and ``RESOURCE_LOCK`` properties "
+"serve similar purposes, but they are distinct and orthogonal. Resources "
+"specified by :prop_test:`RESOURCE_GROUPS` do not affect ``RESOURCE_LOCK``,"
+" and vice versa. Whereas ``RESOURCE_LOCK`` is a simpler property that is "
+"used for locking one global resource, :prop_test:`RESOURCE_GROUPS` is a "
+"more advanced property that allows multiple tests to simultaneously use "
+"multiple resources of the same type, specifying their requirements in a "
+"fine-grained manner."
+msgstr ""
+":prop_test:`RESOURCE_GROUPS` 和 ``RESOURCE_LOCK`` 属性都有相似的用途，但它们不同且正交。 "
+":prop_test:`RESOURCE_GROUPS` 指定的资源不会影响 ``RESOURCE_LOCK``，反之亦然。 "
+"``RESOURCE_LOCK`` 是一个更简单的属性，用于锁定一个全局资源，RESOURCE_GROUPS` "
+"是一个更高级的属性，允许多个测试同时使用多个相同类型的资源，详细说明它们的要求-粒度方式。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/RUN_SERIAL.rst:2
+msgid "RUN_SERIAL"
+msgstr "运行序列号"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/RUN_SERIAL.rst:4
+msgid "Do not run this test in parallel with any other test."
+msgstr "不要与任何其他测试并行运行此测试。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/RUN_SERIAL.rst:6
+msgid ""
+"Use this option in conjunction with the ctest_test ``PARALLEL_LEVEL`` "
+"option to specify that this test should not be run in parallel with any "
+"other tests."
+msgstr "将此选项与 ctest_test ``PARALLEL_LEVEL`` 选项结合使用以指定此测试不应与任何其他测试并行运行。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/SKIP_REGULAR_EXPRESSION.rst:2
+msgid "SKIP_REGULAR_EXPRESSION"
+msgstr "SKIP_REGULAR_EXPRESSION 跳过"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/SKIP_REGULAR_EXPRESSION.rst:6
+msgid ""
+"If the output matches this regular expression the test will be marked as "
+"skipped."
+msgstr "如果输出与此正则表达式匹配，则测试将被标记为已跳过。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/SKIP_REGULAR_EXPRESSION.rst:8
+msgid ""
+"If set, if the output matches one of specified regular expressions, the "
+"test will be marked as skipped.  Example:"
+msgstr "如果设置，如果输出与指定的正则表达式之一匹配，则测试将被标记为已跳过。例子："
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/SKIP_REGULAR_EXPRESSION.rst:17
+msgid "``SKIP_REGULAR_EXPRESSION`` expects a list of regular expressions."
+msgstr "``SKIP_REGULAR_EXPRESSION`` 需要一个正则表达式列表。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/SKIP_REGULAR_EXPRESSION.rst:19
+msgid ""
+"See also the :prop_test:`SKIP_RETURN_CODE`, "
+":prop_test:`PASS_REGULAR_EXPRESSION`, and "
+":prop_test:`FAIL_REGULAR_EXPRESSION` test properties."
+msgstr ""
+"另请参阅 :prop_test:`SKIP_RETURN_CODE`、 :prop_test:`PASS_REGULAR_EXPRESSION` 和 "
+":prop_test:`FAIL_REGULAR_EXPRESSION` 测试属性。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/SKIP_RETURN_CODE.rst:2
+msgid "SKIP_RETURN_CODE"
+msgstr "跳过返回代码"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/SKIP_RETURN_CODE.rst:4
+msgid "Return code to mark a test as skipped."
+msgstr "返回代码以将测试标记为已跳过。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/SKIP_RETURN_CODE.rst:6
+msgid ""
+"Sometimes only a test itself can determine if all requirements for the "
+"test are met. If such a situation should not be considered a hard failure "
+"a return code of the process can be specified that will mark the test as "
+"``Not Run`` if it is encountered. Valid values are in the range of 0 to "
+"255, inclusive."
+msgstr ""
+"有时只有测试本身才能确定是否满足测试的所有要求。如果这种情况不应被视为硬故障，则可以指定进程的返回码，如果遇到这种情况，它将把测试标记为“未运行”。有效值在"
+" 0 到 255（含）范围内。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/SKIP_RETURN_CODE.rst:12
+msgid "See also the :prop_test:`SKIP_REGULAR_EXPRESSION` property."
+msgstr "另请参阅 :prop_test:`SKIP_REGULAR_EXPRESSION` 属性。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/TIMEOUT.rst:2
+msgid "TIMEOUT"
+msgstr "暂停"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/TIMEOUT.rst:4
+msgid "How many seconds to allow for this test."
+msgstr "此测试允许多少秒。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/TIMEOUT.rst:6
+msgid ""
+"This property if set will limit a test to not take more than the specified"
+" number of seconds to run.  If it exceeds that the test process will be "
+"killed and ctest will move to the next test.  This setting takes "
+"precedence over :variable:`CTEST_TEST_TIMEOUT`."
+msgstr ""
+"如果设置此属性，将限制测试的运行时间不超过指定的秒数。如果超过，测试进程将被杀死，ctest "
+"将进入下一个测试。此设置优先于 :variable:`CTEST_TEST_TIMEOUT`。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/TIMEOUT_AFTER_MATCH.rst:2
+msgid "TIMEOUT_AFTER_MATCH"
+msgstr "TIMEOUT_AFTER_MATCH"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/TIMEOUT_AFTER_MATCH.rst:6
+msgid ""
+"Change a test's timeout duration after a matching line is encountered in "
+"its output."
+msgstr "在输出中遇到匹配行后更改测试的超时持续时间。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/TIMEOUT_AFTER_MATCH.rst:10
+msgid "Usage"
+msgstr "用法"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/TIMEOUT_AFTER_MATCH.rst:18
+msgid "Description"
+msgstr "描述"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/TIMEOUT_AFTER_MATCH.rst:20
+msgid ""
+"Allow a test ``seconds`` to complete after ``regex`` is encountered in its"
+" output."
+msgstr "在其输出中遇到 ``regex`` 后，允许测试 ``seconds`` 完成。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/TIMEOUT_AFTER_MATCH.rst:23
+msgid ""
+"When the test outputs a line that matches ``regex`` its start time is "
+"reset to the current time and its timeout duration is changed to "
+"``seconds``.  Prior to this, the timeout duration is determined by the "
+":prop_test:`TIMEOUT` property or the :variable:`CTEST_TEST_TIMEOUT` "
+"variable if either of these are set.  Because the test's start time is "
+"reset, its execution time will not include any time that was spent waiting"
+" for the matching output."
+msgstr ""
+"当测试输出匹配 ``regex`` 的行时，其开始时间将重置为当前时间，并且其超时持续时间将更改为 ``seconds``。在此之前，超时持续时间由"
+" :prop_test:`TIMEOUT` 属性或 :variable:`CTEST_TEST_TIMEOUT` "
+"变量确定（如果设置了其中任何一个）。由于测试的开始时间已重置，因此其执行时间将不包括等待匹配输出所花费的任何时间。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/TIMEOUT_AFTER_MATCH.rst:31
+msgid ""
+"``TIMEOUT_AFTER_MATCH`` is useful for avoiding spurious timeouts when your"
+" test must wait for some system resource to become available before it can"
+" execute.  Set :prop_test:`TIMEOUT` to a longer duration that accounts for"
+" resource acquisition and use ``TIMEOUT_AFTER_MATCH`` to control how long "
+"the actual test is allowed to run."
+msgstr ""
+"``TIMEOUT_AFTER_MATCH`` 在您的测试必须等待某些系统资源可用后才能执行时，对于避免虚假超时很有用。将 "
+":prop_test:`TIMEOUT` 设置为考虑资源获取的较长持续时间，并使用 ``TIMEOUT_AFTER_MATCH`` "
+"来控制允许实际测试运行多长时间。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/TIMEOUT_AFTER_MATCH.rst:38
+msgid ""
+"If the required resource can be controlled by CTest you should use "
+":prop_test:`RESOURCE_LOCK` instead of ``TIMEOUT_AFTER_MATCH``. This "
+"property should be used when only the test itself can determine when its "
+"required resources are available."
+msgstr ""
+"如果所需资源可以由 CTest 控制，您应该使用 :prop_test:`RESOURCE_LOCK` 而不是 "
+"``TIMEOUT_AFTER_MATCH``。当只有测试本身可以确定其所需资源何时可用时，应使用此属性。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/WILL_FAIL.rst:2
+msgid "WILL_FAIL"
+msgstr "将失败"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/WILL_FAIL.rst:4
+msgid "If set to true, this will invert the pass/fail flag of the test."
+msgstr "如果设置为 true，这将反转测试的通过/失败标志。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/WILL_FAIL.rst:6
+msgid ""
+"This property can be used for tests that are expected to fail and return a"
+" non zero return code."
+msgstr "此属性可用于预期会失败并返回非零返回码的测试。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/WORKING_DIRECTORY.rst:2
+msgid "WORKING_DIRECTORY"
+msgstr "工作目录"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/WORKING_DIRECTORY.rst:4
+msgid "The directory from which the test executable will be called."
+msgstr "将从中调用测试可执行文件的目录。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_test/WORKING_DIRECTORY.rst:6
+msgid ""
+"If this is not set, the test will be run with the working directory set to"
+" the binary directory associated with where the test was created (i.e. the"
+" :variable:`CMAKE_CURRENT_BINARY_DIR` for where :command:`add_test` was "
+"called)."
+msgstr ""
+"如果未设置，则测试将运行，工作目录设置为与创建测试的位置关联的二进制目录（即 :variable:`CMAKE_CURRENT_BINARY_DIR` "
+"用于调用:command:`add_test`）。"

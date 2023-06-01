@@ -1,0 +1,1267 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2023 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.26.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-01 00:02+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/ABSTRACT.rst:2
+msgid "ABSTRACT"
+msgstr "抽象的"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/ABSTRACT.rst:4
+msgid "Is this source file an abstract class."
+msgstr "这个源文件是不是一个抽象类。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/ABSTRACT.rst:6
+msgid ""
+"A property on a source file that indicates if the source file represents a"
+" class that is abstract.  This only makes sense for languages that have a "
+"notion of an abstract class and it is only used by some tools that wrap "
+"classes into other languages."
+msgstr "源文件的一个属性，指示源文件是否表示抽象类。这仅对具有抽象类概念的语言有意义，并且仅由某些将类包装到其他语言中的工具使用。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/AUTORCC_OPTIONS.rst:2
+msgid "AUTORCC_OPTIONS"
+msgstr "AUTORCC_OPTIONS"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/AUTORCC_OPTIONS.rst:4
+msgid "Additional options for ``rcc`` when using :prop_tgt:`AUTORCC`"
+msgstr "使用 :prop_tgt:`AUTORCC` 时 ``rcc`` 的附加选项"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/AUTORCC_OPTIONS.rst:6
+msgid ""
+"This property holds additional command line options which will be used "
+"when ``rcc`` is executed during the build via :prop_tgt:`AUTORCC`, i.e. it"
+" is equivalent to the optional ``OPTIONS`` argument of the "
+":module:`qt4_add_resources() <FindQt4>` macro."
+msgstr ""
+"此属性包含额外的命令行选项，当通过 :prop_tgt:`AUTORCC` 在构建期间执行 ``rcc`` 时将使用这些选项，即它等效于 "
+":module:`qt4_add_resources 的可选 ``OPTIONS`` 参数() <FindQt4>` 宏。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/AUTORCC_OPTIONS.rst:10
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/AUTOUIC_OPTIONS.rst:11
+msgid "By default it is empty."
+msgstr "默认情况下它是空的。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/AUTORCC_OPTIONS.rst:12
+msgid ""
+"The options set on the ``.qrc`` source file may override "
+":prop_tgt:`AUTORCC_OPTIONS` set on the target."
+msgstr "在 ``.qrc`` 源文件上设置的选项可能会覆盖在目标上设置的 :prop_tgt:`AUTORCC_OPTIONS`。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/AUTORCC_OPTIONS.rst:16
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/AUTOUIC_OPTIONS.rst:17
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/SKIP_AUTOGEN.rst:13
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/SKIP_AUTOMOC.rst:11
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/SKIP_AUTORCC.rst:11
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/SKIP_AUTOUIC.rst:14
+msgid "EXAMPLE"
+msgstr "例子"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/AUTOUIC_OPTIONS.rst:2
+msgid "AUTOUIC_OPTIONS"
+msgstr "AUTOUIC_OPTIONS"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/AUTOUIC_OPTIONS.rst:4
+msgid "Additional options for ``uic`` when using :prop_tgt:`AUTOUIC`"
+msgstr "使用 :prop_tgt:`AUTOUIC` 时 ``uic`` 的附加选项"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/AUTOUIC_OPTIONS.rst:6
+msgid ""
+"This property holds additional command line options which will be used "
+"when ``uic`` is executed during the build via :prop_tgt:`AUTOUIC`, i.e. it"
+" is equivalent to the optional ``OPTIONS`` argument of the "
+":module:`qt4_wrap_ui() <FindQt4>` macro."
+msgstr ""
+"此属性包含额外的命令行选项，这些选项将在构建期间通过 AUTOUIC 执行 ``uic`` 时使用，即它等效于 "
+":module:`qt4_wrap_ui 的可选 ``OPTIONS`` 参数() <FindQt4>` 宏。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/AUTOUIC_OPTIONS.rst:13
+msgid ""
+"The options set on the ``.ui`` source file may override "
+":prop_tgt:`AUTOUIC_OPTIONS` set on the target."
+msgstr "在 ``.ui`` 源文件上设置的选项可能会覆盖在目标上设置的 :prop_tgt:`AUTOUIC_OPTIONS`。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/COMPILE_DEFINITIONS.rst:2
+msgid "COMPILE_DEFINITIONS"
+msgstr "编译定义"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/COMPILE_DEFINITIONS.rst:4
+msgid "Preprocessor definitions for compiling a source file."
+msgstr "用于编译源文件的预处理器定义。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/COMPILE_DEFINITIONS.rst:6
+msgid ""
+"The ``COMPILE_DEFINITIONS`` property may be set to a semicolon-separated "
+"list of preprocessor definitions using the syntax ``VAR`` or "
+"``VAR=value``. Function-style definitions are not supported.  CMake will "
+"automatically escape the value correctly for the native build system (note"
+" that CMake language syntax may require escapes to specify some values).  "
+"This property may be set on a per-configuration basis using the name "
+"``COMPILE_DEFINITIONS_<CONFIG>`` where ``<CONFIG>`` is an upper-case name "
+"(ex.  ``COMPILE_DEFINITIONS_DEBUG``)."
+msgstr ""
+"``COMPILE_DEFINITIONS`` 属性可以使用语法``VAR`` 或``VAR=value`` "
+"设置为以分号分隔的预处理器定义列表。不支持函数样式定义。 CMake 将自动为本机构建系统正确转义该值（请注意，CMake "
+"语言语法可能需要转义以指定某些值）。此属性可以使用名称 ``COMPILE_DEFINITIONS_<CONFIG>`` "
+"在每个配置的基础上设置，其中 ``<CONFIG>`` 是大写名称（例如 ``COMPILE_DEFINITIONS_DEBUG``）。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/COMPILE_DEFINITIONS.rst:15
+msgid ""
+"CMake will automatically drop some definitions that are not supported by "
+"the native build tool.  Xcode does not support per-configuration "
+"definitions on source files."
+msgstr "CMake 会自动删除一些本机构建工具不支持的定义。 Xcode 不支持源文件上的每个配置定义。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/COMPILE_DEFINITIONS.rst:19
+msgid "Any leading ``-D`` on an item will be removed."
+msgstr "项目上任何前导的 ``-D`` 都将被删除。"
+
+#: ../../cmake-prefix/src/cmake/Help/include/COMPILE_DEFINITIONS_DISCLAIMER.txt:1
+msgid ""
+"Disclaimer: Most native build tools have poor support for escaping certain"
+" values.  CMake has work-arounds for many cases but some values may just "
+"not be possible to pass correctly.  If a value does not seem to be escaped"
+" correctly, do not attempt to work-around the problem by adding escape "
+"sequences to the value.  Your work-around may break in a future version of"
+" CMake that has improved escape support.  Instead consider defining the "
+"macro in a (configured) header file.  Then report the limitation.  Known "
+"limitations include::"
+msgstr ""
+"免责声明：大多数本机构建工具对转义某些值的支持很差。 CMake "
+"在许多情况下都有解决方法，但某些值可能无法正确传递。如果某个值似乎没有正确转义，请不要尝试通过向该值添加转义序列来解决问题。您的解决方法可能会在改进了转义支持的未来版本的"
+" CMake 中中断。而是考虑在（已配置的）头文件中定义宏。然后报告限制。已知限制包括："
+
+#: ../../cmake-prefix/src/cmake/Help/include/COMPILE_DEFINITIONS_DISCLAIMER.txt:17
+msgid ""
+"CMake does not reject these values outright because they do work in some "
+"cases.  Use with caution."
+msgstr "CMake 不会完全拒绝这些值，因为它们在某些情况下确实有效。谨慎使用。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/COMPILE_DEFINITIONS.rst:24
+msgid ""
+"Contents of ``COMPILE_DEFINITIONS`` may use :manual:`cmake-generator-"
+"expressions(7)` with the syntax ``$<...>``.  See the :manual:`cmake-"
+"generator-expressions(7)` manual for available expressions.  However, "
+":generator:`Xcode` does not support per-config per-source settings, so "
+"expressions that depend on the build configuration are not allowed with "
+"that generator."
+msgstr ""
+"``COMPILE_DEFINITIONS`` 的内容可以使用 :manual:`cmake-generator-expressions(7)` "
+"和语法 ``$<...>``。请参阅 :manual:`cmake-generator-expressions(7)` "
+"手册了解可用的表达式。但是， :generator:`Xcode` 不支持每个配置的每个源设置，因此该生成器不允许依赖于构建配置的表达式。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/COMPILE_DEFINITIONS.rst:31
+msgid ""
+"Generator expressions should be preferred instead of setting the "
+"alternative per-configuration property."
+msgstr "应该首选生成器表达式，而不是设置替代的每个配置属性。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/COMPILE_DEFINITIONS_CONFIG.rst:2
+msgid "COMPILE_DEFINITIONS_<CONFIG>"
+msgstr "COMPILE_DEFINITIONS_<配置>"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/COMPILE_DEFINITIONS_CONFIG.rst:4
+msgid "Ignored.  See CMake Policy :policy:`CMP0043`."
+msgstr "忽略。请参阅 CMake 政策:policy:`CMP0043`。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/COMPILE_DEFINITIONS_CONFIG.rst:6
+msgid "Per-configuration preprocessor definitions on a source file."
+msgstr "源文件上的每个配置预处理器定义。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/COMPILE_DEFINITIONS_CONFIG.rst:8
+msgid ""
+"This is the configuration-specific version of "
+":prop_tgt:`COMPILE_DEFINITIONS`. Note that :generator:`Xcode` does not "
+"support per-configuration source file flags so this property will be "
+"ignored by the :generator:`Xcode` generator."
+msgstr ""
+"这是 :prop_tgt:`COMPILE_DEFINITIONS` 的特定配置版本。请注意:generator:`Xcode` "
+"不支持每个配置的源文件标志，因此该属性将被:generator:`Xcode` 生成器忽略。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/COMPILE_FLAGS.rst:2
+msgid "COMPILE_FLAGS"
+msgstr "COMPILE_FLAGS"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/COMPILE_FLAGS.rst:4
+msgid "Additional flags to be added when compiling this source file."
+msgstr "编译此源文件时要添加的其他标志。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/COMPILE_FLAGS.rst:6
+msgid ""
+"The ``COMPILE_FLAGS`` property, managed as a string, sets additional "
+"compiler flags used that will be added to the list of compile flags when "
+"this source file builds.  The flags will be added after target-wide flags "
+"(except in some cases not supported by the :generator:`Visual Studio 9 "
+"2008` generator)."
+msgstr ""
+"``COMPILE_FLAGS`` "
+"属性作为字符串进行管理，设置使用的附加编译器标志，这些标志将在构建此源文件时添加到编译标志列表中。标志将添加在目标范围标志之后（除了在某些情况下不受"
+" :generator:`Visual Studio 9 2008` 生成器支持）。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/COMPILE_FLAGS.rst:11
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/COMPILE_OPTIONS.rst:29
+msgid ""
+"Use :prop_sf:`COMPILE_DEFINITIONS` to pass additional preprocessor "
+"definitions."
+msgstr "使用 :prop_sf:`COMPILE_DEFINITIONS` 传递额外的预处理器定义。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/COMPILE_FLAGS.rst:13
+msgid ""
+"Contents of ``COMPILE_FLAGS`` may use \"generator expressions\" with the "
+"syntax ``$<...>``.  See the :manual:`cmake-generator-expressions(7)` "
+"manual for available expressions.  However, :generator:`Xcode` does not "
+"support per-config per-source settings, so expressions that depend on the "
+"build configuration are not allowed with that generator."
+msgstr ""
+"``COMPILE_FLAGS`` 的内容可以使用语法为``$<...>`` 的“生成器表达式”。请参阅 :manual:`cmake-"
+"generator-expressions(7)` 手册了解可用的表达式。但是， :generator:`Xcode` "
+"不支持每个配置的每个源设置，因此该生成器不允许依赖于构建配置的表达式。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/COMPILE_FLAGS.rst:22
+msgid ""
+"This property has been superseded by the :prop_sf:`COMPILE_OPTIONS` "
+"property."
+msgstr "此属性已被 :prop_sf:`COMPILE_OPTIONS` 属性取代。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/COMPILE_OPTIONS.rst:2
+msgid "COMPILE_OPTIONS"
+msgstr "编译选项"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/COMPILE_OPTIONS.rst:6
+msgid "List of additional options to pass to the compiler."
+msgstr "要传递给编译器的附加选项列表。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/COMPILE_OPTIONS.rst:8
+msgid ""
+"This property holds a :ref:`semicolon-separated list <CMake Language "
+"Lists>` of options and will be added to the list of compile flags when "
+"this source file builds.  The options will be added after target-wide "
+"options (except in some cases not supported by the :generator:`Visual "
+"Studio 9 2008` generator)."
+msgstr ""
+"此属性包含 :ref:`分号分隔的选项列表 <CMake Language "
+"Lists>`，并将在构建此源文件时添加到编译标志列表中。这些选项将添加在目标范围选项之后（除了在某些情况下不受 "
+":generator:`Visual Studio 9 2008` 生成器支持）。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/COMPILE_OPTIONS.rst:13
+msgid ""
+"Contents of ``COMPILE_OPTIONS`` may use \"generator expressions\" with the"
+" syntax ``$<...>``.  See the :manual:`cmake-generator-expressions(7)` "
+"manual for available expressions.  However, :generator:`Xcode` does not "
+"support per-config per-source settings, so expressions that depend on the "
+"build configuration are not allowed with that generator."
+msgstr ""
+"``COMPILE_OPTIONS`` 的内容可以使用语法为``$<...>`` 的“生成器表达式”。请参阅 :manual:`cmake-"
+"generator-expressions(7)` 手册了解可用的表达式。但是， :generator:`Xcode` "
+"不支持每个配置的每个源设置，因此该生成器不允许依赖于构建配置的表达式。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/COMPILE_OPTIONS.rst:20
+msgid "Usage example:"
+msgstr "使用示例："
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/COMPILE_OPTIONS.rst:26
+msgid "Related properties:"
+msgstr "相关属性："
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/COMPILE_OPTIONS.rst:28
+msgid "Prefer this property over :prop_sf:`COMPILE_FLAGS`."
+msgstr "比 :prop_sf:`COMPILE_FLAGS` 更喜欢此属性。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/COMPILE_OPTIONS.rst:30
+msgid ""
+"Use :prop_sf:`INCLUDE_DIRECTORIES` to pass additional include directories."
+msgstr "使用 :prop_sf:`INCLUDE_DIRECTORIES` 传递额外的包含目录。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/COMPILE_OPTIONS.rst:32
+msgid "Related commands:"
+msgstr "相关命令："
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/COMPILE_OPTIONS.rst:34
+msgid ":command:`add_compile_options` for directory-wide settings"
+msgstr ":command:`add_compile_options` 用于目录范围的设置"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/COMPILE_OPTIONS.rst:35
+msgid ":command:`target_compile_options` for target-specific settings"
+msgstr ":command:`target_compile_options` 用于特定于目标的设置"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/CXX_SCAN_FOR_MODULES.rst:2
+msgid "CXX_SCAN_FOR_MODULES"
+msgstr "CXX_SCAN_FOR_MODULES"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/CXX_SCAN_FOR_MODULES.rst:6
+msgid ""
+"``CXX_SCAN_FOR_MODULES`` is a boolean specifying whether CMake will scan "
+"the source for C++ module dependencies.  See also the "
+":prop_tgt:`CXX_SCAN_FOR_MODULES` for target-wide settings."
+msgstr ""
+"``CXX_SCAN_FOR_MODULES`` 是一个布尔值，指定 CMake 是否将扫描源代码以查找 C++ "
+"模块依赖项。另请参阅 :prop_tgt:`CXX_SCAN_FOR_MODULES` 了解目标范围的设置。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/CXX_SCAN_FOR_MODULES.rst:10
+msgid ""
+"When this property is set ``ON``, CMake will scan the source at build time"
+" and add module dependency information to the compile line as necessary.  "
+"When this property is set ``OFF``, CMake will not scan the source at build"
+" time.  When this property is unset, the :prop_tgt:`CXX_SCAN_FOR_MODULES` "
+"property is consulted."
+msgstr ""
+"当此属性设置为“ON”时，CMake 将在构建时扫描源代码，并根据需要将模块依赖信息添加到编译行。当此属性设置为“OFF”时，CMake "
+"将不会在构建时扫描源代码。当此属性未设置时，将查询 CXX_SCAN_FOR_MODULES 属性。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/CXX_SCAN_FOR_MODULES.rst:16
+msgid ""
+"Note that scanning is only performed if C++20 or higher is enabled for the"
+" target and the source uses the ``CXX`` language.  Scanning for modules in"
+" sources belonging to file sets of type ``CXX_MODULES`` and "
+"``CXX_MODULES_HEADER_UNITS`` is always performed."
+msgstr ""
+"请注意，仅当为目标启用了 C++20 "
+"或更高版本并且源使用“CXX”语言时才会执行扫描。始终执行扫描属于“CXX_MODULES”和“CXX_MODULES_HEADER_UNITS”类型文件集的源中的模块。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/CXX_SCAN_FOR_MODULES.rst:23
+msgid ""
+"This setting is meaningful only when experimental support for C++ modules "
+"has been enabled by the ``CMAKE_EXPERIMENTAL_CXX_MODULE_CMAKE_API`` gate."
+msgstr ""
+"仅当“CMAKE_EXPERIMENTAL_CXX_MODULE_CMAKE_API”门启用了对 C++ 模块的实验性支持时，此设置才有意义。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/EXTERNAL_OBJECT.rst:2
+msgid "EXTERNAL_OBJECT"
+msgstr "外部对象"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/EXTERNAL_OBJECT.rst:4
+msgid "If set to true then this is an object file."
+msgstr "如果设置为 true 那么这是一个目标文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/EXTERNAL_OBJECT.rst:6
+msgid ""
+"If this property is set to ``True`` then the source file is really an "
+"object file and should not be compiled.  It will still be linked into the "
+"target though."
+msgstr "如果此属性设置为“True”，则源文件实际上是一个目标文件，不应编译。它仍然会链接到目标中。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/Fortran_FORMAT.rst:2
+msgid "Fortran_FORMAT"
+msgstr "Fortran_格式"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/Fortran_FORMAT.rst:4
+msgid "Set to ``FIXED`` or ``FREE`` to indicate the Fortran source layout."
+msgstr "设置为“FIXED”或“FREE”以指示 Fortran 源布局。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/Fortran_FORMAT.rst:6
+msgid ""
+"This property tells CMake whether a given Fortran source file uses fixed-"
+"format or free-format.  CMake will pass the corresponding format flag to "
+"the compiler.  Consider using the target-wide :prop_tgt:`Fortran_FORMAT` "
+"property if all source files in a target share the same format."
+msgstr ""
+"此属性告诉 CMake 给定的 Fortran 源文件是使用固定格式还是自由格式。 CMake "
+"会将相应的格式标志传递给编译器。如果目标中的所有源文件共享相同的格式，请考虑使用目标范围的 Fortran_FORMAT 属性。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/Fortran_FORMAT.rst:11
+msgid ""
+"For some compilers, ``NAG``, ``PGI`` and ``Solaris Studio``, setting this "
+"to ``OFF`` will have no effect."
+msgstr "对于某些编译器，``NAG``、``PGI`` 和 ``Solaris Studio``，将此设置为 ``OFF`` 将无效。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/Fortran_PREPROCESS.rst:2
+msgid "Fortran_PREPROCESS"
+msgstr "Fortran_PREPROCESS"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/Fortran_PREPROCESS.rst:6
+msgid ""
+"Control whether the Fortran source file should be unconditionally "
+"preprocessed."
+msgstr "控制是否应无条件预处理 Fortran 源文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/Fortran_PREPROCESS.rst:8
+msgid ""
+"If unset or empty, rely on the compiler to determine whether the file "
+"should be preprocessed. If explicitly set to ``OFF`` then the file does "
+"not need to be preprocessed. If explicitly set to ``ON``, then the file "
+"does need to be preprocessed as part of the compilation step."
+msgstr ""
+"如果未设置或为空，则依靠编译器来确定是否应预处理文件。如果明确设置为 ``OFF`` 则文件不需要预处理。如果明确设置为 "
+"``ON``，则文件确实需要作为编译步骤的一部分进行预处理。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/Fortran_PREPROCESS.rst:13
+msgid ""
+"When using the :generator:`Ninja` generator, all source files are first "
+"preprocessed in order to generate module dependency information. Setting "
+"this property to ``OFF`` will make ``Ninja`` skip this step."
+msgstr ""
+"使用 :generator:`Ninja` 生成器时，首先对所有源文件进行预处理以生成模块依赖信息。将此属性设置为 ``OFF`` 将使 "
+"``Ninja`` 跳过此步骤。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/Fortran_PREPROCESS.rst:18
+msgid ""
+"Consider using the target-wide :prop_tgt:`Fortran_PREPROCESS` property if "
+"all source files in a target need to be preprocessed."
+msgstr "如果需要预处理目标中的所有源文件，请考虑使用目标范围的 Fortran_PREPROCESS 属性。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/GENERATED.rst:2
+msgid "GENERATED"
+msgstr "生成的"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/GENERATED.rst:4
+msgid "Is this source file generated as part of the build or CMake process."
+msgstr "此源文件是作为构建或 CMake 过程的一部分生成的。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/GENERATED.rst:6
+msgid ""
+"The GENERATED source file property is now visible in all directories."
+msgstr "GENERATED 源文件属性现在在所有目录中都可见。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/GENERATED.rst:9
+msgid ""
+"Tells the internal CMake engine that a source file is generated by an "
+"outside process such as another build step, or the execution of CMake "
+"itself. This information is then used to exempt the file from any "
+"existence or validity checks."
+msgstr ""
+"告诉内部 CMake 引擎源文件是由外部进程生成的，例如另一个构建步骤或 CMake 本身的执行。然后使用此信息免除文件的任何存在或有效性检查。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/GENERATED.rst:14
+msgid "Any file that is"
+msgstr "任何文件是"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/GENERATED.rst:16
+msgid ""
+"created by the execution of commands such as :command:`add_custom_command`"
+" and :command:`file(GENERATE)`"
+msgstr "通过执行以下命令创建:command:`add_custom_command` 和 :command:`file(GENERATE)`"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/GENERATED.rst:18
+msgid ""
+"listed as one of the ``BYPRODUCTS`` of an :command:`add_custom_command` or"
+" :command:`add_custom_target` command, or"
+msgstr "列为 add_custom_command 或 add_custom_target 命令的副产品之一，或"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/GENERATED.rst:20
+msgid ""
+"created by a CMake ``AUTOGEN`` operation such as :prop_tgt:`AUTOMOC`, "
+":prop_tgt:`AUTORCC`, or :prop_tgt:`AUTOUIC`"
+msgstr ""
+"由 CMake ``AUTOGEN`` 操作创建，例如 :prop_tgt:`AUTOMOC`、 :prop_tgt:`AUTORCC` 或 "
+":prop_tgt:`AUTOUIC`"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/GENERATED.rst:23
+msgid "will be marked with the ``GENERATED`` property."
+msgstr "将标有 ``GENERATED`` 属性。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/GENERATED.rst:25
+msgid ""
+"When a generated file created as the ``OUTPUT`` of an "
+":command:`add_custom_command` command is explicitly listed as a source "
+"file for any target in the same directory scope (which usually means the "
+"same ``CMakeLists.txt`` file), CMake will automatically create a "
+"dependency to make sure the file is generated before building that target."
+msgstr ""
+"当作为 add_custom_command 命令的 ``OUTPUT`` "
+"创建的生成文件被明确列为同一目录范围内任何目标的源文件时（这通常意味着相同的 ``CMakeLists.txt`` 文件), CMake "
+"将自动创建一个依赖项以确保在构建该目标之前生成该文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/GENERATED.rst:31
+msgid ""
+"The :ref:`Makefile Generators` will remove ``GENERATED`` files during "
+"``make clean``."
+msgstr ":ref:`Makefile Generators` 将在``make clean`` 期间删除``GENERATED`` 文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/GENERATED.rst:34
+msgid ""
+"Generated sources may be hidden in some IDE tools, while in others they "
+"might be shown. For the special case of sources generated by CMake's "
+":prop_tgt:`AUTOMOC`, :prop_tgt:`AUTORCC` or :prop_tgt:`AUTOUIC` "
+"functionality, the :prop_gbl:`AUTOGEN_SOURCE_GROUP`, "
+":prop_gbl:`AUTOMOC_SOURCE_GROUP`, :prop_gbl:`AUTORCC_SOURCE_GROUP` and "
+":prop_gbl:`AUTOUIC_SOURCE_GROUP` target properties may influence where the"
+" generated sources are grouped in the project's file lists."
+msgstr ""
+"生成的源代码可能隐藏在某些 IDE 工具中，而在其他工具中可能会显示。对于 CMake 的 "
+":prop_tgt:`AUTOMOC`、 :prop_tgt:`AUTORCC` 或 :prop_tgt:`AUTOUIC` "
+"功能生成的源的特殊情况， :prop_gbl:`AUTOGEN_SOURCE_GROUP`、 :prop_gbl:`AUTOMOC_SOURCE_GROUP`、 :prop_gbl:`"
+" AUTORCC_SOURCE_GROUP` 和 :prop_gbl:`AUTOUIC_SOURCE_GROUP` "
+"目标属性可能会影响生成的源在项目文件列表中的分组位置。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/GENERATED.rst:44
+msgid ""
+"Starting with CMake 3.20 the ``GENERATED`` source file property can be set"
+" and retrieved from any directory scope. It is an all-or-nothing property."
+" It also can no longer be removed or unset if it was set to ``TRUE``. "
+"Policy :policy:`CMP0118` was introduced to allow supporting the ``OLD`` "
+"behavior for some time."
+msgstr ""
+"从 CMake 3.20 开始，可以从任何目录范围设置和检索 ``GENERATED`` "
+"源文件属性。这是一个全有或全无的属性。如果它被设置为“真”，它也不能再被删除或取消设置。策略:policy:`CMP0118` 被引入以允许在一段时间内支持"
+" ``OLD`` 行为。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/HEADER_FILE_ONLY.rst:2
+msgid "HEADER_FILE_ONLY"
+msgstr "HEADER_FILE_ONLY"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/HEADER_FILE_ONLY.rst:4
+msgid "Is this source file only a header file."
+msgstr "这个源文件只是一个头文件吗。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/HEADER_FILE_ONLY.rst:6
+msgid ""
+"A property on a source file that indicates if the source file is a header "
+"file with no associated implementation.  This is set automatically based "
+"on the file extension and is used by CMake to determine if certain "
+"dependency information should be computed."
+msgstr ""
+"源文件的一个属性，指示源文件是否是没有关联实现的头文件。这是根据文件扩展名自动设置的，CMake 使用它来确定是否应该计算某些依赖信息。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/HEADER_FILE_ONLY.rst:11
+msgid ""
+"By setting this property to ``ON``, you can disable compilation of the "
+"given source file, even if it should be compiled because it is part of the"
+" library's/executable's sources."
+msgstr "通过将此属性设置为“ON”，您可以禁用给定源文件的编译，即使它应该被编译，因为它是库/可执行文件源的一部分。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/HEADER_FILE_ONLY.rst:15
+msgid ""
+"This is useful if you have some source files which you somehow pre-"
+"process, and then add these pre-processed sources via "
+":command:`add_library` or :command:`add_executable`. Normally, in IDE, "
+"there would be no reference of the original sources, only of these pre-"
+"processed sources. So by setting this property for all the original source"
+" files to ``ON``, and then either calling :command:`add_library` or "
+":command:`add_executable` while passing both the pre-processed sources and"
+" the original sources, or by using :command:`target_sources` to add "
+"original source files will do exactly what would one expect, i.e. the "
+"original source files would be visible in IDE, and will not be built."
+msgstr ""
+"如果您有一些以某种方式预处理的源文件，然后通过 :command:`add_library` 或 :command:`add_executable`"
+" 添加这些预处理的源，这将很有用。通常，在 IDE 中，不会有原始源的引用，只有这些预处理的源。因此，通过将所有原始源文件的此属性设置为 "
+"``ON``，然后在传递预处理源和原始源时调用 :command:`add_library` 或 "
+":command:`add_executable`，或者通过使用 :command:`target_sources` "
+"添加原始源文件将完全符合预期，即原始源文件将在 IDE 中可见，并且不会被构建。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/INCLUDE_DIRECTORIES.rst:2
+msgid "INCLUDE_DIRECTORIES"
+msgstr "INCLUDE_DIRECTORIES"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/INCLUDE_DIRECTORIES.rst:6
+msgid "List of preprocessor include file search directories."
+msgstr "预处理器列表包括文件搜索目录。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/INCLUDE_DIRECTORIES.rst:8
+msgid ""
+"This property holds a :ref:`semicolon-separated list <CMake Language "
+"Lists>` of paths and will be added to the list of include directories when"
+" this source file builds. These directories will take precedence over "
+"directories defined at target level except for :generator:`Xcode` "
+"generator due to technical limitations."
+msgstr ""
+"此属性包含路径的 :ref:`分号分隔列表 <CMake Language "
+"Lists>`，并将在构建此源文件时添加到包含目录列表中。由于技术限制，这些目录将优先于在目标级别定义的目录，但 Xcode 生成器除外。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/INCLUDE_DIRECTORIES.rst:14
+msgid "Relative paths should not be added to this property directly."
+msgstr "不应将相对路径直接添加到此属性。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/INCLUDE_DIRECTORIES.rst:16
+msgid ""
+"Contents of ``INCLUDE_DIRECTORIES`` may use \"generator expressions\" with"
+" the syntax ``$<...>``.  See the :manual:`cmake-generator-expressions(7)` "
+"manual for available expressions.  However, :generator:`Xcode` does not "
+"support per-config per-source settings, so expressions that depend on the "
+"build configuration are not allowed with that generator."
+msgstr ""
+"``INCLUDE_DIRECTORIES`` 的内容可以使用语法为``$<...>`` 的“生成器表达式”。请参阅 :manual:`cmake-"
+"generator-expressions(7)` 手册了解可用的表达式。但是， :generator:`Xcode` "
+"不支持每个配置的每个源设置，因此该生成器不允许依赖于构建配置的表达式。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/KEEP_EXTENSION.rst:2
+msgid "KEEP_EXTENSION"
+msgstr "保持扩展"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/KEEP_EXTENSION.rst:4
+msgid "Make the output file have the same extension as the source file."
+msgstr "使输出文件具有与源文件相同的扩展名。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/KEEP_EXTENSION.rst:6
+msgid ""
+"If this property is set then the file extension of the output file will be"
+" the same as that of the source file.  Normally the output file extension "
+"is computed based on the language of the source file, for example ``.cxx``"
+" will go to a ``.o`` extension."
+msgstr ""
+"如果设置了此属性，则输出文件的文件扩展名将与源文件的文件扩展名相同。通常输出文件扩展名是根据源文件的语言计算的，例如 ``.cxx`` 将转到 "
+"``.o`` 扩展名。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/LABELS.rst:2
+msgid "LABELS"
+msgstr "标签"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/LABELS.rst:4
+msgid "Specify a list of text labels associated with a source file."
+msgstr "指定与源文件关联的文本标签列表。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/LABELS.rst:6
+msgid ""
+"This property has meaning only when the source file is listed in a target "
+"whose ``LABELS`` property is also set.  No other semantics are currently "
+"specified."
+msgstr "仅当源文件列在其“标签”属性也被设置的目标中时，此属性才有意义。当前没有指定其他语义。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/LANGUAGE.rst:2
+msgid "LANGUAGE"
+msgstr "语言"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/LANGUAGE.rst:4
+msgid "Specify the programming language in which a source file is written."
+msgstr "指定编写源文件所用的编程语言。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/LANGUAGE.rst:6
+msgid ""
+"A property that can be set to indicate what programming language the "
+"source file is.  If it is not set the language is determined based on the "
+"file extension.  Typical values are ``CXX`` (i.e.  C++), ``C``, "
+"``CSharp``, ``CUDA``, ``Fortran``, ``HIP``, ``ISPC``, and ``ASM``.  "
+"Setting this property for a file means this file will be compiled, unless "
+":prop_sf:`HEADER_FILE_ONLY` is set."
+msgstr ""
+"可以设置以指示源文件是哪种编程语言的属性。如果未设置，则根据文件扩展名确定语言。典型值是“CXX”（即 "
+"C++）、“C”、“CSharp”、“CUDA”、“Fortran”、“HIP”、“ISPC”和``ASM``。为文件设置这个属性意味着这个文件将被编译，除非"
+" :prop_sf:`HEADER_FILE_ONLY` 被设置。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/LANGUAGE.rst:13
+msgid ""
+"Setting this property causes the source file to be compiled as the "
+"specified language, using explicit flags if possible.  Previously it only "
+"caused the specified language's compiler to be used. See policy "
+":policy:`CMP0119`."
+msgstr ""
+"设置此属性会导致源文件被编译为指定的语言，如果可能，使用显式标志。以前它只会导致使用指定语言的编译器。请参阅政策:policy:`CMP0119`。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/LOCATION.rst:2
+msgid "LOCATION"
+msgstr "地点"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/LOCATION.rst:4
+msgid "The full path to a source file."
+msgstr "源文件的完整路径。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/LOCATION.rst:6
+msgid ""
+"A read only property on a SOURCE FILE that contains the full path to the "
+"source file."
+msgstr "包含源文件完整路径的 SOURCE FILE 的只读属性。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/MACOSX_PACKAGE_LOCATION.rst:2
+msgid "MACOSX_PACKAGE_LOCATION"
+msgstr "MACOSX_PACKAGE_LOCATION"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/MACOSX_PACKAGE_LOCATION.rst:4
+msgid ""
+"Place a source file inside a Application Bundle "
+"(:prop_tgt:`MACOSX_BUNDLE`), Core Foundation Bundle (:prop_tgt:`BUNDLE`), "
+"or Framework Bundle (:prop_tgt:`FRAMEWORK`).  It is applicable for macOS "
+"and iOS."
+msgstr ""
+"将源文件放入应用程序包 (:prop_tgt:`MACOSX_BUNDLE`)、核心基础包 (:prop_tgt:`BUNDLE`) 或框架包 "
+"(:prop_tgt:`FRAMEWORK`) 中。适用于 macOS 和 iOS。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/MACOSX_PACKAGE_LOCATION.rst:9
+msgid ""
+"Executable targets with the :prop_tgt:`MACOSX_BUNDLE` property set are "
+"built as macOS or iOS application bundles on Apple platforms.  Shared "
+"library targets with the :prop_tgt:`FRAMEWORK` property set are built as "
+"macOS or iOS frameworks on Apple platforms.  Module library targets with "
+"the :prop_tgt:`BUNDLE` property set are built as macOS ``CFBundle`` "
+"bundles on Apple platforms.  Source files listed in the target with this "
+"property set will be copied to a directory inside the bundle or framework "
+"content folder specified by the property value.  For macOS Application "
+"Bundles the content folder is ``<name>.app/Contents``.  For macOS "
+"Frameworks the content folder is ``<name>.framework/Versions/<version>``."
+"  For macOS CFBundles the content folder is ``<name>.bundle/Contents`` "
+"(unless the extension is changed).  See the :prop_tgt:`PUBLIC_HEADER`, "
+":prop_tgt:`PRIVATE_HEADER`, and :prop_tgt:`RESOURCE` target properties for"
+" specifying files meant for ``Headers``, ``PrivateHeaders``, or "
+"``Resources`` directories."
+msgstr ""
+"具有 :prop_tgt:`MACOSX_BUNDLE` 属性集的可执行目标在 Apple 平台上构建为 macOS 或 iOS 应用程序包。具有 "
+":prop_tgt:`FRAMEWORK` 属性集的共享库目标在 Apple 平台上构建为 macOS 或 iOS 框架。具有 "
+":prop_tgt:`BUNDLE` 属性集的模块库目标在 Apple 平台上构建为 macOS ``CFBundle`` "
+"包。目标中列出的具有此属性集的源文件将被复制到由属性值指定的包或框架内容文件夹内的目录。对于 macOS 应用程序包，内容文件夹是 "
+"``<name>.app/Contents``。对于 macOS "
+"Frameworks，内容文件夹是``<name>.framework/Versions/<version>``。对于 macOS "
+"CFBundles，内容文件夹是 ``<name>.bundle/Contents``（除非更改了扩展名）。请参阅 "
+":prop_tgt:`PUBLIC_HEADER`、 :prop_tgt:`PRIVATE_HEADER` 和 "
+":prop_tgt:`RESOURCE` 目标属性以指定用于 ``Headers``、``PrivateHeaders`` 或 "
+"``Resources`` 目录的文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/MACOSX_PACKAGE_LOCATION.rst:25
+msgid ""
+"If the specified location is equal to ``Resources``, the resulting "
+"location will be the same as if the :prop_tgt:`RESOURCE` property had been"
+" used. If the specified location is a sub-folder of ``Resources``, it will"
+" be placed into the respective sub-folder. Note: For iOS Apple uses a flat"
+" bundle layout where no ``Resources`` folder exist. Therefore CMake strips"
+" the ``Resources`` folder name from the specified location."
+msgstr ""
+"如果指定位置等于 ``Resources``，则生成的位置将与使用 :prop_tgt:`RESOURCE` 属性时相同。如果指定位置是 "
+"``Resources`` 的子文件夹，它将被放置到相应的子文件夹中。注意：对于 iOS，Apple "
+"使用平面捆绑布局，其中不存在“Resources”文件夹。因此，CMake 从指定位置删除了“Resources”文件夹名称。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/OBJECT_DEPENDS.rst:2
+msgid "OBJECT_DEPENDS"
+msgstr "OBJECT_DEPENDS"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/OBJECT_DEPENDS.rst:4
+msgid "Additional files on which a compiled object file depends."
+msgstr "已编译目标文件所依赖的附加文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/OBJECT_DEPENDS.rst:6
+msgid ""
+"Specifies a :ref:`semicolon-separated list <CMake Language Lists>` of "
+"full-paths to files on which any object files compiled from this source "
+"file depend. On :ref:`Makefile Generators` and the :generator:`Ninja` "
+"generator an object file will be recompiled if any of the named files is "
+"newer than it. :ref:`Visual Studio Generators` and the :generator:`Xcode` "
+"generator cannot implement such compilation dependencies."
+msgstr ""
+"指定文件的完整路径的 :ref:`分号分隔列表 <CMake Language Lists>`，从该源文件编译的任何目标文件都依赖于这些文件。在 "
+":ref:`Makefile Generators` 和 :generator:`Ninja` "
+"生成器上，如果任何命名文件比它更新，目标文件将被重新编译。 :ref:`Visual Studio Generators` 和 "
+":generator:`Xcode` 生成器无法实现此类编译依赖项。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/OBJECT_DEPENDS.rst:13
+msgid ""
+"This property need not be used to specify the dependency of a source file "
+"on a generated header file that it includes.  Although the property was "
+"originally introduced for this purpose, it is no longer necessary.  If the"
+" generated header file is created by a custom command in the same target "
+"as the source file, the automatic dependency scanning process will "
+"recognize the dependency.  If the generated header file is created by "
+"another target, an inter-target dependency should be created with the "
+":command:`add_dependencies` command (if one does not already exist due to "
+"linking relationships)."
+msgstr ""
+"此属性不需要用于指定源文件对它包含的生成的头文件的依赖性。尽管该属性最初是为此目的而引入的，但现在不再需要了。如果生成的头文件是由自定义命令在与源文件相同的目标中创建的，则自动依赖项扫描过程将识别该依赖项。如果生成的头文件是由另一个目标创建的，则应使用"
+" :command:`add_dependencies` 命令创建目标间依赖项（如果由于链接关系尚不存在）。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/OBJECT_OUTPUTS.rst:2
+msgid "OBJECT_OUTPUTS"
+msgstr "OBJECT_OUTPUTS"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/OBJECT_OUTPUTS.rst:4
+msgid ""
+"Additional outputs for a :generator:`Ninja` or :ref:`Makefile Generators` "
+"rule."
+msgstr ":generator:`Ninja` 或 :ref:`Makefile Generators` 规则的附加输出。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/OBJECT_OUTPUTS.rst:6
+msgid ""
+"Additional outputs created by compilation of this source file.  If any of "
+"these outputs is missing the object will be recompiled.  This is supported"
+" only on the :generator:`Ninja` and :ref:`Makefile Generators` and will be"
+" ignored on other generators."
+msgstr ""
+"通过编译此源文件创建的附加输出。如果这些输出中的任何一个丢失，对象将被重新编译。这仅在 :generator:`Ninja` 和 "
+":ref:`Makefile Generators` 上受支持，在其他生成器上将被忽略。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/OBJECT_OUTPUTS.rst:11
+msgid ""
+"This property supports :manual:`generator expressions <cmake-generator-"
+"expressions(7)>`."
+msgstr ""
+"此属性支持 :manual:`generator expressions <cmake-generator-expressions(7)>`。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/SKIP_AUTOGEN.rst:2
+msgid "SKIP_AUTOGEN"
+msgstr "SKIP_AUTOGEN"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/SKIP_AUTOGEN.rst:6
+msgid ""
+"Exclude the source file from :prop_tgt:`AUTOMOC`, :prop_tgt:`AUTOUIC` and "
+":prop_tgt:`AUTORCC` processing (for Qt projects)."
+msgstr ""
+"从 :prop_tgt:`AUTOMOC`、 :prop_tgt:`AUTOUIC` 和 :prop_tgt:`AUTORCC` "
+"处理中排除源文件（对于 Qt 项目）。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/SKIP_AUTOGEN.rst:9
+msgid ""
+"For finer exclusion control see :prop_sf:`SKIP_AUTOMOC`, "
+":prop_sf:`SKIP_AUTOUIC` and :prop_sf:`SKIP_AUTORCC`."
+msgstr ""
+"有关更精细的排除控制，请参阅 :prop_sf:`SKIP_AUTOMOC`、 :prop_sf:`SKIP_AUTOUIC` 和 "
+":prop_sf:`SKIP_AUTORCC`。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/SKIP_AUTOMOC.rst:2
+msgid "SKIP_AUTOMOC"
+msgstr "SKIP_AUTOMOC"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/SKIP_AUTOMOC.rst:6
+msgid ""
+"Exclude the source file from :prop_tgt:`AUTOMOC` processing (for Qt "
+"projects)."
+msgstr "从 :prop_tgt:`AUTOMOC` 处理中排除源文件（对于 Qt 项目）。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/SKIP_AUTOMOC.rst:8
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/SKIP_AUTORCC.rst:8
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/SKIP_AUTOUIC.rst:11
+msgid "For broader exclusion control see :prop_sf:`SKIP_AUTOGEN`."
+msgstr "有关更广泛的排除控制，请参阅 :prop_sf:`SKIP_AUTOGEN`。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/SKIP_AUTORCC.rst:2
+msgid "SKIP_AUTORCC"
+msgstr "SKIP_AUTORCC"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/SKIP_AUTORCC.rst:6
+msgid ""
+"Exclude the source file from :prop_tgt:`AUTORCC` processing (for Qt "
+"projects)."
+msgstr "从 :prop_tgt:`AUTORCC` 处理中排除源文件（对于 Qt 项目）。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/SKIP_AUTOUIC.rst:2
+msgid "SKIP_AUTOUIC"
+msgstr "SKIP_AUTOUIC"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/SKIP_AUTOUIC.rst:6
+msgid ""
+"Exclude the source file from :prop_tgt:`AUTOUIC` processing (for Qt "
+"projects)."
+msgstr "从 :prop_tgt:`AUTOUIC` 处理中排除源文件（对于 Qt 项目）。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/SKIP_AUTOUIC.rst:8
+msgid ""
+"``SKIP_AUTOUIC`` can be set on C++ header and source files and on ``.ui`` "
+"files."
+msgstr "``SKIP_AUTOUIC`` 可以在 C++ 头文件和源文件以及 ``.ui`` 文件上设置。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/SKIP_PRECOMPILE_HEADERS.rst:2
+msgid "SKIP_PRECOMPILE_HEADERS"
+msgstr "SKIP_PRECOMPILE_HEADERS"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/SKIP_PRECOMPILE_HEADERS.rst:6
+msgid ""
+"Is this source file skipped by :prop_tgt:`PRECOMPILE_HEADERS` feature."
+msgstr "此源文件是否被 :prop_tgt:`PRECOMPILE_HEADERS` 功能跳过。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/SKIP_PRECOMPILE_HEADERS.rst:8
+msgid ""
+"This property helps with build problems that one would run into when using"
+" the :prop_tgt:`PRECOMPILE_HEADERS` feature."
+msgstr "此属性有助于解决使用 :prop_tgt:`PRECOMPILE_HEADERS` 功能时可能遇到的构建问题。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/SKIP_PRECOMPILE_HEADERS.rst:11
+msgid ""
+"One example would be the usage of Objective-C (``*.m``) files, and "
+"Objective-C++ (``*.mm``) files, which lead to compilation failure because "
+"they are treated (in case of Ninja / Makefile generator) as C, and CXX "
+"respectively. The precompile headers are not compatible between languages."
+msgstr ""
+"一个例子是使用 Objective-C (``*.m``) 文件和 Objective-C++ (``*.mm``) "
+"文件，这会导致编译失败，因为它们被处理（在 Ninja 的情况下） / Makefile 生成器）分别作为 C 和 "
+"CXX。预编译标头在语言之间不兼容。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/SKIP_UNITY_BUILD_INCLUSION.rst:2
+msgid "SKIP_UNITY_BUILD_INCLUSION"
+msgstr "SKIP_UNITY_BUILD_INCLUSION"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/SKIP_UNITY_BUILD_INCLUSION.rst:6
+msgid ""
+"Setting this property to true ensures the source file will be skipped by "
+"unity builds when its associated target has its :prop_tgt:`UNITY_BUILD` "
+"property set to true.  The source file will instead be compiled on its own"
+" in the same way as it would with unity builds disabled."
+msgstr ""
+"将此属性设置为 true 可确保当其关联目标的 UNITY_BUILD 属性设置为 true "
+"时，统一构建将跳过源文件。源文件将以与禁用统一构建时相同的方式自行编译。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/SKIP_UNITY_BUILD_INCLUSION.rst:11
+msgid ""
+"This property helps with \"ODR (One definition rule)\" problems where "
+"combining a particular source file with others might lead to build errors "
+"or other unintended side effects."
+msgstr "此属性有助于解决“ODR（单一定义规则）”问题，其中将特定源文件与其他源文件组合可能会导致构建错误或其他意外的副作用。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/SYMBOLIC.rst:2
+msgid "SYMBOLIC"
+msgstr "象征性的"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/SYMBOLIC.rst:4
+msgid "Is this just a name for a rule."
+msgstr "这只是规则的名称吗？"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/SYMBOLIC.rst:6
+msgid ""
+"If ``SYMBOLIC`` (boolean) is set to ``True`` the build system will be "
+"informed that the source file is not actually created on disk but instead "
+"used as a symbolic name for a build rule."
+msgstr "如果“SYMBOLIC”（布尔值）设置为“True”，构建系统将被告知源文件实际上并未在磁盘上创建，而是用作构建规则的符号名称。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/Swift_DEPENDENCIES_FILE.rst:2
+msgid "Swift_DEPENDENCIES_FILE"
+msgstr "Swift_DEPENDENCIES_FILE"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/Swift_DEPENDENCIES_FILE.rst:6
+msgid ""
+"This property sets the path for the Swift dependency file (swiftdeps) for "
+"the source.  If one is not specified, it will default to "
+"``<OBJECT>.swiftdeps``."
+msgstr ""
+"此属性设置源的 Swift 依赖文件 (swiftdeps) 的路径。如果未指定，它将默认为 ``<OBJECT>.swiftdeps``。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/Swift_DIAGNOSTICS_FILE.rst:2
+msgid "Swift_DIAGNOSTICS_FILE"
+msgstr "Swift_DIAGNOSTICS_FILE"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/Swift_DIAGNOSTICS_FILE.rst:6
+msgid "This property controls where the Swift diagnostics are serialized."
+msgstr "此属性控制 Swift 诊断的序列化位置。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/UNITY_GROUP.rst:2
+msgid "UNITY_GROUP"
+msgstr "团结集团"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/UNITY_GROUP.rst:6
+msgid ""
+"This property controls which *bucket* the source will be part of when the "
+":prop_tgt:`UNITY_BUILD_MODE` is set to ``GROUP``."
+msgstr ""
+"当 :prop_tgt:`UNITY_BUILD_MODE` 设置为 ``GROUP`` 时，此属性控制源将成为哪个 *bucket* 的一部分。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_COPY_TO_OUT_DIR.rst:2
+msgid "VS_COPY_TO_OUT_DIR"
+msgstr "VS_COPY_TO_OUT_DIR"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_COPY_TO_OUT_DIR.rst:6
+msgid ""
+"Sets the ``<CopyToOutputDirectory>`` tag for a source file in a Visual "
+"Studio project file. Valid values are ``Never``, ``Always`` and "
+"``PreserveNewest``."
+msgstr ""
+"为 Visual Studio 项目文件中的源文件设置 ``<CopyToOutputDirectory>`` "
+"标记。有效值为“Never”、“Always”和“PreserveNewest”。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_CSHARP_tagname.rst:2
+msgid "VS_CSHARP_<tagname>"
+msgstr "VS_CSHARP_<标记名>"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_CSHARP_tagname.rst:6
+msgid "Visual Studio and CSharp source-file-specific configuration."
+msgstr "Visual Studio 和 CSharp 源文件特定的配置。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_CSHARP_tagname.rst:8
+msgid ""
+"Tell the :manual:`Visual Studio generators <cmake-generators(7)>` to set "
+"the source file tag ``<tagname>`` to a given value in the generated Visual"
+" Studio CSharp project. Ignored on other generators and languages. This "
+"property can be used to define dependencies between source files or set "
+"any other Visual Studio specific parameters."
+msgstr ""
+"告诉 :manual:`Visual Studio 生成器 <cmake-generators(7)>` 将源文件标记``<tagname>`` "
+"设置为生成的 Visual Studio CSharp "
+"项目中的给定值。在其他生成器和语言上被忽略。此属性可用于定义源文件之间的依赖关系或设置任何其他 Visual Studio 特定参数。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_CSHARP_tagname.rst:15
+msgid "Example usage:"
+msgstr "用法示例："
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_DEPLOYMENT_CONTENT.rst:2
+msgid "VS_DEPLOYMENT_CONTENT"
+msgstr "VS_DEPLOYMENT_CONTENT"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_DEPLOYMENT_CONTENT.rst:6
+msgid ""
+"Mark a source file as content for deployment with a Windows Phone or "
+"Windows Store application when built with a :manual:`Visual Studio "
+"generators <cmake-generators(7)>`. The value must evaluate to either ``1``"
+" or ``0`` and may use :manual:`generator expressions <cmake-generator-"
+"expressions(7)>` to make the choice based on the build configuration. The "
+"``.vcxproj`` file entry for the source file will be marked either "
+"``DeploymentContent`` or ``ExcludedFromBuild`` for values ``1`` and ``0``,"
+" respectively."
+msgstr ""
+"当使用 Visual Studio 生成器 <cmake-generators(7)> 构建时，将源文件标记为使用 Windows Phone 或 "
+"Windows 应用商店应用程序部署的内容。该值必须评估为 ``1`` 或 ``0`` 并且可以使用 :manual:`generator "
+"expressions <cmake-generator-expressions(7)>` "
+"根据构建配置做出选择。源文件的“.vcxproj”文件条目将被标记为“DeploymentContent”或“ExcludedFromBuild”，值分别为“1”和“0”。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_DEPLOYMENT_LOCATION.rst:2
+msgid "VS_DEPLOYMENT_LOCATION"
+msgstr "VS_DEPLOYMENT_LOCATION"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_DEPLOYMENT_LOCATION.rst:6
+msgid ""
+"Specifies the deployment location for a content source file with a Windows"
+" Phone or Windows Store application when built with a :manual:`Visual "
+"Studio generators <cmake-generators(7)>`. This property is only applicable"
+" when using :prop_sf:`VS_DEPLOYMENT_CONTENT`. The value represent the path"
+" relative to the app package and applies to all configurations."
+msgstr ""
+"当使用 :manual:`Visual Studio generators <cmake-generators(7)>` 构建时，指定内容源文件与 "
+"Windows Phone 或 Windows Store 应用程序的部署位置。此属性仅在使用 "
+":prop_sf:`VS_DEPLOYMENT_CONTENT` 时适用。该值表示相对于应用程序包的路径并适用于所有配置。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_INCLUDE_IN_VSIX.rst:2
+msgid "VS_INCLUDE_IN_VSIX"
+msgstr "VS_INCLUDE_IN_VSIX"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_INCLUDE_IN_VSIX.rst:6
+msgid ""
+"Boolean property to specify if the file should be included within a VSIX "
+"(Visual Studio Integration Extension) extension package. This is needed "
+"for development of Visual Studio extensions."
+msgstr ""
+"指定文件是否应包含在 VSIX（Visual Studio 集成扩展）扩展包中的布尔属性。这是开发 Visual Studio 扩展所必需的。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_RESOURCE_GENERATOR.rst:2
+msgid "VS_RESOURCE_GENERATOR"
+msgstr "VS_RESOURCE_GENERATOR"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_RESOURCE_GENERATOR.rst:6
+msgid ""
+"This property allows to specify the resource generator to be used on this "
+"file. It defaults to ``PublicResXFileCodeGenerator`` if not set."
+msgstr "此属性允许指定要在此文件上使用的资源生成器。如果未设置，则默认为“PublicResXFileCodeGenerator”。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_RESOURCE_GENERATOR.rst:10
+msgid "This property only applies to C# projects."
+msgstr "此属性仅适用于 C# 项目。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_SETTINGS.rst:2
+msgid "VS_SETTINGS"
+msgstr "VS_设置"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_SETTINGS.rst:6
+msgid "Set any item metadata on a file."
+msgstr "在文件上设置任何项目元数据。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_SETTINGS.rst:10
+msgid ""
+"This property is honored for all source file types. Previously it worked "
+"only for non-built files."
+msgstr "此属性适用于所有源文件类型。以前它只适用于非构建文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_SETTINGS.rst:13
+msgid ""
+"Takes a list of ``Key=Value`` pairs. Tells the Visual Studio generator to "
+"set ``Key`` to ``Value`` as item metadata on the file."
+msgstr ""
+"获取“Key=Value”对列表。告诉 Visual Studio 生成器将 ``Key`` 设置为 ``Value`` 作为文件中的项目元数据。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_SETTINGS.rst:16
+msgid "For example:"
+msgstr "例如："
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_SETTINGS.rst:22
+msgid ""
+"will set ``Key`` to ``Value`` and ``Key2`` to ``Value2`` on the "
+"``file.hlsl`` item as metadata."
+msgstr ""
+"会将 ``file.hlsl`` 项上的 ``Key`` 设置为 ``Value`` 并将 ``Key2`` 设置为 ``Value2`` "
+"作为元数据。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_SETTINGS.rst:25
+msgid ""
+":manual:`Generator expressions <cmake-generator-expressions(7)>` are "
+"supported."
+msgstr ":manual:`支持生成器表达式 <cmake-generator-expressions(7)>`。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_SHADER_DISABLE_OPTIMIZATIONS.rst:2
+msgid "VS_SHADER_DISABLE_OPTIMIZATIONS"
+msgstr "VS_SHADER_DISABLE_OPTIMIZATIONS"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_SHADER_DISABLE_OPTIMIZATIONS.rst:6
+msgid ""
+"Disable compiler optimizations for an ``.hlsl`` source file.  This adds "
+"the ``-Od`` flag to the command line for the FxCompiler tool.  Specify the"
+" value ``true`` for this property to disable compiler optimizations."
+msgstr ""
+"禁用 ``.hlsl`` 源文件的编译器优化。这会将“-Od”标志添加到 FxCompiler "
+"工具的命令行。为此属性指定值“true”以禁用编译器优化。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_SHADER_ENABLE_DEBUG.rst:2
+msgid "VS_SHADER_ENABLE_DEBUG"
+msgstr "VS_SHADER_ENABLE_DEBUG"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_SHADER_ENABLE_DEBUG.rst:6
+msgid ""
+"Enable debugging information for an ``.hlsl`` source file.  This adds the "
+"``-Zi`` flag to the command line for the FxCompiler tool.  Specify the "
+"value ``true`` to generate debugging information for the compiled shader."
+msgstr ""
+"为 .hlsl 源文件启用调试信息。这会将“-Zi”标志添加到 FxCompiler 工具的命令行。指定值“true”以生成编译着色器的调试信息。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_SHADER_ENTRYPOINT.rst:2
+msgid "VS_SHADER_ENTRYPOINT"
+msgstr "VS_SHADER_ENTRYPOINT"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_SHADER_ENTRYPOINT.rst:6
+msgid ""
+"Specifies the name of the entry point for the shader of a ``.hlsl`` source"
+" file."
+msgstr "指定“.hlsl”源文件着色器的入口点名称。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_SHADER_FLAGS.rst:2
+msgid "VS_SHADER_FLAGS"
+msgstr "VS_SHADER_FLAGS"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_SHADER_FLAGS.rst:6
+msgid ""
+"Set additional Visual Studio shader flags of a ``.hlsl`` source file."
+msgstr "设置 .hlsl 源文件的附加 Visual Studio 着色器标志。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_SHADER_MODEL.rst:2
+msgid "VS_SHADER_MODEL"
+msgstr "VS_SHADER_MODEL"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_SHADER_MODEL.rst:6
+msgid ""
+"Specifies the shader model of a ``.hlsl`` source file. Some shader types "
+"can only be used with recent shader models"
+msgstr "指定 ``.hlsl`` 源文件的着色器模型。某些着色器类型只能与最近的着色器模型一起使用"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_SHADER_OBJECT_FILE_NAME.rst:2
+msgid "VS_SHADER_OBJECT_FILE_NAME"
+msgstr "VS_SHADER_OBJECT_FILE_NAME"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_SHADER_OBJECT_FILE_NAME.rst:6
+msgid ""
+"Specifies a file name for the compiled shader object file for an ``.hlsl``"
+" source file.  This adds the ``-Fo`` flag to the command line for the "
+"FxCompiler tool."
+msgstr "为“.hlsl”源文件的已编译着色器对象文件指定文件名。这会将“-Fo”标志添加到 FxCompiler 工具的命令行。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_SHADER_OUTPUT_HEADER_FILE.rst:2
+msgid "VS_SHADER_OUTPUT_HEADER_FILE"
+msgstr "VS_SHADER_OUTPUT_HEADER_FILE"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_SHADER_OUTPUT_HEADER_FILE.rst:6
+msgid ""
+"Set filename for output header file containing object code of a ``.hlsl`` "
+"source file."
+msgstr "为包含“.hlsl”源文件的目标代码的输出头文件设置文件名。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_SHADER_TYPE.rst:2
+msgid "VS_SHADER_TYPE"
+msgstr "VS_SHADER_TYPE"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_SHADER_TYPE.rst:6
+msgid "Set the Visual Studio shader type of a ``.hlsl`` source file."
+msgstr "设置 .hlsl 源文件的 Visual Studio 着色器类型。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_SHADER_VARIABLE_NAME.rst:2
+msgid "VS_SHADER_VARIABLE_NAME"
+msgstr "VS_SHADER_VARIABLE_NAME"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_SHADER_VARIABLE_NAME.rst:6
+msgid ""
+"Set name of variable in header file containing object code of a ``.hlsl`` "
+"source file."
+msgstr "在包含“.hlsl”源文件的目标代码的头文件中设置变量名称。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_TOOL_OVERRIDE.rst:2
+msgid "VS_TOOL_OVERRIDE"
+msgstr "VS_TOOL_OVERRIDE"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_TOOL_OVERRIDE.rst:6
+msgid ""
+"Override the default Visual Studio tool that will be applied to the source"
+" file with a new tool not based on the extension of the file."
+msgstr "使用不基于文件扩展名的新工具覆盖将应用于源文件的默认 Visual Studio 工具。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_XAML_TYPE.rst:2
+msgid "VS_XAML_TYPE"
+msgstr "VS_XAML_TYPE"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/VS_XAML_TYPE.rst:6
+msgid ""
+"Mark a Extensible Application Markup Language (XAML) source file as a "
+"different type than the default ``Page``. The most common usage would be "
+"to set the default ``App.xaml`` file as ``ApplicationDefinition``."
+msgstr ""
+"将可扩展应用程序标记语言 (XAML) "
+"源文件标记为与默认“页面”不同的类型。最常见的用法是将默认的“App.xaml”文件设置为“ApplicationDefinition”。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/WRAP_EXCLUDE.rst:2
+msgid "WRAP_EXCLUDE"
+msgstr "WRAP_EXCLUDE"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/WRAP_EXCLUDE.rst:4
+msgid "Exclude this source file from any code wrapping techniques."
+msgstr "从任何代码包装技术中排除此源文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/WRAP_EXCLUDE.rst:6
+msgid ""
+"Some packages can wrap source files into alternate languages to provide "
+"additional functionality."
+msgstr "一些包可以将源文件包装成替代语言以提供附加功能。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/WRAP_EXCLUDE.rst:9
+msgid ""
+"For example, C++ code can be wrapped into Java or Python, using SWIG. If "
+"``WRAP_EXCLUDE`` is set to ``True``, that indicates that this source file "
+"should not be wrapped."
+msgstr ""
+"例如，可以使用 SWIG 将 C++ 代码包装到 Java 或 Python 中。如果 ``WRAP_EXCLUDE`` 设置为 "
+"``True``，表示不应包装此源文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/XCODE_EXPLICIT_FILE_TYPE.rst:2
+msgid "XCODE_EXPLICIT_FILE_TYPE"
+msgstr "XCODE_EXPLICIT_FILE_TYPE"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/XCODE_EXPLICIT_FILE_TYPE.rst:6
+msgid ""
+"Set the :generator:`Xcode` ``explicitFileType`` attribute on its reference"
+" to a source file.  CMake computes a default based on file extension but "
+"can be told explicitly with this property."
+msgstr ""
+"在其对源文件的引用上设置 Xcode 的 explicitFileType 属性。 CMake 根据文件扩展名计算默认值，但可以使用此属性明确告知。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/XCODE_EXPLICIT_FILE_TYPE.rst:10
+msgid "See also :prop_sf:`XCODE_LAST_KNOWN_FILE_TYPE`."
+msgstr "另见:prop_sf:`XCODE_LAST_KNOWN_FILE_TYPE`。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/XCODE_FILE_ATTRIBUTES.rst:2
+msgid "XCODE_FILE_ATTRIBUTES"
+msgstr "XCODE_FILE_ATTRIBUTES"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/XCODE_FILE_ATTRIBUTES.rst:6
+msgid ""
+"Add values to the :generator:`Xcode` ``ATTRIBUTES`` setting on its "
+"reference to a source file.  Among other things, this can be used to set "
+"the role on a ``.mig`` file::"
+msgstr ""
+"将值添加到:generator:`Xcode` ``ATTRIBUTES`` 设置中它对源文件的引用。除其他事项外，这可用于在 ``.mig`` "
+"文件上设置角色："
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/XCODE_LAST_KNOWN_FILE_TYPE.rst:2
+msgid "XCODE_LAST_KNOWN_FILE_TYPE"
+msgstr "XCODE_LAST_KNOWN_FILE_TYPE"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/XCODE_LAST_KNOWN_FILE_TYPE.rst:6
+msgid ""
+"Set the :generator:`Xcode` ``lastKnownFileType`` attribute on its "
+"reference to a source file.  CMake computes a default based on file "
+"extension but can be told explicitly with this property."
+msgstr ""
+"在其对源文件的引用上设置 Xcode 的 lastKnownFileType 属性。 CMake "
+"根据文件扩展名计算默认值，但可以使用此属性明确告知。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_sf/XCODE_LAST_KNOWN_FILE_TYPE.rst:10
+msgid ""
+"See also :prop_sf:`XCODE_EXPLICIT_FILE_TYPE`, which is preferred over this"
+" property if set."
+msgstr "另请参阅:prop_sf:`XCODE_EXPLICIT_FILE_TYPE`，如果设置，则优先于此属性。"

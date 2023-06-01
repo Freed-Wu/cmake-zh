@@ -1,0 +1,980 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2023 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.26.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-01 00:02+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/ADDITIONAL_CLEAN_FILES.rst:2
+msgid "ADDITIONAL_CLEAN_FILES"
+msgstr "ADDITIONAL_CLEAN_FILES"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/ADDITIONAL_CLEAN_FILES.rst:6
+msgid ""
+"A :ref:`;-list <CMake Language Lists>` of files or directories that will "
+"be removed as a part of the global ``clean`` target.  It is useful for "
+"specifying generated files or directories that are used by multiple "
+"targets or by CMake itself, or that are generated in ways which cannot be "
+"captured as outputs or byproducts of custom commands."
+msgstr ""
+"A :ref:`;-list <CMake Language Lists>` 将作为全局 ``clean`` "
+"目标的一部分删除的文件或目录。它对于指定生成的文件或目录很有用，这些文件或目录由多个目标或 CMake "
+"本身使用，或者以无法捕获为自定义命令的输出或副产品的方式生成。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/ADDITIONAL_CLEAN_FILES.rst:12
+msgid ""
+"If an additional clean file is specific to a single target only, then the "
+":prop_tgt:`ADDITIONAL_CLEAN_FILES` target property would usually be a "
+"better choice than this directory property."
+msgstr ""
+"如果额外的干净文件仅特定于单个目标，那么 :prop_tgt:`ADDITIONAL_CLEAN_FILES` "
+"目标属性通常是比此目录属性更好的选择。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/ADDITIONAL_CLEAN_FILES.rst:16
+msgid ""
+"Relative paths are allowed and are interpreted relative to the current "
+"binary directory."
+msgstr "相对路径是允许的，并且相对于当前二进制目录进行解释。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/ADDITIONAL_CLEAN_FILES.rst:19
+msgid ""
+"Contents of ``ADDITIONAL_CLEAN_FILES`` may use :manual:`generator "
+"expressions <cmake-generator-expressions(7)>`."
+msgstr ""
+"``ADDITIONAL_CLEAN_FILES`` 的内容可以使用 :manual:`generator expressions <cmake-"
+"generator-expressions(7)>`。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/ADDITIONAL_CLEAN_FILES.rst:22
+msgid ""
+"This property only works for the :generator:`Ninja` and the Makefile "
+"generators.  It is ignored by other generators."
+msgstr "此属性仅适用于 :generator:`Ninja` 和 Makefile 生成器。它被其他生成器忽略。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/ADDITIONAL_MAKE_CLEAN_FILES.rst:2
+msgid "ADDITIONAL_MAKE_CLEAN_FILES"
+msgstr "ADDITIONAL_MAKE_CLEAN_FILES"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/ADDITIONAL_MAKE_CLEAN_FILES.rst:6
+msgid "Use :prop_dir:`ADDITIONAL_CLEAN_FILES` instead."
+msgstr "使用 :prop_dir:`ADDITIONAL_CLEAN_FILES` 代替。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/ADDITIONAL_MAKE_CLEAN_FILES.rst:8
+msgid "Additional files to remove during the clean stage."
+msgstr "在清理阶段要删除的其他文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/ADDITIONAL_MAKE_CLEAN_FILES.rst:10
+msgid ""
+"A :ref:`;-list <CMake Language Lists>` of files that will be removed as a "
+"part of the ``make clean`` target."
+msgstr ""
+"A :ref:`;-list <CMake Language Lists>` 将作为 ``make clean`` 目标的一部分删除的文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/ADDITIONAL_MAKE_CLEAN_FILES.rst:13
+msgid ""
+"Arguments to ``ADDITIONAL_MAKE_CLEAN_FILES`` may use :manual:`generator "
+"expressions <cmake-generator-expressions(7)>`."
+msgstr ""
+"``ADDITIONAL_MAKE_CLEAN_FILES`` 的参数可以使用 :manual:`generator expressions "
+"<cmake-generator-expressions(7)>`。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/ADDITIONAL_MAKE_CLEAN_FILES.rst:16
+msgid ""
+"This property only works for the Makefile generators. It is ignored on "
+"other generators."
+msgstr "此属性仅适用于 Makefile 生成器。它在其他生成器上被忽略。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/BINARY_DIR.rst:2
+msgid "BINARY_DIR"
+msgstr "二进制目录"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/BINARY_DIR.rst:6
+msgid ""
+"This read-only directory property reports absolute path to the binary "
+"directory corresponding to the source on which it is read."
+msgstr "此只读目录属性报告与读取它的源相对应的二进制目录的绝对路径。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/BUILDSYSTEM_TARGETS.rst:2
+msgid "BUILDSYSTEM_TARGETS"
+msgstr "BUILDSYSTEM_TARGETS"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/BUILDSYSTEM_TARGETS.rst:6
+msgid ""
+"This read-only directory property contains a :ref:`semicolon-separated "
+"list <CMake Language Lists>` of buildsystem targets added in the directory"
+" by calls to the :command:`add_library`, :command:`add_executable`, and "
+":command:`add_custom_target` commands.  The list does not include any "
+":ref:`Imported Targets` or :ref:`Alias Targets`, but does include "
+":ref:`Interface Libraries`.  Each entry in the list is the logical name of"
+" a target, suitable to pass to the :command:`get_property` command "
+"``TARGET`` option."
+msgstr ""
+"此只读目录属性包含通过调用 add_library、add_executable 和 command 添加到目录中的构建系统目标的分号分隔列表 "
+"<CMake Language Lists> :`add_custom_target` 命令。该列表不包括任何 :ref:`Imported "
+"Targets` 或 :ref:`Alias Targets`，但确实包括 :ref:`Interface "
+"Libraries`。列表中的每个条目都是目标的逻辑名称，适合传递给 :command:`get_property` 命令的 ``TARGET`` "
+"选项。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/BUILDSYSTEM_TARGETS.rst:15
+msgid "See also the :prop_dir:`IMPORTED_TARGETS` directory property."
+msgstr "另请参阅 :prop_dir:`IMPORTED_TARGETS` 目录属性。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/CACHE_VARIABLES.rst:2
+msgid "CACHE_VARIABLES"
+msgstr "缓存变量"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/CACHE_VARIABLES.rst:4
+msgid "List of cache variables available in the current directory."
+msgstr "当前目录中可用的缓存变量列表。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/CACHE_VARIABLES.rst:6
+msgid ""
+"This read-only property specifies the list of CMake cache variables "
+"currently defined.  It is intended for debugging purposes."
+msgstr "此只读属性指定当前定义的 CMake 缓存变量列表。它用于调试目的。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/CLEAN_NO_CUSTOM.rst:2
+msgid "CLEAN_NO_CUSTOM"
+msgstr "CLEAN_NO_CUSTOM"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/CLEAN_NO_CUSTOM.rst:4
+msgid ""
+"Set to true to tell :ref:`Makefile Generators` not to remove the outputs "
+"of custom commands for this directory during the ``make clean`` operation."
+" This is ignored on other generators because it is not possible to "
+"implement."
+msgstr ""
+"设置为 true 以告诉 Makefile Generators 在 ``make clean`` "
+"操作期间不要删除此目录的自定义命令的输出。这在其他生成器上被忽略，因为它不可能实现。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/CMAKE_CONFIGURE_DEPENDS.rst:2
+msgid "CMAKE_CONFIGURE_DEPENDS"
+msgstr "CMAKE_CONFIGURE_DEPENDS"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/CMAKE_CONFIGURE_DEPENDS.rst:4
+msgid ""
+"Tell CMake about additional input files to the configuration process. If "
+"any named file is modified the build system will re-run CMake to re-"
+"configure the file and generate the build system again."
+msgstr ""
+"告诉 CMake 有关配置过程的其他输入文件。如果修改了任何命名文件，构建系统将重新运行 CMake 以重新配置文件并再次生成构建系统。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/CMAKE_CONFIGURE_DEPENDS.rst:8
+msgid ""
+"Specify files as a semicolon-separated list of paths.  Relative paths are "
+"interpreted as relative to the current source directory."
+msgstr "将文件指定为以分号分隔的路径列表。相对路径被解释为相对于当前源目录。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/COMPILE_DEFINITIONS.rst:2
+msgid "COMPILE_DEFINITIONS"
+msgstr "编译定义"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/COMPILE_DEFINITIONS.rst:4
+msgid "Preprocessor definitions for compiling a directory's sources."
+msgstr "用于编译目录源的预处理器定义。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/COMPILE_DEFINITIONS.rst:6
+msgid ""
+"This property specifies the list of options given so far to the "
+":command:`add_compile_definitions` (or :command:`add_definitions`) "
+"command."
+msgstr ""
+"此属性指定到目前为止提供给 :command:`add_compile_definitions`（或 "
+":command:`add_definitions`）命令的选项列表。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/COMPILE_DEFINITIONS.rst:9
+msgid ""
+"The ``COMPILE_DEFINITIONS`` property may be set to a semicolon-separated "
+"list of preprocessor definitions using the syntax ``VAR`` or "
+"``VAR=value``. Function-style definitions are not supported.  CMake will "
+"automatically escape the value correctly for the native build system (note"
+" that CMake language syntax may require escapes to specify some values)."
+msgstr ""
+"``COMPILE_DEFINITIONS`` 属性可以使用语法``VAR`` 或``VAR=value`` "
+"设置为以分号分隔的预处理器定义列表。不支持函数样式定义。 CMake 将自动为本机构建系统正确转义该值（请注意，CMake "
+"语言语法可能需要转义以指定某些值）。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/COMPILE_DEFINITIONS.rst:16
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/COMPILE_DEFINITIONS_CONFIG.rst:11
+msgid ""
+"This property will be initialized in each directory by its value in the "
+"directory's parent."
+msgstr "该属性将在每个目录中通过其在目录父级中的值进行初始化。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/COMPILE_DEFINITIONS.rst:19
+msgid ""
+"CMake will automatically drop some definitions that are not supported by "
+"the native build tool."
+msgstr "CMake 会自动删除一些本机构建工具不支持的定义。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/COMPILE_DEFINITIONS.rst:22
+msgid "Any leading ``-D`` on an item will be removed."
+msgstr "项目上任何前导的 ``-D`` 都将被删除。"
+
+#: ../../cmake-prefix/src/cmake/Help/include/COMPILE_DEFINITIONS_DISCLAIMER.txt:1
+msgid ""
+"Disclaimer: Most native build tools have poor support for escaping certain"
+" values.  CMake has work-arounds for many cases but some values may just "
+"not be possible to pass correctly.  If a value does not seem to be escaped"
+" correctly, do not attempt to work-around the problem by adding escape "
+"sequences to the value.  Your work-around may break in a future version of"
+" CMake that has improved escape support.  Instead consider defining the "
+"macro in a (configured) header file.  Then report the limitation.  Known "
+"limitations include::"
+msgstr ""
+"免责声明：大多数本机构建工具对转义某些值的支持很差。 CMake "
+"在许多情况下都有解决方法，但某些值可能无法正确传递。如果某个值似乎没有正确转义，请不要尝试通过向该值添加转义序列来解决问题。您的解决方法可能会在改进了转义支持的未来版本的"
+" CMake 中中断。而是考虑在（已配置的）头文件中定义宏。然后报告限制。已知限制包括："
+
+#: ../../cmake-prefix/src/cmake/Help/include/COMPILE_DEFINITIONS_DISCLAIMER.txt:17
+msgid ""
+"CMake does not reject these values outright because they do work in some "
+"cases.  Use with caution."
+msgstr "CMake 不会完全拒绝这些值，因为它们在某些情况下确实有效。谨慎使用。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/COMPILE_DEFINITIONS.rst:27
+msgid ""
+"Contents of ``COMPILE_DEFINITIONS`` may use \"generator expressions\" with"
+" the syntax ``$<...>``.  See the :manual:`cmake-generator-expressions(7)` "
+"manual for available expressions.  See the :manual:`cmake-buildsystem(7)` "
+"manual for more on defining buildsystem properties."
+msgstr ""
+"``COMPILE_DEFINITIONS`` 的内容可以使用语法为``$<...>`` 的“生成器表达式”。请参阅 :manual:`cmake-"
+"generator-expressions(7)` 手册了解可用的表达式。有关定义构建系统属性的更多信息，请参阅 :manual:`cmake-"
+"buildsystem(7)` 手册。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/COMPILE_DEFINITIONS.rst:32
+msgid ""
+"The corresponding :prop_dir:`COMPILE_DEFINITIONS_<CONFIG>` property may be"
+" set to specify per-configuration definitions.  Generator expressions "
+"should be preferred instead of setting the alternative property."
+msgstr ""
+"可以设置相应的 :prop_dir:`COMPILE_DEFINITIONS_<CONFIG>` "
+"属性来指定每个配置的定义。应该首选生成器表达式，而不是设置替代属性。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/COMPILE_DEFINITIONS_CONFIG.rst:2
+msgid "COMPILE_DEFINITIONS_<CONFIG>"
+msgstr "COMPILE_DEFINITIONS_<配置>"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/COMPILE_DEFINITIONS_CONFIG.rst:4
+msgid "Ignored.  See CMake Policy :policy:`CMP0043`."
+msgstr "忽略。请参阅 CMake 政策:policy:`CMP0043`。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/COMPILE_DEFINITIONS_CONFIG.rst:6
+msgid "Per-configuration preprocessor definitions in a directory."
+msgstr "目录中的每个配置预处理器定义。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/COMPILE_DEFINITIONS_CONFIG.rst:8
+msgid ""
+"This is the configuration-specific version of "
+":prop_dir:`COMPILE_DEFINITIONS` where ``<CONFIG>`` is an upper-case name "
+"(ex. ``COMPILE_DEFINITIONS_DEBUG``)."
+msgstr ""
+"这是 :prop_dir:`COMPILE_DEFINITIONS` 的特定配置版本，其中 ``<CONFIG>`` 是大写名称（例如 "
+"``COMPILE_DEFINITIONS_DEBUG``）。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/COMPILE_DEFINITIONS_CONFIG.rst:14
+msgid ""
+"Contents of ``COMPILE_DEFINITIONS_<CONFIG>`` may use \"generator "
+"expressions\" with the syntax ``$<...>``.  See the :manual:`cmake-"
+"generator-expressions(7)` manual for available expressions.  See the "
+":manual:`cmake-buildsystem(7)` manual for more on defining buildsystem "
+"properties."
+msgstr ""
+"``COMPILE_DEFINITIONS_<CONFIG>`` 的内容可以使用语法为``$<...>`` 的“生成器表达式”。请参阅 "
+":manual:`cmake-generator-expressions(7)` 手册了解可用的表达式。有关定义构建系统属性的更多信息，请参阅 "
+":manual:`cmake-buildsystem(7)` 手册。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/COMPILE_DEFINITIONS_CONFIG.rst:19
+msgid ""
+"Generator expressions should be preferred instead of setting this "
+"property."
+msgstr "应该首选生成器表达式而不是设置此属性。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/COMPILE_OPTIONS.rst:2
+msgid "COMPILE_OPTIONS"
+msgstr "编译选项"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/COMPILE_OPTIONS.rst:4
+msgid "List of options to pass to the compiler."
+msgstr "传递给编译器的选项列表。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/COMPILE_OPTIONS.rst:6
+msgid ""
+"This property holds a :ref:`semicolon-separated list <CMake Language "
+"Lists>` of options given so far to the :command:`add_compile_options` "
+"command."
+msgstr ""
+"此属性包含一个 :ref:`分号分隔的列表 <CMake Language Lists>` 到目前为止提供给 "
+":command:`add_compile_options` 命令的选项。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/COMPILE_OPTIONS.rst:9
+msgid ""
+"This property is used to initialize the :prop_tgt:`COMPILE_OPTIONS` target"
+" property when a target is created, which is used by the generators to set"
+" the options for the compiler."
+msgstr "此属性用于在创建目标时初始化 :prop_tgt:`COMPILE_OPTIONS` 目标属性，生成器使用该属性为编译器设置选项。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/COMPILE_OPTIONS.rst:13
+msgid ""
+"Contents of ``COMPILE_OPTIONS`` may use \"generator expressions\" with the"
+" syntax ``$<...>``.  See the :manual:`cmake-generator-expressions(7)` "
+"manual for available expressions.  See the :manual:`cmake-buildsystem(7)` "
+"manual for more on defining buildsystem properties."
+msgstr ""
+"``COMPILE_OPTIONS`` 的内容可以使用语法为``$<...>`` 的“生成器表达式”。请参阅 :manual:`cmake-"
+"generator-expressions(7)` 手册了解可用的表达式。有关定义构建系统属性的更多信息，请参阅 :manual:`cmake-"
+"buildsystem(7)` 手册。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/DEFINITIONS.rst:2
+msgid "DEFINITIONS"
+msgstr "定义"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/DEFINITIONS.rst:4
+msgid ""
+"For CMake 2.4 compatibility only.  Use :prop_dir:`COMPILE_DEFINITIONS` "
+"instead."
+msgstr "仅用于 CMake 2.4 兼容性。请改用 :prop_dir:`COMPILE_DEFINITIONS`。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/DEFINITIONS.rst:7
+msgid ""
+"This read-only property specifies the list of flags given so far to the "
+":command:`add_definitions` command.  It is intended for debugging "
+"purposes.  Use the :prop_dir:`COMPILE_DEFINITIONS` directory property "
+"instead."
+msgstr ""
+"这个只读属性指定了到目前为止给 :command:`add_definitions` 命令的标志列表。它用于调试目的。请改用 "
+":prop_dir:`COMPILE_DEFINITIONS` 目录属性。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/DEFINITIONS.rst:12
+msgid ""
+"This built-in read-only property does not exist if policy "
+":policy:`CMP0059` is set to ``NEW``."
+msgstr "如果 policy:policy:`CMP0059` 设置为 ``NEW``，则此内置只读属性不存在。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/EXCLUDE_FROM_ALL.rst:2
+msgid "EXCLUDE_FROM_ALL"
+msgstr "EXCLUDE_FROM_ALL"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/EXCLUDE_FROM_ALL.rst:4
+msgid ""
+"Set this directory property to a true value on a subdirectory to exclude "
+"its targets from the \"all\" target of its ancestors.  If excluded, "
+"running e.g. ``make`` in the parent directory will not build targets the "
+"subdirectory by default.  This does not affect the \"all\" target of the "
+"subdirectory itself.  Running e.g. ``make`` inside the subdirectory will "
+"still build its targets."
+msgstr ""
+"在子目录上将此目录属性设置为真值，以将其目标从其祖先的“所有”目标中排除。如果排除，运行例如默认情况下，父目录中的 ``make`` "
+"不会构建目标子目录。这不会影响子目录本身的“所有”目标。运行例如子目录中的``make`` 仍然会构建它的目标。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/EXCLUDE_FROM_ALL.rst:11
+msgid ""
+"If the :prop_tgt:`EXCLUDE_FROM_ALL` target property is set on a target "
+"then its value determines whether the target is included in the \"all\" "
+"target of this directory and its ancestors."
+msgstr ""
+"如果在一个目标上设置了 :prop_tgt:`EXCLUDE_FROM_ALL` "
+"目标属性，那么它的值决定了该目标是否包含在该目录及其祖先的“所有”目标中。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/IMPLICIT_DEPENDS_INCLUDE_TRANSFORM.rst:2
+msgid "IMPLICIT_DEPENDS_INCLUDE_TRANSFORM"
+msgstr "IMPLICIT_DEPENDS_INCLUDE_TRANSFORM"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/IMPLICIT_DEPENDS_INCLUDE_TRANSFORM.rst:4
+msgid ""
+"Specify ``#include`` line transforms for dependencies in a directory."
+msgstr "为目录中的依赖项指定 ``#include`` 行转换。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/IMPLICIT_DEPENDS_INCLUDE_TRANSFORM.rst:6
+msgid ""
+"This property specifies rules to transform macro-like ``#include`` lines "
+"during implicit dependency scanning of C and C++ source files.  The list "
+"of rules must be semicolon-separated with each entry of the form "
+"``A_MACRO(%)=value-with-%`` (the ``%`` must be literal).  During "
+"dependency scanning occurrences of ``A_MACRO(...)`` on ``#include`` lines "
+"will be replaced by the value given with the macro argument substituted "
+"for ``%``.  For example, the entry"
+msgstr ""
+"此属性指定在 C 和 C++ 源文件的隐式依赖扫描期间转换类似宏的 ``#include`` "
+"行的规则。规则列表必须以分号分隔，每个条目的形式为“A_MACRO(%)=value-with-%”（“%”必须是文字）。在依赖扫描期间，在 "
+"`#include`` 行上出现的 ``A_MACRO(...)`` 将被替换为用宏参数给出的值替换 ``%``。例如，条目"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/IMPLICIT_DEPENDS_INCLUDE_TRANSFORM.rst:18
+msgid "will convert lines of the form"
+msgstr "将转换表格的行"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/IMPLICIT_DEPENDS_INCLUDE_TRANSFORM.rst:24
+msgid "to"
+msgstr "到"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/IMPLICIT_DEPENDS_INCLUDE_TRANSFORM.rst:30
+msgid "allowing the dependency to be followed."
+msgstr "允许遵循依赖关系。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/IMPLICIT_DEPENDS_INCLUDE_TRANSFORM.rst:32
+msgid ""
+"This property applies to sources in all targets within a directory. The "
+"property value is initialized in each directory by its value in the "
+"directory's parent."
+msgstr "此属性适用于目录中所有目标中的源。属性值在每个目录中由其在目录父级中的值初始化。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/IMPORTED_TARGETS.rst:2
+msgid "IMPORTED_TARGETS"
+msgstr "导入_TARGETS"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/IMPORTED_TARGETS.rst:6
+msgid ""
+"This read-only directory property contains a :ref:`semicolon-separated "
+"list <CMake Language Lists>` of :ref:`Imported Targets` added in the "
+"directory by calls to the :command:`add_library` and "
+":command:`add_executable` commands. Each entry in the list is the logical "
+"name of a target, suitable to pass to the :command:`get_property` command "
+"``TARGET`` option when called in the same directory."
+msgstr ""
+"此只读目录属性包含一个分号分隔的列表 <CMake Language Lists>` 的:ref:`Imported Targets` 通过调用 "
+":command:`add_library` 和 :command:`add_executable "
+"添加到目录中`命令。列表中的每个条目都是目标的逻辑名称，适合在同一目录中调用时传递给 :command:`get_property` 命令 "
+"``TARGET`` 选项。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/IMPORTED_TARGETS.rst:14
+msgid "See also the :prop_dir:`BUILDSYSTEM_TARGETS` directory property."
+msgstr "另请参阅:prop_dir:`BUILDSYSTEM_TARGETS` 目录属性。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/INCLUDE_DIRECTORIES.rst:2
+msgid "INCLUDE_DIRECTORIES"
+msgstr "INCLUDE_DIRECTORIES"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/INCLUDE_DIRECTORIES.rst:4
+msgid "List of preprocessor include file search directories."
+msgstr "预处理器列表包括文件搜索目录。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/INCLUDE_DIRECTORIES.rst:6
+msgid ""
+"This property specifies the list of directories given so far to the "
+":command:`include_directories` command."
+msgstr "此属性指定到目前为止提供给 :command:`include_directories` 命令的目录列表。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/INCLUDE_DIRECTORIES.rst:9
+msgid ""
+"This property is used to populate the :prop_tgt:`INCLUDE_DIRECTORIES` "
+"target property, which is used by the generators to set the include "
+"directories for the compiler."
+msgstr "此属性用于填充 :prop_tgt:`INCLUDE_DIRECTORIES` 目标属性，生成器使用该属性为编译器设置包含目录。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/INCLUDE_DIRECTORIES.rst:13
+msgid ""
+"In addition to accepting values from that command, values may be set "
+"directly on any directory using the :command:`set_property` command, and "
+"can be set on the current directory using the "
+":command:`set_directory_properties` command.  A directory gets its initial"
+" value from its parent directory if it has one.  The initial value of the "
+":prop_tgt:`INCLUDE_DIRECTORIES` target property comes from the value of "
+"this property.  Both directory and target property values are adjusted by "
+"calls to the :command:`include_directories` command. Calls to "
+":command:`set_property` or :command:`set_directory_properties`, however, "
+"will update the directory property value without updating target property "
+"values.  Therefore direct property updates must be made before calls to "
+":command:`add_executable` or :command:`add_library` for targets they are "
+"meant to affect."
+msgstr ""
+"除了接受来自该命令的值外，还可以使用 :command:`set_property` 命令直接在任何目录上设置值，并且可以使用 "
+":command:`set_directory_properties` 命令在当前目录上设置值。如果目录有父目录，则目录从其父目录获取初始值。 "
+":prop_tgt:`INCLUDE_DIRECTORIES` 目标属性的初始值来自该属性的值。目录和目标属性值都通过调用 "
+":command:`include_directories` 命令进行调整。但是，调用 :command:`set_property` 或 "
+":command:`set_directory_properties` 将更新目录属性值而不更新目标属性值。因此，必须在调用 "
+":command:`add_executable` 或 :command:`add_library` 之前对它们要影响的目标进行直接属性更新。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/INCLUDE_DIRECTORIES.rst:26
+msgid ""
+"The target property values are used by the generators to set the include "
+"paths for the compiler."
+msgstr "生成器使用目标属性值来设置编译器的包含路径。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/INCLUDE_DIRECTORIES.rst:29
+msgid ""
+"Contents of ``INCLUDE_DIRECTORIES`` may use \"generator expressions\" with"
+" the syntax ``$<...>``.  See the :manual:`cmake-generator-expressions(7)` "
+"manual for available expressions.  See the :manual:`cmake-buildsystem(7)` "
+"manual for more on defining buildsystem properties."
+msgstr ""
+"``INCLUDE_DIRECTORIES`` 的内容可以使用语法为``$<...>`` 的“生成器表达式”。请参阅 :manual:`cmake-"
+"generator-expressions(7)` 手册了解可用的表达式。有关定义构建系统属性的更多信息，请参阅 :manual:`cmake-"
+"buildsystem(7)` 手册。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/INCLUDE_REGULAR_EXPRESSION.rst:2
+msgid "INCLUDE_REGULAR_EXPRESSION"
+msgstr "INCLUDE_REGULAR_EXPRESSION"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/INCLUDE_REGULAR_EXPRESSION.rst:4
+msgid "Include file scanning regular expression."
+msgstr "包括文件扫描正则表达式。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/INCLUDE_REGULAR_EXPRESSION.rst:6
+msgid ""
+"This property specifies the regular expression used during dependency "
+"scanning to match include files that should be followed. See the "
+":command:`include_regular_expression` command for a high-level interface "
+"to set this property."
+msgstr ""
+"此属性指定在依赖项扫描期间使用的正则表达式来匹配应遵循的包含文件。请参阅 :command:`include_regular_expression`"
+" 命令以获得设置此属性的高级接口。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/INTERPROCEDURAL_OPTIMIZATION.rst:2
+msgid "INTERPROCEDURAL_OPTIMIZATION"
+msgstr "过程间优化"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/INTERPROCEDURAL_OPTIMIZATION.rst:4
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/INTERPROCEDURAL_OPTIMIZATION_CONFIG.rst:4
+msgid "This directory property does not exist anymore."
+msgstr "此目录属性不再存在。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/INTERPROCEDURAL_OPTIMIZATION.rst:6
+msgid ""
+"See the target property :prop_tgt:`INTERPROCEDURAL_OPTIMIZATION` instead."
+msgstr "请参阅目标属性 :prop_tgt:`INTERPROCEDURAL_OPTIMIZATION`。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/INTERPROCEDURAL_OPTIMIZATION_CONFIG.rst:2
+msgid "INTERPROCEDURAL_OPTIMIZATION_<CONFIG>"
+msgstr "INTERPROCEDURAL_OPTIMIZATION_<CONFIG>"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/INTERPROCEDURAL_OPTIMIZATION_CONFIG.rst:6
+msgid ""
+"See the target property :prop_tgt:`INTERPROCEDURAL_OPTIMIZATION_<CONFIG>` "
+"instead."
+msgstr "请参阅目标属性 :prop_tgt:`INTERPROCEDURAL_OPTIMIZATION_<CONFIG>`。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/LABELS.rst:2
+msgid "LABELS"
+msgstr "标签"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/LABELS.rst:6
+msgid ""
+"Specify a list of text labels associated with a directory and all of its "
+"subdirectories. This is equivalent to setting the :prop_tgt:`LABELS` "
+"target property and the :prop_test:`LABELS` test property on all targets "
+"and tests in the current directory and subdirectories. Note: Launchers "
+"must enabled to propagate labels to targets."
+msgstr ""
+"指定与目录及其所有子目录关联的文本标签列表。这相当于在当前目录和子目录中的所有目标和测试上设置 :prop_tgt:`LABELS` 目标属性和 "
+":prop_test:`LABELS` 测试属性。注意：必须启用启动器才能将标签传播到目标。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/LABELS.rst:12
+msgid ""
+"The :variable:`CMAKE_DIRECTORY_LABELS` variable can be used to initialize "
+"this property."
+msgstr ":variable:`CMAKE_DIRECTORY_LABELS` 变量可用于初始化此属性。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/LABELS.rst:15
+msgid "The list is reported in dashboard submissions."
+msgstr "该列表在仪表板提交中报告。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/LINK_DIRECTORIES.rst:2
+msgid "LINK_DIRECTORIES"
+msgstr "LINK_DIRECTORIES"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/LINK_DIRECTORIES.rst:4
+msgid "List of linker search directories."
+msgstr "链接器搜索目录列表。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/LINK_DIRECTORIES.rst:6
+msgid ""
+"This property holds a :ref:`semicolon-separated list <CMake Language "
+"Lists>` of directories and is typically populated using the "
+":command:`link_directories` command. It gets its initial value from its "
+"parent directory, if it has one."
+msgstr ""
+"此属性包含目录的 :ref:`分号分隔列表 <CMake Language Lists>`，通常使用 "
+":command:`link_directories` 命令填充。如果它有一个父目录，它会从它的父目录中获取它的初始值。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/LINK_DIRECTORIES.rst:10
+msgid ""
+"The directory property is used to initialize the "
+":prop_tgt:`LINK_DIRECTORIES` target property when a target is created.  "
+"That target property is used by the generators to set the library search "
+"directories for the linker."
+msgstr "目录属性用于在创建目标时初始化 LINK_DIRECTORIES 目标属性。生成器使用该目标属性为链接器设置库搜索目录。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/LINK_DIRECTORIES.rst:14
+msgid ""
+"Contents of ``LINK_DIRECTORIES`` may use \"generator expressions\" with "
+"the syntax ``$<...>``.  See the :manual:`cmake-generator-expressions(7)` "
+"manual for available expressions.  See the :manual:`cmake-buildsystem(7)` "
+"manual for more on defining buildsystem properties."
+msgstr ""
+"``LINK_DIRECTORIES`` 的内容可以使用语法为``$<...>`` 的“生成器表达式”。请参阅 :manual:`cmake-"
+"generator-expressions(7)` 手册了解可用的表达式。有关定义构建系统属性的更多信息，请参阅 :manual:`cmake-"
+"buildsystem(7)` 手册。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/LINK_OPTIONS.rst:2
+msgid "LINK_OPTIONS"
+msgstr "LINK_OPTIONS"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/LINK_OPTIONS.rst:6
+msgid ""
+"List of options to use for the link step of shared library, module and "
+"executable targets as well as the device link step."
+msgstr "用于共享库、模块和可执行目标的链接步骤以及设备链接步骤的选项列表。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/LINK_OPTIONS.rst:9
+msgid ""
+"This property holds a :ref:`semicolon-separated list <CMake Language "
+"Lists>` of options given so far to the :command:`add_link_options` "
+"command."
+msgstr ""
+"此属性包含一个 :ref:`分号分隔的列表 <CMake Language Lists>` 到目前为止提供给 "
+":command:`add_link_options` 命令的选项。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/LINK_OPTIONS.rst:12
+msgid ""
+"This property is used to initialize the :prop_tgt:`LINK_OPTIONS` target "
+"property when a target is created, which is used by the generators to set "
+"the options for the compiler."
+msgstr "此属性用于在创建目标时初始化 LINK_OPTIONS 目标属性，生成器使用该属性为编译器设置选项。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/LINK_OPTIONS.rst:16
+msgid ""
+"Contents of ``LINK_OPTIONS`` may use \"generator expressions\" with the "
+"syntax ``$<...>``.  See the :manual:`cmake-generator-expressions(7)` "
+"manual for available expressions.  See the :manual:`cmake-buildsystem(7)` "
+"manual for more on defining buildsystem properties."
+msgstr ""
+"``LINK_OPTIONS`` 的内容可以使用语法为``$<...>`` 的“生成器表达式”。请参阅 :manual:`cmake-"
+"generator-expressions(7)` 手册了解可用的表达式。有关定义构建系统属性的更多信息，请参阅 :manual:`cmake-"
+"buildsystem(7)` 手册。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/LISTFILE_STACK.rst:2
+msgid "LISTFILE_STACK"
+msgstr "列表文件堆栈"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/LISTFILE_STACK.rst:4
+msgid "The current stack of listfiles being processed."
+msgstr "当前正在处理的列表文件堆栈。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/LISTFILE_STACK.rst:6
+msgid ""
+"This property is mainly useful when trying to debug errors in your CMake "
+"scripts.  It returns a list of what list files are currently being "
+"processed, in order.  So if one listfile does an :command:`include` "
+"command then that is effectively pushing the included listfile onto the "
+"stack."
+msgstr ""
+"当尝试调试 CMake 脚本中的错误时，此属性主要有用。它按顺序返回当前正在处理的列表文件的列表。因此，如果一个列表文件执行 "
+":command:`include` 命令，那么这实际上是将包含的列表文件推入堆栈。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/MACROS.rst:2
+msgid "MACROS"
+msgstr "宏指令"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/MACROS.rst:4
+msgid "List of macro commands available in the current directory."
+msgstr "当前目录中可用的宏命令列表。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/MACROS.rst:6
+msgid ""
+"This read-only property specifies the list of CMake macros currently "
+"defined.  It is intended for debugging purposes.  See the :command:`macro`"
+" command."
+msgstr "此只读属性指定当前定义的 CMake 宏列表。它用于调试目的。请参阅 :command:`macro` 命令。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/PARENT_DIRECTORY.rst:2
+msgid "PARENT_DIRECTORY"
+msgstr "父目录"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/PARENT_DIRECTORY.rst:4
+msgid "Source directory that added current subdirectory."
+msgstr "添加当前子目录的源目录。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/PARENT_DIRECTORY.rst:6
+msgid ""
+"This read-only property specifies the source directory that added the "
+"current source directory as a subdirectory of the build.  In the top-level"
+" directory the value is the empty-string."
+msgstr "此只读属性指定将当前源目录添加为构建子目录的源目录。在顶级目录中，该值为空字符串。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/RULE_LAUNCH_COMPILE.rst:2
+msgid "RULE_LAUNCH_COMPILE"
+msgstr "RULE_LAUNCH_COMPILE"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/RULE_LAUNCH_COMPILE.rst:4
+msgid "Specify a launcher for compile rules."
+msgstr "为编译规则指定启动器。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/RULE_LAUNCH_COMPILE.rst:7
+msgid ""
+"This property is intended for internal use by :manual:`ctest(1)`.  "
+"Projects and developers should use the "
+":prop_tgt:`<LANG>_COMPILER_LAUNCHER` target properties or the associated "
+":variable:`CMAKE_<LANG>_COMPILER_LAUNCHER` variables instead."
+msgstr ""
+"此属性供 :manual:`ctest(1)` "
+"内部使用。项目和开发人员应该使用 :prop_tgt:`<LANG>_COMPILER_LAUNCHER` "
+"目标属性或相关的 :variable:`CMAKE_<LANG>_COMPILER_LAUNCHER` 变量。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/RULE_LAUNCH_COMPILE.rst:12
+msgid ""
+"See the :prop_gbl:`global property <RULE_LAUNCH_COMPILE>` of the same name"
+" for details.  This overrides the global property for a directory."
+msgstr ""
+"有关详细信息，请参阅同名的 :prop_gbl:`global property "
+"<RULE_LAUNCH_COMPILE>`。这会覆盖目录的全局属性。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/RULE_LAUNCH_CUSTOM.rst:2
+msgid "RULE_LAUNCH_CUSTOM"
+msgstr "RULE_LAUNCH_CUSTOM"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/RULE_LAUNCH_CUSTOM.rst:4
+msgid "Specify a launcher for custom rules."
+msgstr "为自定义规则指定启动器。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/RULE_LAUNCH_CUSTOM.rst:6
+msgid ""
+"See the global property of the same name for details.  This overrides the "
+"global property for a directory."
+msgstr "有关详细信息，请参阅同名的全局属性。这会覆盖目录的全局属性。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/RULE_LAUNCH_LINK.rst:2
+msgid "RULE_LAUNCH_LINK"
+msgstr "RULE_LAUNCH_LINK"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/RULE_LAUNCH_LINK.rst:4
+msgid "Specify a launcher for link rules."
+msgstr "为链接规则指定启动器。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/RULE_LAUNCH_LINK.rst:7
+msgid ""
+"This property is intended for internal use by :manual:`ctest(1)`.  "
+"Projects and developers should use the :prop_tgt:`<LANG>_LINKER_LAUNCHER` "
+"target properties or the associated "
+":variable:`CMAKE_<LANG>_LINKER_LAUNCHER` variables instead."
+msgstr ""
+"此属性供 :manual:`ctest(1)` 内部使用。项目和开发人员应该使用 :prop_tgt:`<LANG>_LINKER_LAUNCHER`"
+" 目标属性或关联的 :variable:`CMAKE_<LANG>_LINKER_LAUNCHER` 变量。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/RULE_LAUNCH_LINK.rst:12
+msgid ""
+"See the :prop_gbl:`global property <RULE_LAUNCH_LINK>` of the same name "
+"for details.  This overrides the global property for a directory."
+msgstr ""
+"有关详细信息，请参阅同名的 :prop_gbl:`global property <RULE_LAUNCH_LINK>`。这会覆盖目录的全局属性。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/SOURCE_DIR.rst:2
+msgid "SOURCE_DIR"
+msgstr "源目录"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/SOURCE_DIR.rst:6
+msgid ""
+"This read-only directory property reports absolute path to the source "
+"directory on which it is read."
+msgstr "此只读目录属性报告读取它的源目录的绝对路径。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/SUBDIRECTORIES.rst:2
+msgid "SUBDIRECTORIES"
+msgstr "子目录"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/SUBDIRECTORIES.rst:6
+msgid ""
+"This read-only directory property contains a :ref:`semicolon-separated "
+"list <CMake Language Lists>` of subdirectories processed so far by the "
+":command:`add_subdirectory` or :command:`subdirs` commands.  Each entry is"
+" the absolute path to the source directory (containing the "
+"``CMakeLists.txt`` file).  This is suitable to pass to the "
+":command:`get_property` command ``DIRECTORY`` option."
+msgstr ""
+"此只读目录属性包含:ref:`分号分隔的列表 <CMake Language Lists>` "
+"到目前为止由:command:`add_subdirectory` 或:command:`subdirs` "
+"命令处理的子目录。每个条目都是源目录的绝对路径（包含 ``CMakeLists.txt`` 文件）。这适合传递给 "
+":command:`get_property` 命令的 ``DIRECTORY`` 选项。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/SUBDIRECTORIES.rst:15
+msgid ""
+"The :command:`subdirs` command does not process its arguments until after "
+"the calling directory is fully processed.  Therefore looking up this "
+"property in the current directory will not see them."
+msgstr ":command:`subdirs` 命令在调用目录完全处理后才处理其参数。因此在当前目录中查找此属性将看不到它们。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/SYSTEM.rst:2
+msgid "SYSTEM"
+msgstr "系统"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/SYSTEM.rst:6
+msgid ""
+"This directory property is used to initialize the :prop_tgt:`SYSTEM` "
+"target property for non-imported targets created in that directory. It is "
+"set to true by :command:`add_subdirectory` and "
+":command:`FetchContent_Declare` when the ``SYSTEM`` option is given as an "
+"argument to those commands."
+msgstr ""
+"此目录属性用于为在该目录中创建的非导入目标初始化 :prop_tgt:`SYSTEM` 目标属性。当 ``SYSTEM`` "
+"选项作为这些命令的参数给出时，它被 :command:`add_subdirectory` 和 "
+":command:`FetchContent_Declare` 设置为真。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/TESTS.rst:2
+msgid "TESTS"
+msgstr "测试"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/TESTS.rst:6
+msgid "List of tests."
+msgstr "测试列表。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/TESTS.rst:8
+msgid ""
+"This read-only property holds a :ref:`semicolon-separated list <CMake "
+"Language Lists>` of tests defined so far, in the current directory, by the"
+" :command:`add_test` command."
+msgstr "此只读属性包含到目前为止在当前目录中由 add_test 命令定义的测试的分号分隔列表 <CMake Language Lists>。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/TEST_INCLUDE_FILE.rst:2
+msgid "TEST_INCLUDE_FILE"
+msgstr "TEST_INCLUDE_FILE"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/TEST_INCLUDE_FILE.rst:4
+msgid "Deprecated.  Use :prop_dir:`TEST_INCLUDE_FILES` instead."
+msgstr "已弃用。请改用 :prop_dir:`TEST_INCLUDE_FILES`。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/TEST_INCLUDE_FILE.rst:6
+msgid "A cmake file that will be included when ctest is run."
+msgstr "运行 ctest 时将包含的 cmake 文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/TEST_INCLUDE_FILE.rst:8
+msgid ""
+"If you specify ``TEST_INCLUDE_FILE``, that file will be included and "
+"processed when ctest is run on the directory."
+msgstr "如果指定 ``TEST_INCLUDE_FILE``，当在目录上运行 ctest 时，将包含并处理该文件。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/TEST_INCLUDE_FILES.rst:2
+msgid "TEST_INCLUDE_FILES"
+msgstr "TEST_INCLUDE_FILES"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/TEST_INCLUDE_FILES.rst:6
+msgid "A list of cmake files that will be included when ctest is run."
+msgstr "运行 ctest 时将包含的 cmake 文件列表。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/TEST_INCLUDE_FILES.rst:8
+msgid ""
+"If you specify ``TEST_INCLUDE_FILES``, those files will be included and "
+"processed when ctest is run on the directory."
+msgstr "如果您指定 ``TEST_INCLUDE_FILES``，当在目录上运行 ctest 时，这些文件将被包含和处理。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/VARIABLES.rst:2
+msgid "VARIABLES"
+msgstr "变量"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/VARIABLES.rst:4
+msgid "List of variables defined in the current directory."
+msgstr "当前目录中定义的变量列表。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/VARIABLES.rst:6
+msgid ""
+"This read-only property specifies the list of CMake variables currently "
+"defined.  It is intended for debugging purposes."
+msgstr "此只读属性指定当前定义的 CMake 变量列表。它用于调试目的。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/VS_GLOBAL_SECTION_POST_section.rst:2
+msgid "VS_GLOBAL_SECTION_POST_<section>"
+msgstr "VS_GLOBAL_SECTION_POST_<节>"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/VS_GLOBAL_SECTION_POST_section.rst:4
+msgid "Specify a postSolution global section in Visual Studio."
+msgstr "在 Visual Studio 中指定一个 postSolution 全局部分。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/VS_GLOBAL_SECTION_POST_section.rst:6
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/VS_GLOBAL_SECTION_PRE_section.rst:6
+msgid ""
+"Setting a property like this generates an entry of the following form in "
+"the solution file:"
+msgstr "像这样设置属性会在解决方案文件中生成以下形式的条目："
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/VS_GLOBAL_SECTION_POST_section.rst:15
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/VS_GLOBAL_SECTION_PRE_section.rst:15
+msgid ""
+"The property must be set to a semicolon-separated list of ``key=value`` "
+"pairs.  Each such pair will be transformed into an entry in the solution "
+"global section.  Whitespace around key and value is ignored. List elements"
+" which do not contain an equal sign are skipped."
+msgstr ""
+"该属性必须设置为以分号分隔的“key=value”对列表。每个这样的对将被转换为解决方案全局部分中的一个条目。忽略键和值周围的空格。不包含等号的列表元素将被跳过。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/VS_GLOBAL_SECTION_POST_section.rst:20
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/VS_GLOBAL_SECTION_PRE_section.rst:20
+msgid ""
+"This property only works for Visual Studio 9 and above; it is ignored on "
+"other generators.  The property only applies when set on a directory whose"
+" ``CMakeLists.txt`` contains a :command:`project` command."
+msgstr ""
+"此属性仅适用于 Visual Studio 9 及更高版本；它在其他生成器上被忽略。该属性仅在其 CMakeLists.txt 包含 "
+":command:`project` 命令的目录上设置时适用。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/VS_GLOBAL_SECTION_POST_section.rst:24
+msgid ""
+"Note that CMake generates postSolution sections ``ExtensibilityGlobals`` "
+"and ``ExtensibilityAddIns`` by default.  If you set the corresponding "
+"property, it will override the default section.  For example, setting "
+"``VS_GLOBAL_SECTION_POST_ExtensibilityGlobals`` will override the default "
+"contents of the ``ExtensibilityGlobals`` section, while keeping "
+"ExtensibilityAddIns on its default.  However, CMake will always add a "
+"``SolutionGuid`` to the ``ExtensibilityGlobals`` section if it is not "
+"specified explicitly."
+msgstr ""
+"请注意，CMake 默认生成 postSolution "
+"部分“ExtensibilityGlobals”和“ExtensibilityAddIns”。如果设置相应的属性，它将覆盖默认部分。例如，设置 "
+"``VS_GLOBAL_SECTION_POST_ExtensibilityGlobals`` 将覆盖 "
+"``ExtensibilityGlobals`` 部分的默认内容，同时将 ExtensibilityAddIns "
+"保持为默认值。但是，如果未明确指定，CMake 将始终将“SolutionGuid”添加到“ExtensibilityGlobals”部分。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/VS_GLOBAL_SECTION_PRE_section.rst:2
+msgid "VS_GLOBAL_SECTION_PRE_<section>"
+msgstr "VS_GLOBAL_SECTION_PRE_<节>"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/VS_GLOBAL_SECTION_PRE_section.rst:4
+msgid "Specify a preSolution global section in Visual Studio."
+msgstr "在 Visual Studio 中指定一个 preSolution 全局部分。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/VS_STARTUP_PROJECT.rst:2
+msgid "VS_STARTUP_PROJECT"
+msgstr "VS_STARTUP_PROJECT"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/VS_STARTUP_PROJECT.rst:6
+msgid "Specify the default startup project in a Visual Studio solution."
+msgstr "在 Visual Studio 解决方案中指定默认启动项目。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/VS_STARTUP_PROJECT.rst:8
+msgid ""
+"The :ref:`Visual Studio Generators` create a ``.sln`` file for each "
+"directory whose ``CMakeLists.txt`` file calls the :command:`project` "
+"command.  Set this property in the same directory as a :command:`project` "
+"command call (e.g. in the top-level ``CMakeLists.txt`` file) to specify "
+"the default startup project for the corresponding solution file."
+msgstr ""
+":ref:`Visual Studio Generators` 为每个其 ``CMakeLists.txt`` 文件调用 "
+":command:`project` 命令的目录创建一个 ``.sln`` 文件。在与 :command:`project` "
+"命令调用相同的目录中设置此属性（例如，在顶级 ``CMakeLists.txt`` 文件中）以指定相应解决方案文件的默认启动项目。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/VS_STARTUP_PROJECT.rst:14
+msgid ""
+"The property must be set to the name of an existing target.  This will "
+"cause that project to be listed first in the generated solution file "
+"causing Visual Studio to make it the startup project if the solution has "
+"never been opened before."
+msgstr ""
+"该属性必须设置为现有目标的名称。这将导致该项目在生成的解决方案文件中首先列出，如果以前从未打开过该解决方案，则导致 Visual Studio "
+"将其作为启动项目。"
+
+#: ../../cmake-prefix/src/cmake/Help/prop_dir/VS_STARTUP_PROJECT.rst:19
+msgid ""
+"If this property is not specified, then the ``ALL_BUILD`` project will be "
+"the default."
+msgstr "如果未指定此属性，则 ``ALL_BUILD`` 项目将是默认项目。"
