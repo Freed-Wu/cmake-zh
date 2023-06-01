@@ -4055,7 +4055,7 @@ msgstr ""
 
 #: ../../cmake-prefix/src/cmake/Help/guide/tutorial/index.rst:12
 msgid "Steps"
-msgstr "脚步"
+msgstr "步骤"
 
 #: ../../cmake-prefix/src/cmake/Help/guide/tutorial/index.rst:16
 msgid ""
