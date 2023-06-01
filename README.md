@@ -31,8 +31,8 @@
 
 您可以先试一下在线预览。
 
-- [![简体中文](https://img.shields.io/readthedocs/cmake?label=%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)](https://cmake.readthedocs.io/zh_CN/latest)
-- [![繁體中文](https://img.shields.io/readthedocs/cmake?label=%E7%B9%81%E4%BD%93%E4%B8%AD%E6%96%87)](https://cmake.readthedocs.io/zh_TW/latest)
+- [![简体中文](https://img.shields.io/readthedocs/cmake-doc?label=%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)](https://cmake.readthedocs.io/zh_CN/latest)
+- [![繁體中文](https://img.shields.io/readthedocs/cmake-doc?label=%E7%B9%81%E4%BD%93%E4%B8%AD%E6%96%87)](https://cmake.readthedocs.io/zh_TW/latest)
 
 ### Debian
 
